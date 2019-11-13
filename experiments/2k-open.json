@@ -2,7 +2,7 @@
     "name": "2k-open",
     "logdir": ".",
     "train.steps": 20000,
-    "train.checkpoint_every": 10,
+    "train.checkpoint_every": 100,
     "train.files": "../datasets/2k-open/train.rio",
     "train.device": "GPU",
     "eval.files": "../datasets/2k-open/validation.rio",
@@ -14,7 +14,7 @@
         "input.params": {
             "epochs": 0,
             "files": "",
-            "batch_size": 1000,
+            "batch_size": 5000,
             "shuffle": true,
             "seed": 23
         },
