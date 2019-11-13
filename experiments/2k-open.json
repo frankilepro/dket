@@ -14,7 +14,7 @@
         "input.params": {
             "epochs": 0,
             "files": "",
-            "batch_size": 1000,
+            "batch_size": 800,
             "shuffle": true,
             "seed": 23
         },
