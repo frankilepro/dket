@@ -2,7 +2,7 @@
     "name": "10k-closed",
     "logdir": ".",
     "train.steps": 20000,
-    "train.checkpoint_every": 100,
+    "train.checkpoint_every": 1000,
     "train.files": "../datasets/10k-closed/train.rio",
     "train.device": "GPU",
     "eval.files": "../datasets/10k-closed/validation.rio",
