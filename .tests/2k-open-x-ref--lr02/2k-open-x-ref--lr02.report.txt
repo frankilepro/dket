@@ -1,0 +1,1422 @@
+# ANALYTICS
+#
+# AVG. PER-FORMULA ACCURACY: 0.07843
+# AVG. EDIT DISTANCE: 4.49020
+# AVG. PER-TOKEN ACCURACY: 0.50259
+#
+# ED	#	%	% INC
+# 0	4	7.84	7.84
+# 1	10	19.61	27.45
+# 2	6	11.76	39.22
+# 3	5	9.80	49.02
+# 4	5	9.80	58.82
+# 5	9	17.65	76.47
+# 6	3	5.88	82.35
+# 7	2	3.92	86.27
+# 8	1	1.96	88.24
+# 9	2	3.92	92.16
+# 10	1	1.96	94.12
+# 13	1	1.96	96.08
+# 17	1	1.96	98.04
+# 29	1	1.96	100.00
+
+
+
+{
+  "_ID": 15,
+  "example": {
+    "sentence": "lion are animal that eat only herbivore . <EOS>",
+    "target": "lion := animal ^ A eat . ( herbivore ) <EOS>",
+    "prediction": "lion := animal ^ A eat . ( herbivore ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[232, 3728, 5233, 1465, 2867, 3546, 4058, 1710, 0]",
+    "target_idx": "[19, 7, 21, 5, 14, 23, 16, 1, 25, 2, 0]",
+    "prediction_idx": "[19, 7, 21, 5, 14, 23, 16, 1, 25, 2, 0]"
+  },
+  "accuracy": 1.0,
+  "tokens_OK": 11,
+  "tokens_tot": 11,
+  "edit_distance": {
+    "score": 0,
+    "diff_ops": []
+  }
+}
+
+
+{
+  "_ID": 16,
+  "example": {
+    "sentence": "a vector is a organism that carry or transmit a pathogen . <EOS>",
+    "target": "vector := organism ^ E ( carry U transmit ) . ( pathogen ) <EOS>",
+    "prediction": "vector := organism ^ E ( carry U transmit ) . ( pathogen ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 965, 296, 1532, 4122, 1465, 1252, 1048, 1102, 1532, 2359, 1710, 0]",
+    "target_idx": "[20, 7, 23, 5, 13, 1, 25, 6, 27, 2, 16, 1, 29, 2, 0]",
+    "prediction_idx": "[20, 7, 23, 5, 13, 1, 25, 6, 27, 2, 16, 1, 29, 2, 0]"
+  },
+  "accuracy": 1.0,
+  "tokens_OK": 15,
+  "tokens_tot": 15,
+  "edit_distance": {
+    "score": 0,
+    "diff_ops": []
+  }
+}
+
+
+{
+  "_ID": 42,
+  "example": {
+    "sentence": "carnivorous plant are plant that eat animal . <EOS>",
+    "target": "carnivorous plant := plant ^ E eat . ( animal ) <EOS>",
+    "prediction": "carnivorous plant := plant ^ E eat . ( animal ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[3758, 526, 3728, 526, 1465, 2867, 5233, 1710, 0]",
+    "target_idx": "[19, 20, 7, 22, 5, 13, 24, 16, 1, 25, 2, 0]",
+    "prediction_idx": "[19, 20, 7, 22, 5, 13, 24, 16, 1, 25, 2, 0]"
+  },
+  "accuracy": 1.0,
+  "tokens_OK": 12,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 0,
+    "diff_ops": []
+  }
+}
+
+
+{
+  "_ID": 45,
+  "example": {
+    "sentence": "the free limb skeleton is a skeletal subdivision that is <UNK>@10 of the limb . <EOS>",
+    "target": "free limb skeleton := skeletal subdivision ^ E <UNK>@10 of . ( limb ) <EOS>",
+    "prediction": "free limb skeleton := skeletal subdivision ^ E <UNK>@10 of . ( limb ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1496, 4339, 4294, 4381, 296, 1532, 3051, 5142, 1465, 296, 1, 2995, 1496, 4294, 1710, 0]",
+    "target_idx": "[20, 21, 22, 7, 25, 26, 5, 13, 29, 30, 16, 1, 32, 2, 0]",
+    "prediction_idx": "[20, 21, 22, 7, 25, 26, 5, 13, 29, 30, 16, 1, 32, 2, 0]"
+  },
+  "accuracy": 1.0,
+  "tokens_OK": 15,
+  "tokens_tot": 15,
+  "edit_distance": {
+    "score": 0,
+    "diff_ops": []
+  }
+}
+
+
+{
+  "_ID": 2,
+  "example": {
+    "sentence": "a solid compound organ is a compound organ that do not contain macroscopic anatomical space . <EOS>",
+    "target": "solid compound organ := compound organ ^ ! E contain . ( macroscopic anatomical space ) <EOS>",
+    "prediction": "solid compound organ := compound organ ^ E E contain . ( macroscopic anatomical space ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 360, 816, 2521, 296, 1532, 816, 2521, 1465, 4823, 2015, 3577, 661, 2927, 1053, 1710, 0]",
+    "target_idx": "[20, 21, 22, 7, 25, 26, 5, 15, 13, 30, 16, 1, 31, 32, 33, 2, 0]",
+    "prediction_idx": "[20, 21, 22, 7, 25, 26, 5, 13, 13, 30, 16, 1, 31, 32, 33, 2, 0]"
+  },
+  "accuracy": 0.941,
+  "tokens_OK": 16,
+  "tokens_tot": 17,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "replace   PRED[7:8] -> TAR[7:8] ['E'] -> ['!']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 3,
+  "example": {
+    "sentence": "spicy topping is any topping that <UNK>@6 a hot spiciness . <EOS>",
+    "target": "spicy topping := topping ^ E <UNK>@6 spiciness . ( hot spiciness ) <EOS>",
+    "prediction": "spicy topping := topping ^ E <UNK>@6 . ( hot spiciness ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[611, 1154, 296, 2133, 1154, 1465, 1, 1532, 2872, 390, 1710, 0]",
+    "target_idx": "[19, 20, 7, 23, 5, 13, 25, 28, 16, 1, 27, 28, 2, 0]",
+    "prediction_idx": "[19, 20, 7, 23, 5, 13, 25, 16, 1, 27, 28, 2, 0, 0]"
+  },
+  "accuracy": 0.571,
+  "tokens_OK": 8,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "insert    PRED[6:6] -> TAR[7:8] [] -> ['spiciness']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 4,
+  "example": {
+    "sentence": "a device is a system in a box . <EOS>",
+    "target": "device := system in box <EOS>",
+    "prediction": "device := system in ^ box <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 2016, 296, 1532, 1484, 3574, 1532, 573, 1710, 0]",
+    "target_idx": "[20, 7, 23, 24, 26, 0, 0]",
+    "prediction_idx": "[20, 7, 23, 24, 5, 26, 0]"
+  },
+  "accuracy": 0.714,
+  "tokens_OK": 5,
+  "tokens_tot": 7,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "delete    PRED[4:5] -> TAR[3:3] ['^'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 7,
+  "example": {
+    "sentence": "vehicle are non-living means of transportation . <EOS>",
+    "target": "vehicle := non-living means of transportation <EOS>",
+    "prediction": "vehicle := non-living means of transportation ^ <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[116, 3728, 4032, 1217, 2995, 1839, 1710, 0]",
+    "target_idx": "[19, 7, 21, 22, 23, 24, 0, 0]",
+    "prediction_idx": "[19, 7, 21, 22, 23, 24, 5, 0]"
+  },
+  "accuracy": 0.875,
+  "tokens_OK": 7,
+  "tokens_tot": 8,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "delete    PRED[6:7] -> TAR[5:5] ['^'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 12,
+  "example": {
+    "sentence": "carnivore are exactly <UNK>@3 animal that eat also animal . <EOS>",
+    "target": "carnivore := animal ^ E eat . ( animal ) <EOS>",
+    "prediction": "carnivore := <UNK>@3 animal ^ E eat . ( animal ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[3741, 3728, 4082, 1, 5233, 1465, 2867, 5114, 5233, 1710, 0]",
+    "target_idx": "[19, 7, 23, 5, 13, 25, 16, 1, 27, 2, 0, 0]",
+    "prediction_idx": "[19, 7, 22, 23, 5, 13, 25, 16, 1, 27, 2, 0]"
+  },
+  "accuracy": 0.25,
+  "tokens_OK": 3,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "delete    PRED[2:3] -> TAR[1:1] ['<UNK>@3'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 20,
+  "example": {
+    "sentence": "a <UNK>@1 device is a device that implement <UNK>@8 . <EOS>",
+    "target": "<UNK>@1 device := device ^ E implement . ( <UNK>@8 ) <EOS>",
+    "prediction": "<UNK>@1 device := device ^ E implement <UNK>@8 ( <UNK>@8 ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 1, 2016, 296, 1532, 2016, 1465, 3449, 1, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 5, 13, 26, 16, 1, 27, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 5, 13, 26, 27, 1, 27, 2, 0]"
+  },
+  "accuracy": 0.917,
+  "tokens_OK": 11,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "replace   PRED[7:8] -> TAR[7:8] ['<UNK>@8'] -> ['.']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 21,
+  "example": {
+    "sentence": "a stimulus is a event in the real world that trigger the sensor . <EOS>",
+    "target": "stimulus := event in real world ^ E trigger . ( sensor ) <EOS>",
+    "prediction": "stimulus := event in real ^ E trigger . ( sensor ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3305, 296, 1532, 4512, 3574, 1496, 3411, 2696, 1465, 1179, 1496, 2913, 1710, 0]",
+    "target_idx": "[20, 7, 23, 24, 26, 27, 5, 13, 29, 16, 1, 31, 2, 0]",
+    "prediction_idx": "[20, 7, 23, 24, 26, 5, 13, 29, 16, 1, 31, 2, 0, 0]"
+  },
+  "accuracy": 0.429,
+  "tokens_OK": 6,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "insert    PRED[4:4] -> TAR[5:6] [] -> ['world']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 24,
+  "example": {
+    "sentence": "a observation value is the value of the result of a observation . <EOS>",
+    "target": "observation value := value of result of observation <EOS>",
+    "prediction": "observation value := value of result of observation ^ <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3794, 1995, 296, 1496, 1995, 2995, 1496, 1120, 2995, 1532, 3794, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 25, 27, 28, 30, 0, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 25, 27, 28, 30, 5, 0]"
+  },
+  "accuracy": 0.9,
+  "tokens_OK": 9,
+  "tokens_tot": 10,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "delete    PRED[8:9] -> TAR[7:7] ['^'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 32,
+  "example": {
+    "sentence": "a device is a physical piece of technology . <EOS>",
+    "target": "device := physical piece of technology <EOS>",
+    "prediction": "device := physical piece of technology ^ <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 2016, 296, 1532, 1218, 25, 2995, 1561, 1710, 0]",
+    "target_idx": "[20, 7, 23, 24, 25, 26, 0, 0]",
+    "prediction_idx": "[20, 7, 23, 24, 25, 26, 5, 0]"
+  },
+  "accuracy": 0.875,
+  "tokens_OK": 7,
+  "tokens_tot": 8,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "delete    PRED[6:7] -> TAR[5:5] ['^'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 38,
+  "example": {
+    "sentence": "datum are fact that result <UNK>@5 measurement or observation . <EOS>",
+    "target": "datum := fact ^ E result <UNK>@5 . ( measurement U observation ) <EOS>",
+    "prediction": "datum := fact ^ E result <UNK>@5 . ( or U observation ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[5275, 3728, 286, 1465, 1120, 1, 2824, 1048, 3794, 1710, 0]",
+    "target_idx": "[19, 7, 21, 5, 13, 23, 24, 16, 1, 25, 6, 27, 2, 0]",
+    "prediction_idx": "[19, 7, 21, 5, 13, 23, 24, 16, 1, 26, 6, 27, 2, 0]"
+  },
+  "accuracy": 0.929,
+  "tokens_OK": 13,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 1,
+    "diff_ops": [
+      "replace   PRED[9:10] -> TAR[9:10] ['or'] -> ['measurement']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 5,
+  "example": {
+    "sentence": "a survival property is a identifiable characteristic that represent the extent of the sensor useful life . <EOS>",
+    "target": "survival property := identifiable characteristic ^ E represent . ( extent of sensor useful life ) <EOS>",
+    "prediction": "survival := identifiable characteristic ^ E represent . ( extent of sensor useful ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 1695, 2664, 296, 1532, 71, 2418, 1465, 4929, 1496, 4784, 2995, 1496, 2913, 3150, 877, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 25, 5, 13, 27, 16, 1, 29, 30, 32, 33, 34, 2, 0]",
+    "prediction_idx": "[20, 7, 24, 25, 5, 13, 27, 16, 1, 29, 30, 32, 33, 2, 0, 0, 0]"
+  },
+  "accuracy": 0.118,
+  "tokens_OK": 2,
+  "tokens_tot": 17,
+  "edit_distance": {
+    "score": 2,
+    "diff_ops": [
+      "insert    PRED[0:0] -> TAR[1:2] [] -> ['property']",
+      "insert    PRED[12:12] -> TAR[14:15] [] -> ['life']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 6,
+  "example": {
+    "sentence": "tree are a <UNK>@3 of plant . <EOS>",
+    "target": "tree := plant <EOS>",
+    "prediction": "tree := <UNK>@3 of <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[420, 3728, 1532, 1, 2995, 526, 1710, 0]",
+    "target_idx": "[19, 7, 24, 0, 0]",
+    "prediction_idx": "[19, 7, 22, 23, 0]"
+  },
+  "accuracy": 0.6,
+  "tokens_OK": 3,
+  "tokens_tot": 5,
+  "edit_distance": {
+    "score": 2,
+    "diff_ops": [
+      "delete    PRED[2:3] -> TAR[1:1] ['<UNK>@3'] -> []",
+      "replace   PRED[3:4] -> TAR[2:3] ['of'] -> ['plant']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 8,
+  "example": {
+    "sentence": "a feature is a abstraction of real world phenomenon . <EOS>",
+    "target": "feature := abstraction of real world phenomenon <EOS>",
+    "prediction": "feature := abstraction of real world ^ . <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 110, 296, 1532, 26, 2995, 3411, 2696, 5177, 1710, 0]",
+    "target_idx": "[20, 7, 23, 24, 25, 26, 27, 0, 0]",
+    "prediction_idx": "[20, 7, 23, 24, 25, 26, 5, 28, 0]"
+  },
+  "accuracy": 0.778,
+  "tokens_OK": 7,
+  "tokens_tot": 9,
+  "edit_distance": {
+    "score": 2,
+    "diff_ops": [
+      "delete    PRED[6:7] -> TAR[5:5] ['^'] -> []",
+      "replace   PRED[7:8] -> TAR[6:7] ['.'] -> ['phenomenon']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 10,
+  "example": {
+    "sentence": "a interesting pizza is a pizza that <UNK>@7 at least NUM topping . <EOS>",
+    "target": "interesting pizza := pizza ^ >= NUM <UNK>@7 topping . ( topping ) <EOS>",
+    "prediction": "pizza := pizza ^ >= NUM <UNK>@7 topping . ( T ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 2812, 2430, 296, 1532, 2430, 1465, 1, 2305, 4025, 2, 1154, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 5, 12, 29, 26, 30, 16, 1, 30, 2, 0]",
+    "prediction_idx": "[21, 7, 24, 5, 12, 29, 26, 30, 16, 1, 17, 2, 0, 0]"
+  },
+  "accuracy": 0.071,
+  "tokens_OK": 1,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 2,
+    "diff_ops": [
+      "insert    PRED[0:0] -> TAR[0:1] [] -> ['interesting']",
+      "replace   PRED[10:11] -> TAR[11:12] ['T'] -> ['topping']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 30,
+  "example": {
+    "sentence": "a spicy pizza is any pizza that <UNK>@7 a topping that is spicy . <EOS>",
+    "target": "spicy pizza := any pizza ^ E <UNK>@7 topping . ( spicy topping ) <EOS>",
+    "prediction": "spicy pizza := pizza ^ E <UNK>@7 topping . ( spicy ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 611, 2430, 296, 2133, 2430, 1465, 1, 1532, 1154, 1465, 296, 611, 1710, 0]",
+    "target_idx": "[20, 21, 7, 23, 24, 5, 13, 26, 28, 16, 1, 31, 28, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 5, 13, 26, 28, 16, 1, 31, 2, 0, 0, 0]"
+  },
+  "accuracy": 0.267,
+  "tokens_OK": 4,
+  "tokens_tot": 15,
+  "edit_distance": {
+    "score": 2,
+    "diff_ops": [
+      "insert    PRED[2:2] -> TAR[3:4] [] -> ['any']",
+      "insert    PRED[10:10] -> TAR[12:13] [] -> ['topping']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 36,
+  "example": {
+    "sentence": "a sensor is any entity that <UNK>@6 follow a <UNK>@9 method . <EOS>",
+    "target": "sensor := any entity ^ >= 0 follow . ( <UNK>@9 method ) <EOS>",
+    "prediction": "sensor := any entity ^ E <UNK>@6 follow . ( <UNK>@9 method ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 2913, 296, 2133, 4556, 1465, 1, 4922, 1532, 1, 271, 1710, 0]",
+    "target_idx": "[20, 7, 22, 23, 5, 12, 18, 26, 16, 1, 28, 29, 2, 0]",
+    "prediction_idx": "[20, 7, 22, 23, 5, 13, 25, 26, 16, 1, 28, 29, 2, 0]"
+  },
+  "accuracy": 0.857,
+  "tokens_OK": 12,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 2,
+    "diff_ops": [
+      "replace   PRED[5:6] -> TAR[5:6] ['E'] -> ['>=']",
+      "replace   PRED[6:7] -> TAR[6:7] ['<UNK>@6'] -> ['0']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 1,
+  "example": {
+    "sentence": "a direct ossification is a ossification that do not require the replacement of pre-existing tissue . <EOS>",
+    "target": "direct ossification := ossification ^ ! E require . ( replacement of pre-existing tissue ) <EOS>",
+    "prediction": "direct ossification := ossification ^ ! E require of . ( pre-existing pre-existing tissue ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 5240, 664, 296, 1532, 664, 1465, 4823, 2015, 4742, 1496, 4747, 2995, 3139, 3846, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 5, 15, 13, 28, 16, 1, 30, 31, 32, 33, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 5, 15, 13, 28, 31, 16, 1, 32, 32, 33, 2, 0]"
+  },
+  "accuracy": 0.75,
+  "tokens_OK": 12,
+  "tokens_tot": 16,
+  "edit_distance": {
+    "score": 3,
+    "diff_ops": [
+      "delete    PRED[8:9] -> TAR[7:7] ['of'] -> []",
+      "insert    PRED[10:10] -> TAR[10:11] [] -> ['replacement']",
+      "replace   PRED[11:12] -> TAR[11:12] ['pre-existing'] -> ['of']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 13,
+  "example": {
+    "sentence": "a meaty pizza is any pizza that <UNK>@7 at least NUM topping of meat . <EOS>",
+    "target": "meaty pizza := pizza ^ >= NUM <UNK>@7 topping . ( meat ) <EOS>",
+    "prediction": "meaty pizza := pizza ^ >= NUM <UNK>@7 topping . ( topping of meat <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3850, 2430, 296, 2133, 2430, 1465, 1, 2305, 4025, 2, 1154, 2995, 2605, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 5, 12, 29, 26, 30, 16, 1, 32, 2, 0, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 5, 12, 29, 26, 30, 16, 1, 30, 31, 32, 0]"
+  },
+  "accuracy": 0.8,
+  "tokens_OK": 12,
+  "tokens_tot": 15,
+  "edit_distance": {
+    "score": 3,
+    "diff_ops": [
+      "delete    PRED[11:12] -> TAR[10:10] ['topping'] -> []",
+      "replace   PRED[12:13] -> TAR[11:12] ['of'] -> ['meat']",
+      "replace   PRED[13:14] -> TAR[12:13] ['meat'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 46,
+  "example": {
+    "sentence": "frutti <UNK>@1 mare <UNK>@3 lack cheese . <EOS>",
+    "target": "frutti <UNK>@1 mare := E lack . ( cheese ) <EOS>",
+    "prediction": "frutti <UNK>@1 mare := E <UNK>@3 . ( lack ) ^ <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1836, 1, 4490, 1, 4971, 1620, 1710, 0]",
+    "target_idx": "[19, 20, 21, 7, 13, 23, 16, 1, 24, 2, 0, 0]",
+    "prediction_idx": "[19, 20, 21, 7, 13, 22, 16, 1, 23, 2, 5, 0]"
+  },
+  "accuracy": 0.75,
+  "tokens_OK": 9,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 3,
+    "diff_ops": [
+      "replace   PRED[5:6] -> TAR[5:6] ['<UNK>@3'] -> ['lack']",
+      "replace   PRED[8:9] -> TAR[8:9] ['lack'] -> ['cheese']",
+      "delete    PRED[10:11] -> TAR[9:9] ['^'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 50,
+  "example": {
+    "sentence": "the anal fin skeleton is a median fin skeleton that is located posterior <UNK>@13 the anus . <EOS>",
+    "target": "anal fin skeleton := median fin skeleton ^ E located posterior <UNK>@13 . ( anus ) <EOS>",
+    "prediction": "anal fin skeleton := median fin skeleton ^ E located posterior . ( <UNK>@13 <UNK>@13 <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1496, 701, 613, 4381, 296, 1532, 3485, 613, 4381, 1465, 296, 3886, 1871, 1, 1496, 610, 1710, 0]",
+    "target_idx": "[20, 21, 22, 7, 25, 26, 27, 5, 13, 30, 31, 32, 16, 1, 34, 2, 0]",
+    "prediction_idx": "[20, 21, 22, 7, 25, 26, 27, 5, 13, 30, 31, 16, 1, 32, 32, 0, 0]"
+  },
+  "accuracy": 0.706,
+  "tokens_OK": 12,
+  "tokens_tot": 17,
+  "edit_distance": {
+    "score": 3,
+    "diff_ops": [
+      "insert    PRED[10:10] -> TAR[11:12] [] -> ['<UNK>@13']",
+      "replace   PRED[13:14] -> TAR[14:15] ['<UNK>@13'] -> ['anus']",
+      "replace   PRED[14:15] -> TAR[15:16] ['<UNK>@13'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 51,
+  "example": {
+    "sentence": "a male organism is a gonochoristic organism that <UNK>@8 produce male gamete . <EOS>",
+    "target": "male organism := gonochoristic organism ^ >= 0 produce . ( male gamete ) <EOS>",
+    "prediction": "male organism := gonochoristic organism ^ E <UNK>@8 . ( male gamete ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 4420, 4122, 296, 1532, 567, 4122, 1465, 1, 4253, 4420, 3751, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 25, 5, 12, 18, 28, 16, 1, 29, 30, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 25, 5, 13, 27, 16, 1, 29, 30, 2, 0, 0]"
+  },
+  "accuracy": 0.467,
+  "tokens_OK": 7,
+  "tokens_tot": 15,
+  "edit_distance": {
+    "score": 3,
+    "diff_ops": [
+      "insert    PRED[5:5] -> TAR[6:7] [] -> ['>=']",
+      "replace   PRED[6:7] -> TAR[7:8] ['E'] -> ['0']",
+      "replace   PRED[7:8] -> TAR[8:9] ['<UNK>@8'] -> ['produce']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 17,
+  "example": {
+    "sentence": "a american hot pizza is a <UNK>@6 of american pizza that <UNK>@11 jalapeno pepper <UNK>@14 <UNK>@15 . <EOS>",
+    "target": "american hot pizza := american pizza ^ E <UNK>@11 <UNK>@14 . ( jalapeno pepper ) <EOS>",
+    "prediction": "american hot pizza := <UNK>@6 of american pizza ^ E <UNK>@11 . ( jalapeno pepper <UNK>@14 <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3347, 2872, 2430, 296, 1532, 1, 2995, 3347, 2430, 1465, 1, 1660, 3353, 1, 1, 1710, 0]",
+    "target_idx": "[20, 21, 22, 7, 27, 28, 5, 13, 30, 33, 16, 1, 31, 32, 2, 0, 0]",
+    "prediction_idx": "[20, 21, 22, 7, 25, 26, 27, 28, 5, 13, 30, 16, 1, 31, 32, 33, 0]"
+  },
+  "accuracy": 0.294,
+  "tokens_OK": 5,
+  "tokens_tot": 17,
+  "edit_distance": {
+    "score": 4,
+    "diff_ops": [
+      "delete    PRED[4:5] -> TAR[3:3] ['<UNK>@6'] -> []",
+      "delete    PRED[5:6] -> TAR[3:3] ['of'] -> []",
+      "insert    PRED[10:10] -> TAR[9:10] [] -> ['<UNK>@14']",
+      "replace   PRED[15:16] -> TAR[14:15] ['<UNK>@14'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 18,
+  "example": {
+    "sentence": "a cell space is a anatomical space that is <UNK>@9 of a cell . <EOS>",
+    "target": "cell space := anatomical space ^ E <UNK>@9 of . ( cell ) <EOS>",
+    "prediction": "cell space := anatomical space ^ <UNK>@9 of cell <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3311, 1053, 296, 1532, 2927, 1053, 1465, 296, 1, 2995, 1532, 3311, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 25, 5, 13, 28, 29, 16, 1, 31, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 25, 5, 28, 29, 31, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.5,
+  "tokens_OK": 7,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 4,
+    "diff_ops": [
+      "insert    PRED[5:5] -> TAR[6:7] [] -> ['E']",
+      "insert    PRED[7:7] -> TAR[9:10] [] -> ['.']",
+      "insert    PRED[7:7] -> TAR[10:11] [] -> ['(']",
+      "insert    PRED[8:8] -> TAR[12:13] [] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 25,
+  "example": {
+    "sentence": "giraffe are herbivore , and <UNK>@5 eat only leaf . <EOS>",
+    "target": "giraffe := herbivore ^ A eat . ( leaf ) <EOS>",
+    "prediction": "giraffe := herbivore ^ E <UNK>@5 . ( eat ) ^ <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1909, 3728, 4058, 2317, 2258, 1, 2867, 3546, 4585, 1710, 0]",
+    "target_idx": "[19, 7, 21, 5, 14, 25, 16, 1, 27, 2, 0, 0]",
+    "prediction_idx": "[19, 7, 21, 5, 13, 24, 16, 1, 25, 2, 5, 0]"
+  },
+  "accuracy": 0.667,
+  "tokens_OK": 8,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 4,
+    "diff_ops": [
+      "replace   PRED[4:5] -> TAR[4:5] ['E'] -> ['A']",
+      "replace   PRED[5:6] -> TAR[5:6] ['<UNK>@5'] -> ['eat']",
+      "replace   PRED[8:9] -> TAR[8:9] ['eat'] -> ['leaf']",
+      "delete    PRED[10:11] -> TAR[9:9] ['^'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 31,
+  "example": {
+    "sentence": "axial ossicle is a ossicle that is <UNK>@7 of the axial skeleton . <EOS>",
+    "target": "axial ossicle := ossicle ^ E <UNK>@7 of . ( axial skeleton ) <EOS>",
+    "prediction": "axial ossicle := ossicle ^ <UNK>@7 of axial skeleton <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4722, 3968, 296, 1532, 3968, 1465, 296, 1, 2995, 1496, 4722, 4381, 1710, 0]",
+    "target_idx": "[19, 20, 7, 23, 5, 13, 26, 27, 16, 1, 29, 30, 2, 0]",
+    "prediction_idx": "[19, 20, 7, 23, 5, 26, 27, 29, 30, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.429,
+  "tokens_OK": 6,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 4,
+    "diff_ops": [
+      "insert    PRED[4:4] -> TAR[5:6] [] -> ['E']",
+      "insert    PRED[6:6] -> TAR[8:9] [] -> ['.']",
+      "insert    PRED[6:6] -> TAR[9:10] [] -> ['(']",
+      "insert    PRED[8:8] -> TAR[12:13] [] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 48,
+  "example": {
+    "sentence": "integument is the surface structure that is the outer protective covering of the body . <EOS>",
+    "target": "integument := surface structure ^ outer protective covering of body <EOS>",
+    "prediction": "integument := surface structure ^ outer outer protective . ( covering <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4967, 296, 1496, 3458, 1743, 1465, 296, 1496, 4382, 4697, 3943, 2995, 1496, 5126, 1710, 0]",
+    "target_idx": "[19, 7, 22, 23, 5, 27, 28, 29, 30, 32, 0, 0]",
+    "prediction_idx": "[19, 7, 22, 23, 5, 27, 27, 28, 16, 1, 29, 0]"
+  },
+  "accuracy": 0.583,
+  "tokens_OK": 7,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 4,
+    "diff_ops": [
+      "delete    PRED[5:6] -> TAR[4:4] ['outer'] -> []",
+      "replace   PRED[8:9] -> TAR[7:8] ['.'] -> ['covering']",
+      "replace   PRED[9:10] -> TAR[8:9] ['('] -> ['of']",
+      "replace   PRED[10:11] -> TAR[9:10] ['covering'] -> ['body']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 11,
+  "example": {
+    "sentence": "a property is a observable quality of a event or object . <EOS>",
+    "target": "property := observable quality of event U observable quality of object <EOS>",
+    "prediction": "property := observable quality of U or <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 2664, 296, 1532, 369, 4980, 2995, 1532, 4512, 1048, 3093, 1710, 0]",
+    "target_idx": "[20, 7, 23, 24, 25, 27, 6, 23, 24, 25, 29, 0]",
+    "prediction_idx": "[20, 7, 23, 24, 25, 6, 28, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.5,
+  "tokens_OK": 6,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "insert    PRED[4:4] -> TAR[5:6] [] -> ['event']",
+      "insert    PRED[5:5] -> TAR[7:8] [] -> ['observable']",
+      "insert    PRED[5:5] -> TAR[8:9] [] -> ['quality']",
+      "insert    PRED[5:5] -> TAR[9:10] [] -> ['of']",
+      "replace   PRED[6:7] -> TAR[10:11] ['or'] -> ['object']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 14,
+  "example": {
+    "sentence": "the sensor datum sheet is a object that record property of a sensor . <EOS>",
+    "target": "sensor datum sheet := object ^ E record . ( property of sensor ) <EOS>",
+    "prediction": "sensor datum sheet := object ^ ! E ( of ^ property of sensor ( <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1496, 2913, 5275, 1267, 296, 1532, 3093, 1465, 4583, 2664, 2995, 1532, 2913, 1710, 0]",
+    "target_idx": "[20, 21, 22, 7, 25, 5, 13, 27, 16, 1, 28, 29, 31, 2, 0, 0]",
+    "prediction_idx": "[20, 21, 22, 7, 25, 5, 15, 13, 1, 29, 5, 28, 29, 31, 1, 0]"
+  },
+  "accuracy": 0.438,
+  "tokens_OK": 7,
+  "tokens_tot": 16,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "delete    PRED[6:7] -> TAR[5:5] ['!'] -> []",
+      "replace   PRED[8:9] -> TAR[7:8] ['('] -> ['record']",
+      "replace   PRED[9:10] -> TAR[8:9] ['of'] -> ['.']",
+      "replace   PRED[10:11] -> TAR[9:10] ['^'] -> ['(']",
+      "replace   PRED[14:15] -> TAR[13:14] ['('] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 22,
+  "example": {
+    "sentence": "a output is any information that is <UNK>@7 <UNK>@8 a process . <EOS>",
+    "target": "output := information ^ E <UNK>@7 <UNK>@8 . ( process ) <EOS>",
+    "prediction": "output := information ^ <UNK>@7 <UNK>@8 <UNK>@8 <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 1783, 296, 2133, 2786, 1465, 296, 1, 1, 1532, 1805, 1710, 0]",
+    "target_idx": "[20, 7, 23, 5, 13, 26, 27, 16, 1, 29, 2, 0]",
+    "prediction_idx": "[20, 7, 23, 5, 26, 27, 27, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.5,
+  "tokens_OK": 6,
+  "tokens_tot": 12,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "insert    PRED[3:3] -> TAR[4:5] [] -> ['E']",
+      "insert    PRED[5:5] -> TAR[7:8] [] -> ['.']",
+      "insert    PRED[5:5] -> TAR[8:9] [] -> ['(']",
+      "insert    PRED[5:5] -> TAR[9:10] [] -> ['process']",
+      "replace   PRED[6:7] -> TAR[10:11] ['<UNK>@8'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 26,
+  "example": {
+    "sentence": "anal fin lepidotrichium is a lepidotrichium that is <UNK>@8 of the anal fin skeleton . <EOS>",
+    "target": "anal fin lepidotrichium := lepidotrichium ^ E <UNK>@8 of . ( anal fin skeleton ) <EOS>",
+    "prediction": "anal fin lepidotrichium := lepidotrichium ^ <UNK>@8 of fin skeleton <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[701, 613, 2964, 296, 1532, 2964, 1465, 296, 1, 2995, 1496, 701, 613, 4381, 1710, 0]",
+    "target_idx": "[19, 20, 21, 7, 24, 5, 13, 27, 28, 16, 1, 30, 31, 32, 2, 0]",
+    "prediction_idx": "[19, 20, 21, 7, 24, 5, 27, 28, 31, 32, 0, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.438,
+  "tokens_OK": 7,
+  "tokens_tot": 16,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "insert    PRED[5:5] -> TAR[6:7] [] -> ['E']",
+      "insert    PRED[7:7] -> TAR[9:10] [] -> ['.']",
+      "insert    PRED[7:7] -> TAR[10:11] [] -> ['(']",
+      "insert    PRED[7:7] -> TAR[11:12] [] -> ['anal']",
+      "insert    PRED[9:9] -> TAR[14:15] [] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 27,
+  "example": {
+    "sentence": "leaf are <UNK>@2 of branch . <EOS>",
+    "target": "leaf := E <UNK>@2 of . ( branch ) <EOS>",
+    "prediction": "leaf := <UNK>@2 of branch ^ A branch <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4585, 3728, 1, 2995, 4358, 1710, 0]",
+    "target_idx": "[19, 7, 13, 21, 22, 16, 1, 23, 2, 0]",
+    "prediction_idx": "[19, 7, 21, 22, 23, 5, 14, 23, 0, 0]"
+  },
+  "accuracy": 0.4,
+  "tokens_OK": 4,
+  "tokens_tot": 10,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "insert    PRED[1:1] -> TAR[2:3] [] -> ['E']",
+      "replace   PRED[4:5] -> TAR[5:6] ['branch'] -> ['.']",
+      "replace   PRED[5:6] -> TAR[6:7] ['^'] -> ['(']",
+      "replace   PRED[6:7] -> TAR[7:8] ['A'] -> ['branch']",
+      "replace   PRED[7:8] -> TAR[8:9] ['branch'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 29,
+  "example": {
+    "sentence": "caprina pizza <UNK>@2 a very high-calorie content . <EOS>",
+    "target": "caprina pizza := E <UNK>@2 content . ( very high-calorie content ) <EOS>",
+    "prediction": "caprina pizza <UNK>@2 := ! E very . ( high-calorie high-calorie content ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4998, 2430, 1, 1532, 2027, 3803, 2436, 1710, 0]",
+    "target_idx": "[19, 20, 7, 13, 21, 25, 16, 1, 23, 24, 25, 2, 0, 0]",
+    "prediction_idx": "[19, 20, 21, 7, 15, 13, 23, 16, 1, 24, 24, 25, 2, 0]"
+  },
+  "accuracy": 0.286,
+  "tokens_OK": 4,
+  "tokens_tot": 14,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "delete    PRED[2:3] -> TAR[1:1] ['<UNK>@2'] -> []",
+      "replace   PRED[4:5] -> TAR[3:4] ['!'] -> ['E']",
+      "replace   PRED[5:6] -> TAR[4:5] ['E'] -> ['<UNK>@2']",
+      "replace   PRED[6:7] -> TAR[5:6] ['very'] -> ['content']",
+      "replace   PRED[9:10] -> TAR[8:9] ['high-calorie'] -> ['very']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 33,
+  "example": {
+    "sentence": "branch are <UNK>@2 of tree . <EOS>",
+    "target": "branch := E <UNK>@2 of . ( tree ) <EOS>",
+    "prediction": "branch := <UNK>@2 of tree ^ A tree <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4358, 3728, 1, 2995, 420, 1710, 0]",
+    "target_idx": "[19, 7, 13, 21, 22, 16, 1, 23, 2, 0]",
+    "prediction_idx": "[19, 7, 21, 22, 23, 5, 14, 23, 0, 0]"
+  },
+  "accuracy": 0.4,
+  "tokens_OK": 4,
+  "tokens_tot": 10,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "insert    PRED[1:1] -> TAR[2:3] [] -> ['E']",
+      "replace   PRED[4:5] -> TAR[5:6] ['tree'] -> ['.']",
+      "replace   PRED[5:6] -> TAR[6:7] ['^'] -> ['(']",
+      "replace   PRED[6:7] -> TAR[7:8] ['A'] -> ['tree']",
+      "replace   PRED[7:8] -> TAR[8:9] ['tree'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 39,
+  "example": {
+    "sentence": "a rock dassie is a animal that eat grass and broad-leafed plant . <EOS>",
+    "target": "rock dassie := animal ^ E eat . ( grass ) ^ E eat . ( broad-leafed plant ) <EOS>",
+    "prediction": "rock dassie := animal ^ E eat . ( grass plant ^ broad-leafed plant ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 5013, 3888, 296, 1532, 5233, 1465, 2867, 2256, 2258, 3508, 526, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 5, 13, 26, 16, 1, 27, 2, 5, 13, 26, 16, 1, 29, 30, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 5, 13, 26, 16, 1, 27, 30, 5, 29, 30, 2, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.6,
+  "tokens_OK": 12,
+  "tokens_tot": 20,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "replace   PRED[10:11] -> TAR[10:11] ['plant'] -> [')']",
+      "insert    PRED[11:11] -> TAR[12:13] [] -> ['E']",
+      "insert    PRED[11:11] -> TAR[13:14] [] -> ['eat']",
+      "insert    PRED[11:11] -> TAR[14:15] [] -> ['.']",
+      "insert    PRED[11:11] -> TAR[15:16] [] -> ['(']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 47,
+  "example": {
+    "sentence": "caudal fin lepidotrichium is a lepidotrichium that is <UNK>@8 of the caudal fin skeleton . <EOS>",
+    "target": "caudal fin lepidotrichium := lepidotrichium ^ E <UNK>@8 of . ( caudal fin skeleton ) <EOS>",
+    "prediction": "caudal fin lepidotrichium := lepidotrichium ^ <UNK>@8 of fin skeleton <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[3008, 613, 2964, 296, 1532, 2964, 1465, 296, 1, 2995, 1496, 3008, 613, 4381, 1710, 0]",
+    "target_idx": "[19, 20, 21, 7, 24, 5, 13, 27, 28, 16, 1, 30, 31, 32, 2, 0]",
+    "prediction_idx": "[19, 20, 21, 7, 24, 5, 27, 28, 31, 32, 0, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.438,
+  "tokens_OK": 7,
+  "tokens_tot": 16,
+  "edit_distance": {
+    "score": 5,
+    "diff_ops": [
+      "insert    PRED[5:5] -> TAR[6:7] [] -> ['E']",
+      "insert    PRED[7:7] -> TAR[9:10] [] -> ['.']",
+      "insert    PRED[7:7] -> TAR[10:11] [] -> ['(']",
+      "insert    PRED[7:7] -> TAR[11:12] [] -> ['caudal']",
+      "insert    PRED[9:9] -> TAR[14:15] [] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 19,
+  "example": {
+    "sentence": "herbivore are exactly <UNK>@3 animal that eat only plant or <UNK>@10 of plant . <EOS>",
+    "target": "herbivore := animal ^ A eat . ( plant U E <UNK>@10 of . ( plant ) ) <EOS>",
+    "prediction": "herbivore := <UNK>@3 animal ^ A eat . ( plant of plant <UNK>@10 of plant ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4058, 3728, 4082, 1, 5233, 1465, 2867, 3546, 526, 1048, 1, 2995, 526, 1710, 0]",
+    "target_idx": "[19, 7, 23, 5, 14, 25, 16, 1, 27, 6, 13, 29, 30, 16, 1, 31, 2, 2, 0]",
+    "prediction_idx": "[19, 7, 22, 23, 5, 14, 25, 16, 1, 27, 30, 31, 29, 30, 31, 2, 0, 0, 0]"
+  },
+  "accuracy": 0.158,
+  "tokens_OK": 3,
+  "tokens_tot": 19,
+  "edit_distance": {
+    "score": 6,
+    "diff_ops": [
+      "delete    PRED[2:3] -> TAR[1:1] ['<UNK>@3'] -> []",
+      "replace   PRED[10:11] -> TAR[9:10] ['of'] -> ['U']",
+      "replace   PRED[11:12] -> TAR[10:11] ['plant'] -> ['E']",
+      "insert    PRED[13:13] -> TAR[13:14] [] -> ['.']",
+      "insert    PRED[13:13] -> TAR[14:15] [] -> ['(']",
+      "insert    PRED[14:14] -> TAR[16:17] [] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 28,
+  "example": {
+    "sentence": "craniofacial skeleton is a cranial skeleton <UNK>@6 <UNK>@7 neural crest cell . <EOS>",
+    "target": "craniofacial skeleton := cranial skeleton ^ E <UNK>@6 <UNK>@7 . ( neural crest cell ) <EOS>",
+    "prediction": "craniofacial skeleton := cranial skeleton <UNK>@6 ^ neural neural crest cell <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[3598, 4381, 296, 1532, 4495, 4381, 1, 1, 5343, 5025, 3311, 1710, 0]",
+    "target_idx": "[19, 20, 7, 23, 24, 5, 13, 25, 26, 16, 1, 27, 28, 29, 2, 0]",
+    "prediction_idx": "[19, 20, 7, 23, 24, 25, 5, 27, 27, 28, 29, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.375,
+  "tokens_OK": 6,
+  "tokens_tot": 16,
+  "edit_distance": {
+    "score": 6,
+    "diff_ops": [
+      "insert    PRED[4:4] -> TAR[5:6] [] -> ['^']",
+      "insert    PRED[4:4] -> TAR[6:7] [] -> ['E']",
+      "insert    PRED[5:5] -> TAR[8:9] [] -> ['<UNK>@7']",
+      "replace   PRED[6:7] -> TAR[9:10] ['^'] -> ['.']",
+      "replace   PRED[7:8] -> TAR[10:11] ['neural'] -> ['(']",
+      "insert    PRED[10:10] -> TAR[14:15] [] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 49,
+  "example": {
+    "sentence": "the dorsal fin skeleton is a median fin skeleton located <UNK>@10 the dorsal surface of the organism . <EOS>",
+    "target": "dorsal fin skeleton := median fin skeleton ^ E located <UNK>@10 . ( dorsal surface of organism ) <EOS>",
+    "prediction": "dorsal fin skeleton := median fin skeleton ^ dorsal located surface of ( dorsal surface of ^ E dorsal <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1496, 3927, 613, 4381, 296, 1532, 3485, 613, 4381, 3886, 1, 1496, 3927, 3458, 2995, 1496, 4122, 1710, 0]",
+    "target_idx": "[20, 21, 22, 7, 25, 26, 27, 5, 13, 28, 29, 16, 1, 31, 32, 33, 35, 2, 0, 0]",
+    "prediction_idx": "[20, 21, 22, 7, 25, 26, 27, 5, 31, 28, 32, 33, 1, 31, 32, 33, 5, 13, 31, 0]"
+  },
+  "accuracy": 0.7,
+  "tokens_OK": 14,
+  "tokens_tot": 20,
+  "edit_distance": {
+    "score": 6,
+    "diff_ops": [
+      "replace   PRED[8:9] -> TAR[8:9] ['dorsal'] -> ['E']",
+      "replace   PRED[10:11] -> TAR[10:11] ['surface'] -> ['<UNK>@10']",
+      "replace   PRED[11:12] -> TAR[11:12] ['of'] -> ['.']",
+      "delete    PRED[16:17] -> TAR[15:15] ['^'] -> []",
+      "replace   PRED[17:18] -> TAR[16:17] ['E'] -> ['organism']",
+      "replace   PRED[18:19] -> TAR[17:18] ['dorsal'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 9,
+  "example": {
+    "sentence": "organism subdivision is a anatomical structure that is a primary subdivision of whole organism . <EOS>",
+    "target": "organism subdivision := anatomical structure ^ primary subdivision of whole organism <EOS>",
+    "prediction": "organism := ! structure structure ^ primary primary of . ( subdivision <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4122, 5142, 296, 1532, 2927, 1743, 1465, 296, 1532, 3340, 5142, 2995, 5063, 4122, 1710, 0]",
+    "target_idx": "[19, 20, 7, 23, 24, 5, 28, 29, 30, 31, 32, 0, 0]",
+    "prediction_idx": "[19, 7, 15, 24, 24, 5, 28, 28, 30, 16, 1, 29, 0]"
+  },
+  "accuracy": 0.462,
+  "tokens_OK": 6,
+  "tokens_tot": 13,
+  "edit_distance": {
+    "score": 7,
+    "diff_ops": [
+      "replace   PRED[1:2] -> TAR[1:2] [':='] -> ['subdivision']",
+      "replace   PRED[2:3] -> TAR[2:3] ['!'] -> [':=']",
+      "replace   PRED[3:4] -> TAR[3:4] ['structure'] -> ['anatomical']",
+      "replace   PRED[7:8] -> TAR[7:8] ['primary'] -> ['subdivision']",
+      "delete    PRED[9:10] -> TAR[8:8] ['.'] -> []",
+      "replace   PRED[10:11] -> TAR[9:10] ['('] -> ['whole']",
+      "replace   PRED[11:12] -> TAR[10:11] ['subdivision'] -> ['organism']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 23,
+  "example": {
+    "sentence": "a gonochoristic organism is a multi-cellular organism that <UNK>@8 male and female sex . <EOS>",
+    "target": "gonochoristic organism := multi-cellular organism ^ E <UNK>@8 sex . ( male sex ) ^ E <UNK>@8 sex . ( female sex ) <EOS>",
+    "prediction": "gonochoristic organism := multi-cellular organism ^ E <UNK>@8 . ( male sex ^ female sex ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 567, 4122, 296, 1532, 1946, 4122, 1465, 1, 4420, 2258, 123, 5155, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 25, 5, 13, 27, 31, 16, 1, 28, 31, 2, 5, 13, 27, 31, 16, 1, 30, 31, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 25, 5, 13, 27, 16, 1, 28, 31, 5, 30, 31, 2, 0, 0, 0, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.375,
+  "tokens_OK": 9,
+  "tokens_tot": 24,
+  "edit_distance": {
+    "score": 7,
+    "diff_ops": [
+      "insert    PRED[7:7] -> TAR[8:9] [] -> ['sex']",
+      "insert    PRED[11:11] -> TAR[13:14] [] -> [')']",
+      "insert    PRED[12:12] -> TAR[15:16] [] -> ['E']",
+      "insert    PRED[12:12] -> TAR[16:17] [] -> ['<UNK>@8']",
+      "insert    PRED[12:12] -> TAR[17:18] [] -> ['sex']",
+      "insert    PRED[12:12] -> TAR[18:19] [] -> ['.']",
+      "insert    PRED[12:12] -> TAR[19:20] [] -> ['(']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 40,
+  "example": {
+    "sentence": "a real italian pizza is a <UNK>@6 of pizza that <UNK>@10 only <UNK>@12 thin and crispy basis . <EOS>",
+    "target": "real italian pizza := pizza ^ A <UNK>@12 . ( thin basis ^ crispy basis ) <EOS>",
+    "prediction": "real italian pizza := <UNK>@6 of pizza ^ A <UNK>@10 . ( <UNK>@12 thin ) ^ A <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3411, 2728, 2430, 296, 1532, 1, 2995, 2430, 1465, 1, 3546, 1, 4782, 2258, 5121, 2472, 1710, 0]",
+    "target_idx": "[20, 21, 22, 7, 27, 5, 14, 31, 16, 1, 32, 35, 5, 34, 35, 2, 0, 0]",
+    "prediction_idx": "[20, 21, 22, 7, 25, 26, 27, 5, 14, 29, 16, 1, 31, 32, 2, 5, 14, 0]"
+  },
+  "accuracy": 0.278,
+  "tokens_OK": 5,
+  "tokens_tot": 18,
+  "edit_distance": {
+    "score": 8,
+    "diff_ops": [
+      "delete    PRED[4:5] -> TAR[3:3] ['<UNK>@6'] -> []",
+      "delete    PRED[5:6] -> TAR[3:3] ['of'] -> []",
+      "replace   PRED[9:10] -> TAR[7:8] ['<UNK>@10'] -> ['<UNK>@12']",
+      "delete    PRED[12:13] -> TAR[9:9] ['<UNK>@12'] -> []",
+      "replace   PRED[14:15] -> TAR[11:12] [')'] -> ['basis']",
+      "insert    PRED[15:15] -> TAR[13:14] [] -> ['crispy']",
+      "insert    PRED[15:15] -> TAR[14:15] [] -> ['basis']",
+      "replace   PRED[16:17] -> TAR[15:16] ['A'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 35,
+  "example": {
+    "sentence": "a vegetarian pizza is any pizza that only <UNK>@8 vegetarian topping or no topping . <EOS>",
+    "target": "vegetarian pizza := pizza ^ E <UNK>@8 topping . ( vegetarian topping ) U ! E <UNK>@8 topping . ( T ) <EOS>",
+    "prediction": "vegetarian pizza := pizza ^ A <UNK>@8 . ( vegetarian topping U no topping ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 496, 2430, 296, 2133, 2430, 1465, 3546, 1, 496, 1154, 1048, 3710, 1154, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 5, 13, 27, 29, 16, 1, 28, 32, 2, 6, 15, 13, 27, 32, 16, 1, 17, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 5, 14, 27, 16, 1, 28, 29, 6, 31, 32, 2, 0, 0, 0, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.304,
+  "tokens_OK": 7,
+  "tokens_tot": 23,
+  "edit_distance": {
+    "score": 9,
+    "diff_ops": [
+      "replace   PRED[5:6] -> TAR[5:6] ['A'] -> ['E']",
+      "insert    PRED[6:6] -> TAR[7:8] [] -> ['topping']",
+      "insert    PRED[10:10] -> TAR[12:13] [] -> [')']",
+      "insert    PRED[11:11] -> TAR[14:15] [] -> ['!']",
+      "insert    PRED[11:11] -> TAR[15:16] [] -> ['E']",
+      "replace   PRED[12:13] -> TAR[16:17] ['no'] -> ['<UNK>@8']",
+      "insert    PRED[13:13] -> TAR[18:19] [] -> ['.']",
+      "insert    PRED[13:13] -> TAR[19:20] [] -> ['(']",
+      "insert    PRED[13:13] -> TAR[20:21] [] -> ['T']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 37,
+  "example": {
+    "sentence": "a tetraploid is cell or organism <UNK>@6 NUM set of chromosome . <EOS>",
+    "target": "tetraploid := ( cell U organism ) ^ = NUM <UNK>@6 chromosome . ( set ) <EOS>",
+    "prediction": "tetraploid := cell U organism <UNK>@6 NUM set . T set of chromosome ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3421, 296, 3311, 1048, 4122, 1, 2, 1238, 2995, 3493, 1710, 0]",
+    "target_idx": "[20, 7, 1, 22, 6, 24, 2, 5, 8, 26, 25, 29, 16, 1, 27, 2, 0]",
+    "prediction_idx": "[20, 7, 22, 6, 24, 25, 26, 27, 16, 17, 27, 28, 29, 2, 0, 0, 0]"
+  },
+  "accuracy": 0.176,
+  "tokens_OK": 3,
+  "tokens_tot": 17,
+  "edit_distance": {
+    "score": 9,
+    "diff_ops": [
+      "insert    PRED[1:1] -> TAR[2:3] [] -> ['(']",
+      "insert    PRED[4:4] -> TAR[6:7] [] -> [')']",
+      "insert    PRED[4:4] -> TAR[7:8] [] -> ['^']",
+      "replace   PRED[5:6] -> TAR[8:9] ['<UNK>@6'] -> ['=']",
+      "insert    PRED[6:6] -> TAR[10:11] [] -> ['<UNK>@6']",
+      "replace   PRED[7:8] -> TAR[11:12] ['set'] -> ['chromosome']",
+      "replace   PRED[9:10] -> TAR[13:14] ['T'] -> ['(']",
+      "delete    PRED[11:12] -> TAR[14:14] ['of'] -> []",
+      "delete    PRED[12:13] -> TAR[14:14] ['chromosome'] -> []"
+    ]
+  }
+}
+
+
+{
+  "_ID": 41,
+  "example": {
+    "sentence": "biosphere is the portion of earth and <UNK>@7 atmosphere that <UNK>@10 support life . <EOS>",
+    "target": "biosphere := portion of earth ^ portion of <UNK>@7 atmosphere ^ >= 0 support . ( life ) <EOS>",
+    "prediction": "biosphere := portion of earth ^ <UNK>@7 atmosphere <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[2702, 296, 1496, 2581, 2995, 2009, 2258, 1, 4118, 1465, 1, 712, 877, 1710, 0]",
+    "target_idx": "[19, 7, 22, 23, 24, 5, 22, 23, 26, 27, 5, 12, 18, 30, 16, 1, 31, 2, 0]",
+    "prediction_idx": "[19, 7, 22, 23, 24, 5, 26, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.368,
+  "tokens_OK": 7,
+  "tokens_tot": 19,
+  "edit_distance": {
+    "score": 10,
+    "diff_ops": [
+      "insert    PRED[5:5] -> TAR[6:7] [] -> ['portion']",
+      "insert    PRED[5:5] -> TAR[7:8] [] -> ['of']",
+      "insert    PRED[7:7] -> TAR[10:11] [] -> ['^']",
+      "insert    PRED[7:7] -> TAR[11:12] [] -> ['>=']",
+      "insert    PRED[7:7] -> TAR[12:13] [] -> ['0']",
+      "insert    PRED[7:7] -> TAR[13:14] [] -> ['support']",
+      "insert    PRED[7:7] -> TAR[14:15] [] -> ['.']",
+      "insert    PRED[7:7] -> TAR[15:16] [] -> ['(']",
+      "insert    PRED[7:7] -> TAR[16:17] [] -> ['life']",
+      "insert    PRED[7:7] -> TAR[17:18] [] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 44,
+  "example": {
+    "sentence": "a island or isle is any piece of land that is <UNK>@11 <UNK>@12 <UNK>@13 water . <EOS>",
+    "target": "island U isle := piece of land ^ A <UNK>@12 <UNK>@13 . ( water ) <EOS>",
+    "prediction": "island := E or . . . ( piece ) land ^ <UNK>@11 <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 805, 1048, 4640, 296, 2133, 25, 2995, 2899, 1465, 296, 1, 1, 1, 226, 1710, 0]",
+    "target_idx": "[20, 6, 22, 7, 25, 26, 27, 5, 14, 31, 32, 16, 1, 33, 2, 0]",
+    "prediction_idx": "[20, 7, 13, 21, 16, 16, 16, 1, 25, 2, 27, 5, 30, 0, 0, 0]"
+  },
+  "accuracy": 0.125,
+  "tokens_OK": 2,
+  "tokens_tot": 16,
+  "edit_distance": {
+    "score": 13,
+    "diff_ops": [
+      "insert    PRED[0:0] -> TAR[1:2] [] -> ['U']",
+      "insert    PRED[0:0] -> TAR[2:3] [] -> ['isle']",
+      "replace   PRED[2:3] -> TAR[4:5] ['E'] -> ['piece']",
+      "replace   PRED[3:4] -> TAR[5:6] ['or'] -> ['of']",
+      "replace   PRED[4:5] -> TAR[6:7] ['.'] -> ['land']",
+      "replace   PRED[5:6] -> TAR[7:8] ['.'] -> ['^']",
+      "replace   PRED[6:7] -> TAR[8:9] ['.'] -> ['A']",
+      "replace   PRED[7:8] -> TAR[9:10] ['('] -> ['<UNK>@12']",
+      "replace   PRED[8:9] -> TAR[10:11] ['piece'] -> ['<UNK>@13']",
+      "replace   PRED[9:10] -> TAR[11:12] [')'] -> ['.']",
+      "replace   PRED[10:11] -> TAR[12:13] ['land'] -> ['(']",
+      "replace   PRED[11:12] -> TAR[13:14] ['^'] -> ['water']",
+      "replace   PRED[12:13] -> TAR[14:15] ['<UNK>@11'] -> [')']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 34,
+  "example": {
+    "sentence": "a american pizza is a pizza that <UNK>@7 topping of pepperoni , mozzarella and tomato . <EOS>",
+    "target": "american pizza := pizza ^ E <UNK>@7 topping . ( pepperoni ) ^ E <UNK>@7 topping . ( mozzarella ) ^ E <UNK>@7 topping . ( tomato ) <EOS>",
+    "prediction": "american pizza := pizza ^ ! <UNK>@7 topping . ( ( pepperoni U mozzarella U tomato ) ) <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[1532, 3347, 2430, 296, 1532, 2430, 1465, 1, 1154, 2995, 5193, 2317, 494, 2258, 2475, 1710, 0]",
+    "target_idx": "[20, 21, 7, 24, 5, 13, 26, 27, 16, 1, 29, 2, 5, 13, 26, 27, 16, 1, 31, 2, 5, 13, 26, 27, 16, 1, 33, 2, 0]",
+    "prediction_idx": "[20, 21, 7, 24, 5, 15, 26, 27, 16, 1, 1, 29, 6, 31, 6, 33, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.345,
+  "tokens_OK": 10,
+  "tokens_tot": 29,
+  "edit_distance": {
+    "score": 17,
+    "diff_ops": [
+      "replace   PRED[5:6] -> TAR[5:6] ['!'] -> ['E']",
+      "insert    PRED[9:9] -> TAR[10:11] [] -> ['pepperoni']",
+      "insert    PRED[9:9] -> TAR[11:12] [] -> [')']",
+      "insert    PRED[9:9] -> TAR[12:13] [] -> ['^']",
+      "insert    PRED[9:9] -> TAR[13:14] [] -> ['E']",
+      "insert    PRED[9:9] -> TAR[14:15] [] -> ['<UNK>@7']",
+      "insert    PRED[9:9] -> TAR[15:16] [] -> ['topping']",
+      "insert    PRED[9:9] -> TAR[16:17] [] -> ['.']",
+      "insert    PRED[10:10] -> TAR[18:19] [] -> ['mozzarella']",
+      "insert    PRED[10:10] -> TAR[19:20] [] -> [')']",
+      "insert    PRED[10:10] -> TAR[20:21] [] -> ['^']",
+      "replace   PRED[11:12] -> TAR[21:22] ['pepperoni'] -> ['E']",
+      "replace   PRED[12:13] -> TAR[22:23] ['U'] -> ['<UNK>@7']",
+      "replace   PRED[13:14] -> TAR[23:24] ['mozzarella'] -> ['topping']",
+      "replace   PRED[14:15] -> TAR[24:25] ['U'] -> ['.']",
+      "replace   PRED[15:16] -> TAR[25:26] ['tomato'] -> ['(']",
+      "replace   PRED[16:17] -> TAR[26:27] [')'] -> ['tomato']"
+    ]
+  }
+}
+
+
+{
+  "_ID": 43,
+  "example": {
+    "sentence": "axial skeleton is a skeletal subdivision of the central body axis <UNK>@11 the cranium , vertebra , notochord , rib , and sternum . <EOS>",
+    "target": "axial skeleton := skeletal subdivision of central body axis ^ E <UNK>@11 . ( cranium ) ^ E <UNK>@11 . ( vertebra ) ^ E <UNK>@11 . ( notochord ) ^ E <UNK>@11 . ( rib ) ^ E <UNK>@11 . ( sternum ) <EOS>",
+    "prediction": "axial skeleton := skeletal subdivision of ^ E central body . ( <UNK>@11 U <UNK>@11 U notochord U rib ) <UNK>@11 <EOS>"
+  },
+  "dump": {
+    "sentence_idx": "[4722, 4381, 296, 1532, 3051, 5142, 2995, 1496, 780, 5126, 2107, 1, 1496, 3862, 2317, 4362, 2317, 595, 2317, 1983, 2317, 2258, 218, 1710, 0]",
+    "target_idx": "[19, 20, 7, 23, 24, 25, 27, 28, 29, 5, 13, 30, 16, 1, 32, 2, 5, 13, 30, 16, 1, 34, 2, 5, 13, 30, 16, 1, 36, 2, 5, 13, 30, 16, 1, 38, 2, 5, 13, 30, 16, 1, 41, 2, 0]",
+    "prediction_idx": "[19, 20, 7, 23, 24, 25, 5, 13, 27, 28, 16, 1, 30, 6, 30, 6, 36, 6, 38, 2, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+  },
+  "accuracy": 0.156,
+  "tokens_OK": 7,
+  "tokens_tot": 45,
+  "edit_distance": {
+    "score": 29,
+    "diff_ops": [
+      "insert    PRED[5:5] -> TAR[6:7] [] -> ['central']",
+      "insert    PRED[5:5] -> TAR[7:8] [] -> ['body']",
+      "insert    PRED[5:5] -> TAR[8:9] [] -> ['axis']",
+      "insert    PRED[7:7] -> TAR[11:12] [] -> ['<UNK>@11']",
+      "insert    PRED[7:7] -> TAR[12:13] [] -> ['.']",
+      "insert    PRED[7:7] -> TAR[13:14] [] -> ['(']",
+      "insert    PRED[7:7] -> TAR[14:15] [] -> ['cranium']",
+      "insert    PRED[7:7] -> TAR[15:16] [] -> [')']",
+      "insert    PRED[7:7] -> TAR[16:17] [] -> ['^']",
+      "replace   PRED[8:9] -> TAR[17:18] ['central'] -> ['E']",
+      "replace   PRED[9:10] -> TAR[18:19] ['body'] -> ['<UNK>@11']",
+      "insert    PRED[11:11] -> TAR[21:22] [] -> ['vertebra']",
+      "insert    PRED[11:11] -> TAR[22:23] [] -> [')']",
+      "replace   PRED[12:13] -> TAR[23:24] ['<UNK>@11'] -> ['^']",
+      "replace   PRED[13:14] -> TAR[24:25] ['U'] -> ['E']",
+      "insert    PRED[14:14] -> TAR[26:27] [] -> ['.']",
+      "replace   PRED[15:16] -> TAR[27:28] ['U'] -> ['(']",
+      "insert    PRED[16:16] -> TAR[29:30] [] -> [')']",
+      "insert    PRED[16:16] -> TAR[30:31] [] -> ['^']",
+      "insert    PRED[16:16] -> TAR[31:32] [] -> ['E']",
+      "insert    PRED[16:16] -> TAR[32:33] [] -> ['<UNK>@11']",
+      "insert    PRED[16:16] -> TAR[33:34] [] -> ['.']",
+      "replace   PRED[17:18] -> TAR[34:35] ['U'] -> ['(']",
+      "insert    PRED[19:19] -> TAR[37:38] [] -> ['^']",
+      "insert    PRED[19:19] -> TAR[38:39] [] -> ['E']",
+      "insert    PRED[20:20] -> TAR[40:41] [] -> ['.']",
+      "insert    PRED[20:20] -> TAR[41:42] [] -> ['(']",
+      "insert    PRED[20:20] -> TAR[42:43] [] -> ['sternum']",
+      "insert    PRED[20:20] -> TAR[43:44] [] -> [')']"
+    ]
+  }
+}
+
+
