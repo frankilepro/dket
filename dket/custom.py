@@ -1,12 +1,3 @@
-# from dket import analytics
-
-# dump_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\eval\dump\dump-20001.tsv"
-# vocabulary_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\vocabulary.idx"
-# shortlist_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\shortlist.idx"
-# report_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\2k-open-x-ref--lr04.report.txt"
-
-# analytics.create_report(dump_fp, vocabulary_fp, shortlist_fp, report_fp, True)
-
 from nltk.draw.tree import draw_trees
 from nltk.parse.generate import generate
 import nltk
