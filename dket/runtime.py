@@ -109,6 +109,10 @@ class Experiment(object):
         """Runs the experiment."""
         self._training.start()
 
+    def predict(self, checkpoint):
+        """Runs the experiment."""
+        self._eval.start(checkpoint)
+
     @classmethod
     def get_default_config(cls):
         """Gets the default configuration settings."""
@@ -134,14 +138,14 @@ class Experiment(object):
             for p in patterns.split(',')])
 
     @classmethod
-    def load(cls, config, logdir=None, force=False):
+    def load(cls, config_file, config, logdir=None, force=False):
         """Load an experiment from logdir containing only a json config file."""
         if not config:
             raise ValueError('Experiment configuration must be specified.')
 
-        basedir, _ = tuple(os.path.split(config))
-        fname = os.path.splitext(os.path.basename(config))[0]
-        config = json.load(open(config))
+        basedir, _ = tuple(os.path.split(config_file))
+        fname = os.path.splitext(os.path.basename(config_file))[0]
+        # config = json.load(open(config))
         
         name = config[cls.NAME_KEY]
         if name != fname:
