@@ -24,8 +24,10 @@ def predict(input_sentence, CONFIG, config, ARGS):
     tmp_dir = tempfile.mkdtemp()
     tmp_file = os.path.join(tmp_dir, "eval.rio")
 
-    vocabulary_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\vocabulary.idx"
-    shortlist_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\shortlist.idx"
+    basedir = os.path.dirname(CONFIG)
+    datadir = os.path.dirname(config["train.files"])
+    vocabulary_fp = os.path.abspath(os.path.join(basedir, datadir, "vocabulary.idx"))
+    shortlist_fp = os.path.abspath(os.path.join(basedir, datadir, "shortlist.idx"))
     output_file = tmp_file
     create_rio.create_rio_base([input_sentence], output_file, vocabulary_fp, shortlist_fp)
 
