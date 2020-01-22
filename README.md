@@ -21,6 +21,13 @@ library, you must resolve the link dependency during the installation via the
 But after installed `DKET` you need to install the proper `TensorFlow` version,
 for GPU or CPU, by yourself.
 
+## Predict a sentence with pre-trained weights
+    :~$ python ./bin/dket-experiment-run --config experiments/425-curated.json \ 
+          --force --last-checkpoint .\.tests\2k-open-x-ref--lr04\train\CHECKPOINT-20000
+    :~$ To predict: the rake is a hand tool that is used by gardener . <EOS>
+    :~$ Prediction: rake := hand tool ^ E used by . ( gardener ) <EOS>
+
+
 ## Run the experiments
 All the experimental settings are stored as `.json` files in the `experiments`
 folder. To run them, after activating the `.py3venv` virtual environment, just run:
