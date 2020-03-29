@@ -4,13 +4,6 @@ from dket import create_rio
 import os
 import tempfile
 
-# dump_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\eval\dump\dump-20001.tsv"
-# vocabulary_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\vocabulary.idx"
-# shortlist_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\shortlist.idx"
-# report_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\2k-open-x-ref--lr04.report.txt"
-# analytics.create_report(dump_fp, vocabulary_fp, shortlist_fp, report_fp, True)
-
-
 def predict(input_sentence, CONFIG, config, ARGS):
     # the rake is a hand tool that is used by gardener . <EOS>
     # input_sentence = r"a direct ossification is a ossification that do not require the replacement of pre-existing tissue . <EOS>"
@@ -42,3 +35,10 @@ def predict(input_sentence, CONFIG, config, ARGS):
             input_sentence = line
     prediction = analytics.convert(input_sentence, 0, vocabulary, shortlist)
     print(f"Prediction: {prediction['example']['prediction']}")
+
+if __name__ == "__main__":
+    dump_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\eval\dump\dump-20001.tsv"
+    vocabulary_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\vocabulary.idx"
+    shortlist_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\shortlist.idx"
+    report_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\2k-open-x-ref--lr04.report.v2.txt"
+    analytics.create_report(dump_fp, vocabulary_fp, shortlist_fp, report_fp, True)

@@ -1,0 +1,423 @@
+stimulus := event in real world ^ E trigger . ( sensor ) .
+integument := surface structure ^ outer protective covering of body .
+sensing device := device ^ E implement . ( sensing ) .
+sensor datum sheet := object ^ E record . ( property of sensor ) .
+direct ossification := ossification ^ ! E require . ( replacement of pre-existing tissue ) .
+solid compound organ := compound organ ^ ! E contain . ( macroscopic anatomical space ) .
+vector := organism ^ E ( carry U transmit ) . ( pathogen ) .
+rock dassie := animal ^ E eat . ( grass ) ^ E eat . ( broad-leafed plant ) .
+lion := animal ^ A eat . ( herbivore ) .
+caprina pizza := E have content . ( very high-calorie content ) .
+interesting pizza := pizza ^ >= NUM have topping . ( topping ) .
+spicy topping := topping ^ E have spiciness . ( hot spiciness ) .
+survival property := identifiable characteristic ^ E represent . ( extent of sensor useful life ) .
+device := physical piece of technology .
+device := system in box .
+feature := abstraction of real world phenomenon .
+organism subdivision := anatomical structure ^ primary subdivision of whole organism .
+vehicle := non-living means of transportation .
+observation value := value of result of observation .
+datum := fact ^ E result from . ( measurement U observation ) .
+tree := plant .
+frutti di mare := E lack . ( cheese ) .
+non-mineralized hyaline cartilage tissue := hyaline cartilage tissue ^ ! mineralized .
+meaty pizza := pizza ^ >= NUM have topping . ( meat ) .
+property := observable quality of event U observable quality of object .
+herbivore := animal ^ A eat . ( plant U E part of . ( plant ) ) .
+gonochoristic organism := multi-cellular organism ^ E have sex . ( male sex ) ^ E have sex . ( female sex ) .
+carnivore := animal ^ E eat . ( animal ) .
+american hot pizza := american pizza ^ E have on . ( jalapeno pepper ) .
+output := information ^ E reported from . ( process ) .
+cell space := anatomical space ^ E part of . ( cell ) .
+male organism := gonochoristic organism ^ >= 0 produce . ( male gamete ) .
+giraffe := herbivore ^ A eat . ( leaf ) .
+american pizza := pizza ^ E have topping . ( pepperoni ) ^ E have topping . ( mozzarella ) ^ E have topping . ( tomato ) .
+sensor := any entity ^ >= 0 follow . ( sensing method ) .
+anal fin lepidotrichium := lepidotrichium ^ E part of . ( anal fin skeleton ) .
+caudal fin lepidotrichium := lepidotrichium ^ E part of . ( caudal fin skeleton ) .
+axial ossicle := ossicle ^ E part of . ( axial skeleton ) .
+craniofacial skeleton := cranial skeleton ^ E derived from . ( neural crest cell ) .
+branch := E part of . ( tree ) .
+leaf := E part of . ( branch ) .
+pectoral fin := paired fin ^ E located in . ( thoracic region of body ) .
+intramembranous ossification := direct ossification ^ E occur within . ( mesenchyme U accumulation of relatively unspecialized cell ) .
+spicy pizza := any pizza ^ E have topping . ( spicy topping ) .
+currency := unit of exchange ^ E facilitating . ( transfer of goods ) ^ E facilitating . ( transfer of service ) .
+vegetarian pizza := pizza ^ E have topping . ( vegetarian topping ) U ! E have topping . ( T ) .
+real italian pizza := pizza ^ A have . ( thin basis ^ crispy basis ) .
+juvenile := ( young fish U young animal ) ^ ! E have reached . ( sexual maturity ) .
+biosphere := portion of earth ^ portion of its atmosphere ^ >= 0 support . ( life ) .
+tetraploid := ( cell U organism ) ^ = NUM having chromosome . ( set ) .
+sensing := process ^ E result in . ( estimation of value of phenomenon U calculation of value of phenomenon ) .
+island U isle := piece of land ^ A surrounded by . ( water ) .
+tasty plant := plant ^ E eaten by . ( herbivore ) ^ E eaten by . ( carnivore ) .
+tasty plant := plant ^ E eaten by . ( herbivore ) ^ E eaten by . ( carnivore ) .
+axial skeleton := skeletal subdivision of central body axis ^ E including . ( cranium ) ^ E including . ( vertebra ) ^ E including . ( notochord ) ^ E including . ( rib ) ^ E including . ( sternum ) .
+carnivorous plant := plant ^ E eat . ( animal ) .
+endochondral bone := replacement bone ^ E form within . cartilage .
+anal fin skeleton := median fin skeleton ^ E located posterior to . ( anus ) .
+dorsal fin skeleton := median fin skeleton ^ E located on . ( dorsal surface of organism ) .
+vertebral element := skeletal element ^ E form around . ( notochord ) ^ E part of . ( vertebral column ) .
+free limb skeleton := skeletal subdivision ^ E part of . ( limb ) .
+zeugopodial skeleton := E section of . ( forelimb skeleton ) ^ E located between . ( stylopodium ^ autopodium ) .
+autopodial skeleton := E distal section of . ( limb skeleton ) ^ E consisting of . ( anterior autopodium U posterior autopodium ) .
+cheesey pizza := pizza ^ >= NUM have topping . ( cheese topping ) .
+cheesey pizza := pizza ^ >= NUM have topping . ( cheese topping ) .
+interesting pizza := pizza ^ >= NUM have topping . ( T ) .
+meaty pizza := pizza ^ >= a have topping . ( meat topping ) .
+named pizza := pizza ^ E found on . ( pizza menu ) .
+perichordal tissue := derived from ( cell ^ E surrounding . ( notochord ) ) .
+odontoblast := skeletogenic cell ^ E secretes . ( dentine matrix ) ^ E derived from . ( odontogenic papilla ) ^ E develop from . ( preodontoblast cell ) .
+odontoblast := skeletogenic cell ^ E secretes . ( dentine matrix ) .
+odontoblast := skeletogenic cell ^ E derived from . ( odontogenic papilla ) .
+odontocyte := skeletogenic cell ^ E secretes . ( dentine matrix ) ^ E derived from . ( odontogenic papilla ) .
+odontocyte := skeletogenic cell ^ E secretes . ( dentine matrix ) .
+odontocyte := skeletogenic cell ^ E derived from . ( odontogenic papilla ) .
+migratory neural crest cell := cell ^ E derived from . ( specialized ectoderm ) .
+craniofacial skeleton := cranial skeleton ^ E derived from . ( neural crest cell ) .
+integumentary skeleton := skeletal subdivision ^ E part of . ( extra-oral dermal skeletal system ) .
+postcranial axial skeleton := skeletal subdivision of central body axis ^ E includes . ( vertebra U notochord U rib U sternum ) .
+non-terminally differentiated odontoblast := odontoblast ^ E located in . ( odontogenic papilla U dentine tissue ) ^ E transform from . ( odontoblast cell ) .
+hypertrophic chondrocyte := chondrocyte ^ E terminally differentiated . ( T ) .
+hypertrophic chondrocyte := chondrocyte ^ E produce . ( type X collagen ) .
+periarticular chondrocyte := chondrocyte ^ E located on . ( joint surface ) ^ E part of . ( articular cartilage ) .
+vasodentine := dentine tissue ^ E lack . ( dentine tubule ) ^ E penetrated by . ( blood capillary ) .
+columnar chondrocyte := chondrocyte ^ E linearly arranged with . ( columnar chondrocytes ) .
+mineralized bone tissue := bone tissue ^ E mineralized with . ( hydroxyapatite ) .
+cellular bone tissue := mineralized bone tissue ^ E include . ( non-terminally differentiated osteoblast U osteocyte ) .
+acellular bone tissue := mineralized bone tissue ^ E have terminally differentiated osteoblast . ( T ) ^ E lack . ( osteocyte ) .
+pectoral appendage := anterior paired appendage .
+pelvic appendage := posterior paired appendage .
+ossified tendon := sesamoid ^ E develop within . ( tendon ) ^ E distal to . ( articulation U joint ) .
+ossified tendon := sesamoid ^ E develop within . ( tendon ) .
+replacement element := skeletal replacement element ^ E form as . ( replacement of element U substitution of element U replacement of tissue U substitution of tissue ) .
+ligamentous replacement element := replacement element ^ E form as . ( replacement of ligament ) .
+pectoral fin skeleton := paired fin skeleton ^ E consists of . ( supporting endochondral proximal U distal radial U dermal fin ray U dermal fin lepidotrichia ) .
+pectoral fin skeleton := paired fin skeleton ^ E located in . ( thoracic region of body ) ^ E articulate with . ( scapula ) ^ E articulate with . ( coracoid ) .
+ossified ligament := sesamoid ^ E develop within . ( ligament ) ^ E distal to . ( articulation U joint ) .
+paired fin skeleton := skeletal system ^ E consists of . ( paired fin ) .
+pectoral fin skeleton := paired fin skeleton ^ E consists of . ( supporting endochondral radial ^ distal radial ^ ( dermal fin ray U dermal fin lepidotrichia ) ) .
+pectoral fin skeleton := E located in . ( thoracic region of body ) ^ E articulates with . ( scapula ^ coracoid ) .
+pelvic fin skeleton := paired fin skeleton ^ E located in . ( abdominal position ) ^ E consists of . ( supporting endochondral radial ^ ( dermal fin ray U dermal fin lepidotrichia ) ) .
+ossified ligament := sesamoid ^ E develop within . ( ligament ) ^ E distal to . ( articulation U joint ) .
+interclavicle := dermal bone of pectoral girdle ^ E median in . ( position ) ^ E ventral in . ( position ) .
+paired fin skeleton := skeletal system ^ E consists of . ( paired fin ) .
+median fin skeleton := postcranial axial skeleton ^ E unpaired . ( T ) ^ E located on . ( sagittal plane of the organism ) .
+vertebral column := anatomical cluster ^ E consists of . ( vertebra of body ) .
+fin skeleton := skeletal subdivision ^ E part of . ( paired fin ) .
+limb skeleton := skeletal subdivision ^ E part of . ( paired limb ) .
+girdle skeleton := skeletal subdivision ^ E part of . ( appendage girdle region ) .
+perichordal bone := bone element ^ E adjacent to . ( notochord ) .
+perichondral bone := bone element ^ E located on . ( surface of cartilage element ) .
+acropodial skeleton := endochondral terminal bone ^ E located at . ( distalmost end of autopodium ) ^ E consisting of . ( phalanx ) .
+integumentary papilla := odontogenic papilla ^ E located in . ( integument ) .
+oropharyngeal papilla := odontogenic papilla ^ E located along . ( jaw U pharyngeal skeleton ) .
+bone element := skeletal element ^ E composed of . ( bone tissue ) .
+osteoblast := skeletogenic cell ^ E secretes . ( osteoid ) ^ E producing . ( mineralized matrix ) ^ E ( located adjacent to ^ located within ) . ( osteoid tissue ) ^ E arises from . ( transformation of preosteoblast cell ) .
+osteoblast := skeletogenic cell ^ E secretes . ( osteoid ) .
+osteoblast := skeletogenic cell ^ E ( located adjacent to ^ located within ) . ( osteoid tissue ) .
+caudal fin skeleton := median fin skeleton ^ E supporting . ( caudal fin ) .
+pelvic fin lepidotrichium := lepidotrichium ^ E part of . ( pelvic fin skeleton ) .
+caudal fin lepidotrichium := lepidotrichium ^ E part of . ( caudal fin skeleton ) .
+pectoral fin lepidotrichium := lepidotrichium ^ E part of . ( pectoral fin skeleton ) .
+anal fin lepidotrichium := lepidotrichium ^ E part of . ( anal fin skeleton ) .
+dorsal fin lepidotrichium := lepidotrichium ^ E part of . ( dorsal fin skeleton ) .
+embryonic cell := cell of the embryo .
+fin := surface structure ^ E involved in . ( locomotion ) .
+median fin := unpaired fin ^ E located in . ( sagittal plane of organism ) .
+anal fin := median fin ^ E located posterior to . ( anus ) .
+dorsal fin := median fin ^ E located on . ( dorsal surface of organism ) .
+caudal fin := most posterior median fin .
+articular system := anatomical system ^ E consists of . ( joint of body ) .
+vertebral centrum := skeletal element ^ E surround . ( notochord ) .
+two-dimensional region := spatial region = NUM have dimension . ( T ) .
+three-dimensional region := spatial region = NUM have dimension . ( T ) .
+authority operation := ( operation U activity ) ^ E initiated by . ( authority ) ^ >= 0 disrupt . ( traffic ) .
+crowd := major gathering of people ^ >= 0 disrupt . ( traffic ) .
+public event := organized event ^ >= 0 disrupt . ( traffic ) .
+agricultural show U agricultural event := >= 0 disrupt . ( traffic ) .
+air show U areonautical event := >= 0 disrupt . ( traffic ) .
+athletics meeting := event ^ >= 0 disrupt . ( traffic ) .
+baseball game := event ^ >= 0 disrupt . ( traffic ) .
+basketball game := event ^ >= 0 disrupt . ( traffic ) .
+bicycle race := >= 0 disrupt . ( traffic ) .
+boat race := >= 0 disrupt . ( traffic ) .
+boat show := >= 0 disrupt . ( traffic ) .
+bull fight := event ^ >= 0 disrupt . ( traffic ) .
+commercial event := event ^ >= 0 disrupt . ( traffic ) .
+concert := event ^ >= 0 disrupt . ( traffic ) .
+cultural event := event ^ >= 0 disrupt . ( traffic ) .
+exhibition := ( major display U major trade show ) ^ >= disrupt . ( traffic ) .
+football match := event ^ >= 0 disrupt . ( traffic ) .
+motor show := event ^ >= 0 disrupt . ( traffic ) .
+motor sport race meeting := event ^ >= 0 disrupt . ( traffic ) .
+parade := ( formal display U organized procession ) ^ >= 0 disrupt . ( traffic ) .
+procession U organized procession := >= 0 disrupt . ( traffic ) .
+race meeting := >= 0 disrupt . ( traffic ) .
+rugby match := event ^ >= 0 disrupt . ( traffic ) .
+tennis tournament := event ^ >= 0 disrupt . ( traffic ) .
+water sport meeting := event ^ >= 0 disrupt . ( traffic ) .
+winter sport meeting U winter sport event := event ^ >= 0 disrupt . ( traffic ) .
+hail := falling ice pellet or frozen rain .
+heavy frost := thick coating of frost .
+shower := light rain U intermittent rain .
+animal on infrastructure := >= 0 disrupt . ( traffic ) .
+herd of animal on infrastructure := >= 0 disrupt . ( traffic ) .
+large animal on infrastructure := >= 0 disrupt . ( traffic ) .
+mud := >= 0 obstruct . ( transport infrastructure ) .
+rockfalls := >= 0 obstruct . ( transport infrastructure ) .
+damaged bridge := >= 0 cause . ( traffic disruption ) .
+damaged crash := >= 0 cause . ( traffic disruption ) .
+damaged flyover := >= 0 cause . ( traffic disruption ) .
+damaged gantry := >= 0 cause . ( traffic disruption ) .
+damaged road := >= 0 cause . ( traffic disruption ) .
+damaged tunnel := >= 0 cause . ( traffic disruption ) .
+damaged viaduct := >= 0 cause . ( traffic disruption ) .
+broken down vehicle := >= 0 cause . ( traffic disruption ) .
+product := E produced by . ( event ) .
+adaptor := user ^ E produce . ( adaptation ) .
+action := exercise of right .
+measurement unit label := datum item label ^ E denotes . ( unit of measure ) .
+dichotomous variable specification := variable ^ = NUM have category . ( T ) .
+kindergarten := location ^ E used for . ( pre-school education ) .
+school := ( building U location ) ^ E used for . ( instructional class ) .
+university U college := institution of higher education .
+ski lift station := start point of ski lift .
+ski resort := down hill ski facility U cross-country ski facility .
+datum collection by censoring := datum collection ^ E result in . ( collection of . datum ^ E generated from . ( censoring ) ) .
+datum collection from survey := datum collection ^ E result in . ( collection of . datum ^ E generated from . ( survey ) ) .
+datum collection from experiment := datum collection ^ E result in . ( collection of . datum ^ E generated from . ( experiment ) ) .
+datum collection from literature := datum collection process ^ E result in . ( collection of datum from literature ) .
+employee := person ^ E work for . ( company ) .
+team := group of employee .
+employee := E part of . ( team ) .
+manager := employee ^ >= NUM lead . ( team ) .
+top manager := manager ^ >= NUM lead . ( team ) .
+employee := >= NUM report to . ( manager ) .
+employee := E use . ( desk ) .
+desk := piece of funriture .
+piece of furniture := artifact ^ E furnish . ( room ) .
+room := E part of . ( building ) .
+window := E part of . ( room ) .
+door := E part of . ( room ) .
+team := group of employee ^ E report to . ( manager ) .
+team := >= NUM develop . ( leading project ) .
+team := >= NUM more . ( project . ) .
+team := <= NUM develop . ( project ) .
+team := E pursue . ( goal ) .
+team := E implement . ( trimestral activity ) .
+project := = NUM have deadline . ( T ) .
+trimestral activity := activity ^ = NUM take . ( month ) .
+activity := E part of . ( process )
+side project := project .
+task := E part of . ( project ) .
+stakeholder := > NUM involved in . ( project ) .
+project := ( >= NUM && <= NUM ) report to . ( stakeholder ) .
+project := E have leader . ( T ) .
+positron := beta particle .
+fermion := E part of . ( complex particle ) .
+lepton := fermion .
+lepton := subatomic particle .
+boson := subatomic particle .
+manganese atom := atom .
+carbon atom := atom .
+gadolinium atom := atom .
+ununpentium atom := atom .
+nickel atom := atom .
+magnesium atom := atom .
+rubidium atom := atom .
+rhenium atom := atom .
+carbon atom := atom .
+unununium atom := atom .
+ununhexium atom := atom .
+neodymium atom := atom .
+lanthanum atom := atom .
+argon atom := atom .
+thallium atom := atom .
+barium atom := atom .
+zirconium atom := atom .
+berkelium atom := atom .
+strontium atom := atom .
+selenium atom := atom .
+carbon atom = NUM have proton . ( T ) .
+xenon atom = NUM have proton . ( T ) .
+silicon atom = NUM have proton . ( T ) .
+nickel atom = NUM have proton . ( T ) .
+neon atom = NUM have proton . ( T ) .
+rhodium atom = NUM have proton . ( T ) .
+arsenic atom = NUM have proton . ( T ) .
+chlorine atom = NUM have proton . ( T ) .
+manganese atom = NUM have proton . ( T ) .
+oxygen atom = NUM have proton . ( T ) .
+thallium atom = NUM have proton . ( T ) .
+antimony atom = NUM have proton . ( T ) .
+germanium atom = NUM have proton . ( T ) .
+scandium atom = NUM have proton . ( T ) .
+chromium atom = NUM have proton . ( T ) .
+molybdenum atom = NUM have proton . ( T ) .
+phosphorus atom = NUM have proton . ( T ) .
+iodine atom = NUM have proton . ( T ) .
+gallium atom = NUM have proton . ( T ) .
+radium atom = NUM have proton . ( T ) .
+carnivor := animal .
+carnivor := animal ^ A eat . ( animal ) .
+herbivor := animal .
+herbivor := animal ^ A eat . ( plant ) .
+herbivor := animal ^ A eat . ( plant ) .
+mammal := animal .
+mammal := animal ^ E brestfeed . ( puppy ) .
+mammal := animal ^ E brestfeed . ( puppy ) .
+mammal := animal ^ E brestfeed . ( puppy ) .
+insect := small animal .
+dolphin := acquatic mammal .
+dolphin := acquatic mammal ^ E live in . ( sea ) .
+dolphin := acquatic mammal ^ have long muzzle . ( T ) .
+cow := herbivor .
+cow := herbivor ^ E produce . ( milk ) .
+cow := mammal .
+cow := mammal ^ = NUM have long horn . ( T ) .
+cow := mammal ^ = NUM have long horn . ( T ) .
+lion := carnivor .
+lion := carnivor ^ E live in . ( africa ) .
+lion := carnivor ^ E live in . ( africa ) .
+lion := carnivor ^ E hunt . ( gazelle ) .
+lion := carnivor ^ E hunt . ( gazelle ) .
+lion := carnivor ^ E hunt . ( gazelle ) .
+lion := mammal .
+lion := mammal ^ have long hair . ( T ) .
+lion := mammal ^ have long hair . ( T ) .
+lion := mammal ^ have long hair . ( T ) .
+male lion := >= NUM have female mate . ( T ) .
+male lion := >= NUM have female mate . ( T ) .
+male lion := >= NUM have female mate . ( T ) .
+male lion := >= NUM have female mate . ( T ) .
+male lion := >= NUM have female mate . ( T ) .
+tiger := carnivor .
+tiger := carnivor ^ E live in . ( asia ) .
+tiger := mammal .
+tiger := large feline ^ E have black stripe . ( T ) .
+tiger := large feline ^ E have black stripe . ( T ) .
+female tiger := <= NUM have male mate . ( T ) .
+female tiger := <= NUM have male mate . ( T ) .
+gazelle := herbivor .
+gazelle := fast herbivor ^ E live in . ( africa ) .
+gazelle := fast herbivor ^ E live in . ( africa ) .
+gazelle := mammal ^ E chased by . ( lion ) .
+gazelle := mammal ^ E chased by . ( lion ) .
+gazelle := mammal ^ E chased by . ( lion ) .
+gazelle := mammal ^ E chased by . ( lion ) .
+giraffe := herbivor .
+giraffe := herbivor ^ E live in . ( africa ) .
+giraffe := mammal ^ have long neck . ( T ) .
+giraffe := mammal ^ have long neck . ( T ) .
+pachyderm := large animal .
+elephant := pachyderm .
+elephant := pachyderm ^ E live in . ( africa U asia ) .
+elephant := pachyderm ^ E live in . ( africa U asia ) .
+elephant := mammal ^ have big trunk . ( T ) .
+elephant := mammal ^ have big trunk . ( T ) .
+elephant := mammal ^ have big trunk . ( T ) .
+elephant := pachyderm ^ = NUM have large ear . ( T ) .
+elephant := pachyderm ^ = NUM have large ear . ( T ) .
+elephant := pachyderm ^ = NUM have large ear . ( T ) .
+elephant := pachyderm ^ = NUM have large ear . ( T ) .
+rhinoceros := pachyderm .
+rhinoceros := pachyderm ^ E live in . ( africa ) .
+rhinoceros := pachyderm ^ E live in . ( africa ) .
+rhinoceros := mammal ^ = NUM have horn . ( T ) .
+rhinoceros := mammal ^ = NUM have horn . ( T ) .
+rhinoceros := mammal ^ = NUM have horn . ( T ) .
+rhinoceros := mammal ^ = NUM have horn . ( T ) .
+cat := animal ^ E chased by . ( dog ) .
+cat := animal ^ E chased by . ( dog ) .
+cat := animal ^ E chased by . ( dog ) .
+cat := animal ^ E chased by . ( dog ) .
+cat := animal ^ E chased by . ( dog ) .
+cat := mammal ^ E chase . ( mouse ) .
+cat := mammal ^ E chase . ( mouse ) .
+cat := mammal ^ E chase . ( mouse ) .
+cat := mammal ^ E chase . ( mouse ) .
+cat := mammal ^ E chase . ( mouse ) .
+dog := animal .
+mouse := small animal .
+mouse := animal ^ A chased by . ( cat ) .
+mouse := animal ^ A chased by . ( cat ) .
+mouse := animal ^ A chased by . ( cat ) .
+mouse := animal ^ A chased by . ( cat ) .
+mouse := animal ^ A chased by . ( cat ) .
+bee := insect ^ E produce . ( honey ) .
+bee := insect ^ E live in . ( hive ) .
+bee := insect ^ E live in . ( hive ) .
+bee := insect ^ E live in . ( hive ) .
+bee := insect ^ = NUM have leg . ( T ) .
+bee := E have black stripe . ( T ) .
+vehicle := mean of transportation .
+bycicle := vehicle .
+bycicle := vehicle ^ = NUM have weel . ( T ) .
+bycicle := mean of transportation ^ A powered by . ( human power ) .
+bycicle := mean of transportation ^ A powered by . ( human power ) .
+bycicle := mean of transportation ^ A powered by . ( human power ) .
+bycicle := mean of transportation ^ A powered by . ( human power ) .
+weel := E part of . ( bycicle ) .
+frame := E part of . ( bycicle ) .
+handle bar := E part of . ( bycicle ) .
+car := vehicle .
+car := mean of transportation ^ E powered by . ( fuel U electric energy ) .
+engine := complex system ^ E part of . ( car ) .
+engine := complex system ^ E part of . ( car ) .
+engine := complex system ^ E part of . ( car ) .
+engine := complex system ^ E part of . ( car ) .
+engine := complex system ^ E part of . ( car ) .
+engine := complex system ^ E part of . ( car ) .
+gear := E part of . ( engine ) .
+steering weel := E part of . ( car ) .
+motorcycle := vehicle .
+weel := E part of . ( motorcycle ) .
+engine := complex energy production system ^ E part of . ( motorcycle ) .
+engine := complex energy production system ^ E part of . ( motorcycle ) .
+engine := complex energy production system ^ E part of . ( motorcycle ) .
+engine := complex energy production system ^ E part of . ( motorcycle ) .
+engine := complex energy production system ^ E part of . ( motorcycle ) .
+saddle := E part of . ( motorcycle ) .
+frame := E part of . ( motorcycle ) .
+handle bar := E part of . ( bycicle ) .
+engine := energy production system .
+engine := energy production system .
+engine := complex system ^ E produce . ( energy ) .
+engine := complex system ^ E produce . ( energy ) .
+hammer := tool .
+screwdriver := tool ^ E handle . ( screw ) .
+screwdriver := tool ^ E handle . ( screw ) .
+flat blade screwdriver := screwdriver ^ E have flat blade . ( T ) .
+flat blade screwdriver := screwdriver ^ E have flat blade . ( T ) .
+flat blade screwdriver := screwdriver ^ E have flat blade . ( T ) .
+flat blade screwdriver := screwdriver ^ E have flat blade . ( T ) .
+cross blade screwdriver := screwdriver ^ E have cross blade . ( T ) .
+cross blade screwdriver := screwdriver ^ E have cross blade . ( T ) .
+cross blade screwdriver := screwdriver ^ E have cross blade . ( T ) .
+power screwdriver := screwdriver ^ E powered by . ( electric energy ) .
+power screwdriver := screwdriver ^ E powered by . ( electric energy ) .
+power screwdriver := screwdriver ^ E powered by . ( electric energy ) .
+power screwdriver := screwdriver ^ E powered by . ( electric energy ) .
+gardern fork := tool .
+drill := power tool .
+power tool := tool .
+rake := tool .
+saw := tool .
+hand tool := tool .
+clamp := tool .
+clamp := tool ^ >= 0 secure . ( object ) .
+saw := tool ^ E have sharp blade . ( T ) .
+saw := >= 0 cut . ( wood ) .
+scissor := manual tool ^ E cut . ( paper U cardboard ) .
+chainsaw := saw ^ E powered by . ( electric energy ) .
+handle := E part of . ( knife ) .
+grind := E part of . ( blade ) .
+knife := E have blade . ( T ) .
+rake := tool ^ E collect . ( dead leaf ) .
+rake := tool ^ E collect . ( dead leaf ) .
+rake := E used in . ( farming activity ) .
+pole := E part of . ( rake ) .
+thoot := E part of . ( rake ) .
+chainsaw := A used by . ( expert operator ) .
+ray rake := tool ^ A used by . ( expert farmer ) .

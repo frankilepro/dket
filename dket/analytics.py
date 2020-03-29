@@ -180,7 +180,11 @@ def convert(tsv_line, id_, vocabulary, shortlist, equals=False):
 
     accuracy = metrics.per_token_accuracy(target_, prediction_)
 
+    # print(sentence)
     sentence = decode_sentence(sentence, vocabulary)
+    # if "high-calorie" in sentence:
+    #     print(sentence)
+    #     exit()
     target = decode_formula(target, shortlist, sentence)
     prediction = decode_formula(prediction, shortlist, sentence)
     example = collections.OrderedDict()
@@ -232,6 +236,8 @@ def create_report(dump_fp, vocabulary_fp, shortlist_fp, report_fp=None, force=Fa
         if tsv_line:
             id_ += 1
             data.append(convert(tsv_line, id_, vocabulary, shortlist, equals=equals))
+        # if id_ > 50:
+        #     break
     dump_report(data, report_fp)
 
 
