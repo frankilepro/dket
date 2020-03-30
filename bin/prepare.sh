@@ -15,18 +15,18 @@ CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=10000
 
-URL="https://wit3.fbk.eu/archive/2014-01/texts/de/en/de-en.tgz"
-GZ=de-en.tgz
+URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/def-form.tgz"
+GZ=def-form.tgz
 
 if [ ! -d "$SCRIPTS" ]; then
     echo "Please set SCRIPTS variable correctly to point to Moses scripts."
     exit
 fi
 
-src=de
-tgt=en
-lang=de-en
-prep=iwslt14.tokenized.de-en
+src=def
+tgt=form
+lang=def-form
+prep=dket.tokenized.def-form
 tmp=$prep/tmp
 orig=orig
 
@@ -48,37 +48,26 @@ cd ..
 
 echo "pre-processing train data..."
 for l in $src $tgt; do
-    f=train.tags.$lang.$l
-    tok=train.tags.$lang.tok.$l
+    f=train.$l
+    tok=train.tok.$l
 
-    cat $orig/$lang/$f | \
-    grep -v '<url>' | \
-    grep -v '<talkid>' | \
-    grep -v '<keywords>' | \
-    sed -e 's/<title>//g' | \
-    sed -e 's/<\/title>//g' | \
-    sed -e 's/<description>//g' | \
-    sed -e 's/<\/description>//g' | \
-    perl $TOKENIZER -threads 8 -l $l > $tmp/$tok
+    cat $orig/$lang/$f | perl $TOKENIZER -threads 8 -l $l > $tmp/$tok
     echo ""
 done
-perl $CLEAN -ratio 1.5 $tmp/train.tags.$lang.tok $src $tgt $tmp/train.tags.$lang.clean 1 175
+perl $CLEAN -ratio 1.5 $tmp/train.tok $src $tgt $tmp/train.clean 1 175
 for l in $src $tgt; do
-    perl $LC < $tmp/train.tags.$lang.clean.$l > $tmp/train.tags.$lang.$l
+    perl $LC < $tmp/train.clean.$l > $tmp/train.$l
 done
 
 echo "pre-processing valid/test data..."
 for l in $src $tgt; do
-    for o in `ls $orig/$lang/IWSLT14.TED*.$l.xml`; do
-    fname=${o##*/}
-    f=$tmp/${fname%.*}
-    echo $o $f
-    grep '<seg id' $o | \
-        sed -e 's/<seg id="[0-9]*">\s*//g' | \
-        sed -e 's/\s*<\/seg>\s*//g' | \
-        sed -e "s/\’/\'/g" | \
+    for o in "valid" "test"; do
+    f=$o.$l
+    tok=$o.tok.$l
+    
+    cat $orig/$lang/$f | \
     perl $TOKENIZER -threads 8 -l $l | \
-    perl $LC > $f
+    perl $LC > $tmp/$tok
     echo ""
     done
 done
@@ -86,18 +75,12 @@ done
 
 echo "creating train, valid, test..."
 for l in $src $tgt; do
-    awk '{if (NR%23 == 0)  print $0; }' $tmp/train.tags.de-en.$l > $tmp/valid.$l
-    awk '{if (NR%23 != 0)  print $0; }' $tmp/train.tags.de-en.$l > $tmp/train.$l
-
-    cat $tmp/IWSLT14.TED.dev2010.de-en.$l \
-        $tmp/IWSLT14.TEDX.dev2012.de-en.$l \
-        $tmp/IWSLT14.TED.tst2010.de-en.$l \
-        $tmp/IWSLT14.TED.tst2011.de-en.$l \
-        $tmp/IWSLT14.TED.tst2012.de-en.$l \
-        > $tmp/test.$l
+    awk '{if (NR%23 == 0)  print $0; }' $tmp/valid.$l > $tmp/valid.$l
+    awk '{if (NR%23 != 0)  print $0; }' $tmp/train.$l > $tmp/train.$l
+    awk '{if (NR%23 != 0)  print $0; }' $tmp/test.$l > $tmp/test.$l
 done
 
-TRAIN=$tmp/train.en-de
+TRAIN=$tmp/train
 BPE_CODE=$prep/code
 rm -f $TRAIN
 for l in $src $tgt; do
