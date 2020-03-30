@@ -76,11 +76,15 @@ done
 
 
 echo "creating train, valid, test..."
-# for l in $src $tgt; do
-#     awk '{if (NR%23 == 0)  print $0; }' $tmp/valid.$l > $tmp/valid.$l
-#     awk '{if (NR%23 != 0)  print $0; }' $tmp/train.$l > $tmp/train.$l
-#     awk '{if (NR%23 != 0)  print $0; }' $tmp/test.$l > $tmp/test.$l
-# done
+for l in $src $tgt; do
+    # awk '{if (NR%23 == 0)  print $0; }' $tmp/valid.$l > $tmp/valid.$l
+    # awk '{if (NR%23 != 0)  print $0; }' $tmp/train.$l > $tmp/train.$l
+    # awk '{if (NR%23 != 0)  print $0; }' $tmp/test.$l > $tmp/test.$l
+    for o in "train" "valid" "test"; do
+        f=$o.$l
+        cp $orig/$lang/$f $tmp/$f
+    done
+done
 
 TRAIN=$tmp/train
 BPE_CODE=$prep/code
