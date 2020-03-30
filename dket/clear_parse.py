@@ -15,8 +15,8 @@ def create_formula_as_array(definitions, sentence):
 
 
 if __name__ == "__main__":
-    path = r"C:\Users\frank\GitHub\dket\datasets\20k-open-x-ref\validation.tsv"
-    prefix = "valid"
+    path = r"C:\Users\frank\GitHub\dket\resources\reference_set.test.tsv"
+    prefix = "test"
     with open(path) as file, open(f"{prefix}.def", "w") as def_file, open(f"{prefix}.form", "w") as form_file:
         for line in file:
             try:
