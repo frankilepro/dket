@@ -48,43 +48,44 @@ fi
 tar zxvf $GZ
 cd ..
 
-echo "pre-processing train data..."
-for l in $src $tgt; do
-    f=train.$l
-    tok=train.tok.$l
+# echo "pre-processing train data..."
+# for l in $src $tgt; do
+#     f=train.$l
+#     tok=train.tok.$l
 
-    cat $orig/$lang/$f | perl $TOKENIZER -threads 8 -l $l > $tmp/$tok
-    echo ""
-done
-perl $CLEAN -ratio 1.5 $tmp/train.tok $src $tgt $tmp/train.clean 1 175
-for l in $src $tgt; do
-    perl $LC < $tmp/train.clean.$l > $tmp/train.$l
-done
+#     cat $orig/$lang/$f | perl $TOKENIZER -threads 8 -l $l > $tmp/$tok
+#     echo ""
+# done
+# perl $CLEAN -ratio 1.5 $tmp/train.tok $src $tgt $tmp/train.clean 1 175
+# for l in $src $tgt; do
+#     perl $LC < $tmp/train.clean.$l > $tmp/train.$l
+# done
 
-echo "pre-processing valid/test data..."
+echo "pre-processing train/valid/test data..."
 for l in $src $tgt; do
-    for o in "valid" "test"; do
+    for o in "train" "valid" "test"; do
     f=$o.$l
     tok=$o.tok.$l
     
     cat $orig/$lang/$f | \
     perl $TOKENIZER -threads 8 -l $l | \
     perl $LC > $tmp/$tok
+    cp $orig/$lang/$f $tmp/$f
     echo ""
     done
 done
 
 
-echo "creating train, valid, test..."
-for l in $src $tgt; do
-    # awk '{if (NR%23 == 0)  print $0; }' $tmp/valid.$l > $tmp/valid.$l
-    # awk '{if (NR%23 != 0)  print $0; }' $tmp/train.$l > $tmp/train.$l
-    # awk '{if (NR%23 != 0)  print $0; }' $tmp/test.$l > $tmp/test.$l
-    for o in "train" "valid" "test"; do
-        f=$o.$l
-        cp $orig/$lang/$f $tmp/$f
-    done
-done
+# echo "creating train, valid, test..."
+# for l in $src $tgt; do
+#     # awk '{if (NR%23 == 0)  print $0; }' $tmp/valid.$l > $tmp/valid.$l
+#     # awk '{if (NR%23 != 0)  print $0; }' $tmp/train.$l > $tmp/train.$l
+#     # awk '{if (NR%23 != 0)  print $0; }' $tmp/test.$l > $tmp/test.$l
+#     for o in "train" "valid" "test"; do
+#         f=$o.$l
+#         cp $orig/$lang/$f $tmp/$f
+#     done
+# done
 
 TRAIN=$tmp/train
 BPE_CODE=$prep/code
