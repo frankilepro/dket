@@ -13,7 +13,7 @@ TOKENIZER=$SCRIPTS/tokenizer/tokenizer.perl
 LC=$SCRIPTS/tokenizer/lowercase.perl
 CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
-BPE_TOKENS=10000
+BPE_TOKENS=1000
 
 URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/def-form.tgz"
 GZ=def-form.tgz
