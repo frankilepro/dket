@@ -1,0 +1,74 @@
+a pelvic fin skeleton is a paired fin skeleton located in the abdominal position that consists of supporting endochondral radial and dermal fin ray or lepidotrichia .	pelvic fin skeleton := paired fin skeleton ^ E located in . ( abdominal position ) ^ E consists of . ( supporting endochondral radial ^ ( dermal fin ray U dermal fin lepidotrichia ) ) .	pelvic fin skeleton := paired fin located position ^ E consists . ( abdominal position of supdochondral radial ^ abdominal of dermal lepidotrichia ) .
+a datum collection by sampling is a datum collection process that result in a collection of datum generated from a sampling process .	datum collection by sampling := datum collection process ^ E result in . ( collection of datum ^ E generated from . ( sampling process ) ) .	datum collection sampling process := datum collection process ^ E result . ( collection of datum generated from ) .
+an appendicular skeleton is a skeletal subdivision consisting of all the skeletal element in the pectoral and pelvic appendage complex .	appendicular skeleton := skeletal subdivision ^ E consisting of . ( skeletal element in pectoral appendage complex U skeletal element in pelvic appendage complex ) .	appendicular skeleton := skeletal subdivision of all element ^ pectoral appendage .
+a datum collection from observation is a datum collection process that result in a collection of datum generated from observation .	datum collection from observation := datum collection process ^ E result in . ( collection of datum ^ E generated from . ( observation ) ) .	datum collection observation observation := datum collection process ^ E result . ( collection of datum generated from of datum ) .
+the odontoid tissue is a skeletal tissue that is part of the exoskeleton and derived from an odontogenic papilla .	odontoid tissue := skeletal tissue ^ E part of . ( exoskeleton ) ^ E derived from . ( odontogenic papilla ) .	odontoid tissue := skeletal tissue ^ derigenic frogenic papilla .
+car are a type of mean of transportation that are powered by fuel or electric energy .	car := mean of transportation ^ E powered by . ( fuel U electric energy ) .	car := type of mean ^ powerc by fuel U electric energy .
+a craniofacial skeleton is a cranial skeleton that is derived from neural crest cell .	craniofacial skeleton := cranial skeleton ^ E derived from . ( neural crest cell ) .	craniofacial skeleton := cranial skeleton ^ derived from cell .
+orthodentine is a odontoid tissue that typically contain tubule and is acellular .	orthodentine := odontoid tissue ^ E contain . ( tubule ) ^ acellular .	orthodentine := odontoid tissue ^ E tyune . ( contain tubule ) ^ E tyid . ( acellular ) .
+a minister or a secretary is a politician that hold significant public office in a national or regional government .	minister U secretary := politician ^ E hold . ( significant public office in national government U significant public office in national government regional government ) .	minister := politician ^ E hold . ( significant office U regional government ) .
+a pelvic fin is a paired fin located in the abdominal position of the body .	pelvic fin := paired fin ^ E located in . ( abdominal position of body ) .	pelvic fin := paired fin located in of body ^ abdominal position of body .
+a migratory neural crest cell is a cell derived from the specialized ectoderm .	migratory neural crest cell := cell ^ E derived from . ( specialized ectoderm ) .	migratory neural crest cell := cell derim ^ specialized from ectoderm .
+the mesodermal cell is a cell of the middle germ layer of the embryo .	mesodermal cell := cell of middle germ layer of embryo .	mesodermal cell := cell of the germ layer of the embryo .
+a sensor is any entity that can observe some property of a feature of interest .	sensor := any entity ^ >= <<unk>> observe . ( property of feature of interest ) .	sensor := entity ^ E can . ( some property of feature ) .
+a zero-dimensional region is a spatial region that have NUM dimension .	zero-dimensional region := spatial region = NUM have dimension . ( <<unk>> ) .	zero-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+the odontoblast is a skeletogenic cell that develop from a preodontoblast cell .	odontoblast := skeletogenic cell ^ E develop from . ( preodontoblast cell ) .	odontoblast := skeletogenic cell ^ E develop . ( from preodontoblast cell ) .
+a one-dimensional region is a spatial region that have NUM dimension .	one-dimensional region := spatial region = NUM have dimension . ( <<unk>> ) .	one-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+every engine is a complex energy production system that is part of the motorcycle .	engine := complex energy production system ^ E part of . ( motorcycle ) .	engine := complex energy system ^ part of the motorcycle .
+a cross blade screwdriver is also a screwdriver that have a cross blade .	cross blade screwdriver := screwdriver ^ E have cross blade . ( <<unk>> ) .	cross blade screwdriver := screwdriver ^ have cross blade .
+the rake is a hand tool that is used by gardener .	rake := hand tool ^ E used by . ( gardener ) .	rake := hand tool ^ used gardener gardener .
+a meaty pizza is any pizza that have at least NUM meat topping .	meaty pizza := pizza ^ >= NUM have topping . ( meat topping ) .	meaty pizza := pizza ^ >= NUM have . ( meat topping ) .
+the system lifetime is the total useful life of a sensor or system .	system lifetime := total useful life of sensor U total useful life of system .	system lifetime := total useful life of sensor U system .
+the knife is a hand tool that can cut meat and bread .	knife := hand tool ^ >= NUM cut . ( meat ) ^ >= NUM cut . ( bread ) .	knife := hand tool ^ E can . ( cut meat ) ^ E can . ( bread ) .
+an interesting pizza is any pizza that have at least NUM topping .	interesting pizza := pizza ^ >= NUM have topping . ( <<unk>> ) .	an interesting pizza := pizza ^ >= NUM have . ( topping ) .
+a dolphin is also a acquatic mammal that have a long muzzle .	dolphin := acquatic mammal ^ have long muzzle . ( <<unk>> ) .	dolphin := acquatic mammal ^ E have . ( long muzzle ) .
+a giraffe is also a herbivor that live in africa .	giraffe := herbivor ^ E live in . ( africa ) .	giraffe := herbivor ^ E live . ( africa ) .
+a demonstration is a public protest that could disrupt traffic .	demonstration := public protest ^ >= <<unk>> disrupt . ( traffic ) .	demonstration := public protest ^ E could . ( disrupt traffic ) .
+a ball game is an event that can disrupt traffic .	ball game := event ^ >= <<unk>> disrupt . ( traffic ) .	ball game := an event ^ E can . ( traffic ) .
+all cat are also animal that are chased by a dog .	cat := animal ^ E chased by . ( dog ) .	cat := animal ^ chased by dog .
+all mouse are animal that are chased only by a cat .	mouse := animal ^ A chased by . ( cat ) .	mouse := animal ^ chased cat .
+a non-vegetarian pizza is any pizza that is not a vegetarian pizza .	non-vegetarian pizza := pizza ^ ! vegetarian pizza .	non-vegetarian pizza := pizza ^ vegetarian pizza .
+a show is an entertainment event that can disrupt traffic .	show := entertainment event ^ >= <<unk>> disrupt . ( traffic ) .	show := an entertainment event ^ E can . ( traffic ) .
+a boxing tournament is an event that can disrupt traffic .	boxing tournament := event ^ >= <<unk>> disrupt . ( traffic ) .	boxing tournament := an event ^ E can . ( traffic ) .
+a fallen power cable may obstruct the transport infrastructure .	fallen power cable := >= <<unk>> obstruct . ( transport infrastructure ) .	fallen power cable := E may . ( transport infrastructure ) .
+the battery lifetime is the total useful life of a battery .	battery lifetime := total useful life of battery .	battery lifetime := total useful life of battery .
+all dolphin are also acquatic mammal that live in the sea .	dolphin := acquatic mammal ^ E live in . ( sea ) .	dolphin := acquatic mammal ^ E live . ( sea ) .
+all male lion have more than NUM female mate .	male lion := >= NUM have female mate . ( <<unk>> ) .	male lion := > NUM have . ( female mate ) .
+a lion is a mammal that have long hair .	lion := mammal ^ have long hair . ( <<unk>> ) .	lion := mammal ^ E have . ( long hair ) .
+a cricket match is something that can disrupt traffic .	cricket match := >= <<unk>> disrupt . ( traffic ) .	cricket match := E can . ( traffic ) .
+all elephant are mammal that have a big trunk .	elephant := mammal ^ have big trunk . ( <<unk>> ) .	elephant := mammal ^ E have . ( big trunk ) .
+every lion is a carnivor that hunt gazelle .	lion := carnivor ^ E hunt . ( gazelle ) .	lion := carnivor ^ E hunt . ( gazelle ) .
+clamp are also tool that can secure object .	clamp := tool ^ >= NUM secure . ( object ) .	clamp := tool ^ E can . ( object ) .
+every bycicle is a vehicle that have NUM weel .	bycicle := vehicle ^ = NUM have weel . ( <<unk>> ) .	bycicle := vehicle ^ = NUM have . ( weel ) .
+all mammal are also animal that brestfeed puppy .	mammal := animal ^ E brestfeed . ( puppy ) .	mammal := animal ^ E brestfeed . ( puppy ) .
+the ununseptium atom is a type of atom .	ununseptium atom := atom .	ununseptium atom := type of atom .
+the chlorine atom is a type of atom .	chlorine atom := atom .	chlorine atom := type of atom .
+every bee is a insect that produce honey .	bee := insect ^ E produce . ( honey ) .	bee := insect ^ E produce . ( honey ) .
+quark are subatomic particle .	quark := subatomic particle .	quark := subatomic particle .
+a cat is also a mammal that chase mouse .	cat := mammal ^ E chase . ( mouse ) .	cat := cat mammal ^ E chase . ( mouse ) .
+boson are part of complex particle .	boson := E part of . ( complex particle ) .	boson := part of complex particle .
+all bee are insect that have NUM leg .	bee := insect ^ = NUM have leg . ( <<unk>> ) .	bee := insect ^ = NUM have . ( leg ) .
+a damaged gallery may cause traffic disruption .	damaged gallery := >= <<unk>> cause . ( traffic disruption ) .	damaged gallery := E may . ( cause disruption ) .
+carnivor are animal that eat only animal .	carnivor := animal ^ A eat . ( animal ) .	carnivor := animal ^ A eat . ( animal ) .
+fermion are subatomic particle .	fermion := subatomic particle .	fermion := subatomic particle .
+the blade is part of the knife .	blade := E part of . ( knife ) .	blade := part of the knife .
+all strontium atom have NUM proton .	strontium atom = NUM have proton . ( <<unk>> ) .	strontium atom := = NUM have . ( proton ) .
+the mercury atom have NUM proton .	mercury atom = NUM have proton . ( <<unk>> ) .	mercury atom := = NUM have . ( proton ) .
+saddle are part of the bycicle .	saddle := E part of . ( bycicle ) .	saddle := part of the bycicle .
+bee are insect that live in hive .	bee := insect ^ E live in . ( hive ) .	bee := insect ^ E live . ( hive ) .
+electron are beta particle .	electron := beta particle .	electron := beta particle .
+all ununseptium atom have NUM proton .	ununseptium atom = NUM have proton . ( <<unk>> ) .	ununseptium atom := = NUM have . ( proton ) .
+cow are herbivor that produce milk .	cow := herbivor ^ E produce . ( milk ) .	cow := herbivor ^ E produce . ( milk ) .
+landslipes may obstruct transport infrastructure .	landslipes := >= <<unk>> obstruct . ( transport infrastructure ) .	landslipes may := E obstruct . ( transport infrastructure ) .
+tiger are carnivor that live in asia .	tiger := carnivor ^ E live in . ( asia ) .	tiger := carnivor ^ E live . ( asia ) .
+a bee have black stripe .	bee := E have black stripe . ( <<unk>> ) .	bee := E have . ( black stripe ) .
+a polonium atom have NUM proton .	polonium atom = NUM have proton . ( <<unk>> ) .	polonium atom := = NUM have . ( proton ) .
+all scissor are also tool .	scissor := tool .	scissor := tool .
+all cat are also small feline .	cat := small feline .	cat := small feline .
+trunk are part of car .	trunk := E part of . ( car ) .	trunk := part of car .
+gold atom have NUM proton .	gold atom = NUM have proton . ( <<unk>> ) .	gold atom := = NUM have . ( proton ) .
+acquatic mammal are mammal .	acquatic mammal := mammal .	acquatic mammal := mammal ^ acquatic .
+helium atom are a atom .	helium atom := atom .	helium atom := atom atom ^ atom .
+screwdriver are tool .	screwdriver := tool .	screwdriver := tool .
+knife have a handle .	knife := E have handle . ( <<unk>> ) .	knife have handle := E have . ( handle ) .
+quark are fermion .	quark := fermion .	quark := fermion fermion .

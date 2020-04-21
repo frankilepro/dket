@@ -1,0 +1,370 @@
+S-13	a pelvic fin skeleton is a paired fin skeleton located in the abdominal position that consists of supporting endochondral radial and dermal fin ray or lepidotrichia .
+T-13	pelvic fin skeleton := paired fin skeleton ^ E located in . ( abdominal position ) ^ E consists of . ( supporting endochondral radial ^ ( dermal fin ray U dermal fin lepidotrichia ) ) .
+H-13	-0.14158518612384796	pelvic fin skeleton := paired fin located position ^ E consists . ( abdominal position of supdochondral radial ^ abdominal of dermal lepidotrichia ) .
+D-13	-0.14158518612384796	pelvic fin skeleton := paired fin located position ^ E consists . ( abdominal position of supdochondral radial ^ abdominal of dermal lepidotrichia ) .
+P-13	-0.0022 -0.0070 -0.0122 -0.0037 -0.0081 -0.0719 -0.0058 -0.0037 -0.0678 -0.0175 -0.1338 -0.1053 -0.0579 -0.0138 -0.0151 -0.0842 -0.0821 -0.0214 -0.0065 -0.0052 -1.1006 -0.1000 -0.0057 -2.0392 -0.0242 -0.2729 -0.0278 -0.3222 -0.1028 -0.0102 -0.0098 -0.2481 -0.0134 -0.0251 -0.0709 -0.0819 -0.0586
+S-26	a datum collection by sampling is a datum collection process that result in a collection of datum generated from a sampling process .
+T-26	datum collection by sampling := datum collection process ^ E result in . ( collection of datum ^ E generated from . ( sampling process ) ) .
+H-26	-0.12521329522132874	datum collection sampling process := datum collection process ^ E result . ( collection of datum generated from ) .
+D-26	-0.12521329522132874	datum collection sampling process := datum collection process ^ E result . ( collection of datum generated from ) .
+P-26	-0.0012 -0.0036 -0.0032 -0.0641 -0.0163 -0.0082 -2.3969 -0.0795 -0.0025 -0.0083 -0.0060 -0.0032 -0.0954 -0.0593 -0.0311 -0.0828 -0.0720 -0.0047 -0.0044 -0.0732 -0.0020 -0.0124 -0.0169 -0.0395 -0.0234 -0.2524 -0.0826 -0.0606
+S-15	an appendicular skeleton is a skeletal subdivision consisting of all the skeletal element in the pectoral and pelvic appendage complex .
+T-15	appendicular skeleton := skeletal subdivision ^ E consisting of . ( skeletal element in pectoral appendage complex U skeletal element in pelvic appendage complex ) .
+H-15	-0.06737757474184036	appendicular skeleton := skeletal subdivision of all element ^ pectoral appendage .
+D-15	-0.06737757474184036	appendicular skeleton := skeletal subdivision of all element ^ pectoral appendage .
+P-15	-0.0068 -0.0269 -0.0234 -0.0060 -0.0036 -0.0836 -0.0031 -0.0056 -0.0668 -0.1327 -0.0487 -0.0100 -0.1233 -0.0319 -0.0251 -0.0606 -0.0093 -0.0022 -0.6229 -0.0551
+S-27	a datum collection from observation is a datum collection process that result in a collection of datum generated from observation .
+T-27	datum collection from observation := datum collection process ^ E result in . ( collection of datum ^ E generated from . ( observation ) ) .
+H-27	-0.13828717172145844	datum collection observation observation := datum collection process ^ E result . ( collection of datum generated from of datum ) .
+D-27	-0.13828717172145844	datum collection observation observation := datum collection process ^ E result . ( collection of datum generated from of datum ) .
+P-27	-0.0013 -0.0031 -0.0036 -0.0219 -0.2638 -0.1178 -0.0025 -0.0092 -0.0049 -0.0029 -0.0914 -0.0601 -0.0074 -0.0832 -0.0745 -0.0046 -0.0041 -0.0675 -0.0025 -0.0240 -0.0134 -0.0622 -0.0286 -0.2513 -0.0052 -2.5261 -0.0782 -0.0567
+S-14	the odontoid tissue is a skeletal tissue that is part of the exoskeleton and derived from an odontogenic papilla .
+T-14	odontoid tissue := skeletal tissue ^ E part of . ( exoskeleton ) ^ E derived from . ( odontogenic papilla ) .
+H-14	-0.03434920310974121	odontoid tissue := skeletal tissue ^ derigenic frogenic papilla .
+D-14	-0.03434920310974121	odontoid tissue := skeletal tissue ^ derigenic frogenic papilla .
+P-14	-0.0033 -0.0068 -0.0039 -0.0738 -0.0033 -0.0042 -0.0911 -0.0088 -0.0129 -0.0939 -0.0103 -0.0323 -0.0058 -0.1164 -0.0483
+S-63	car are a type of mean of transportation that are powered by fuel or electric energy .
+T-63	car := mean of transportation ^ E powered by . ( fuel U electric energy ) .
+H-63	-0.1801818311214447	car := type of mean ^ powerc by fuel U electric energy .
+D-63	-0.1801818311214447	car := type of mean ^ powerc by fuel U electric energy .
+P-63	-0.0077 -0.0741 -0.0084 -0.0224 -0.0355 -0.0682 -0.0040 -2.2578 -0.0100 -0.0207 -0.0678 -0.4798 -0.0068 -0.0080 -0.3752 -0.0069 -0.0073 -0.0031 -0.0866 -0.0531
+S-11	a craniofacial skeleton is a cranial skeleton that is derived from neural crest cell .
+T-11	craniofacial skeleton := cranial skeleton ^ E derived from . ( neural crest cell ) .
+H-11	-0.035602930933237076	craniofacial skeleton := cranial skeleton ^ derived from cell .
+D-11	-0.035602930933237076	craniofacial skeleton := cranial skeleton ^ derived from cell .
+P-11	-0.0056 -0.0170 -0.0197 -0.0052 -0.0058 -0.0058 -0.0933 -0.0058 -0.0063 -0.0746 -0.0041 -0.0165 -0.0902 -0.0135 -0.0462 -0.0981 -0.0770 -0.0561
+S-2	orthodentine is a odontoid tissue that typically contain tubule and is acellular .
+T-2	orthodentine := odontoid tissue ^ E contain . ( tubule ) ^ acellular .
+H-2	-0.1877785623073578	orthodentine := odontoid tissue ^ E tyune . ( contain tubule ) ^ E tyid . ( acellular ) .
+D-2	-0.1877785623073578	orthodentine := odontoid tissue ^ E tyune . ( contain tubule ) ^ E tyid . ( acellular ) .
+P-2	-0.0258 -0.0280 -0.0109 -0.0799 -0.0033 -0.0084 -0.0040 -0.0866 -0.0592 -0.0379 -0.0485 -4.1411 -0.0849 -0.0725 -0.0186 -0.0573 -0.0051 -0.0114 -0.0216 -0.0842 -0.0767 -0.0717 -0.0301 -0.0546 -0.4772 -0.0837 -0.0766 -0.0248 -0.0037 -0.0848 -0.0796 -0.0563
+S-6	a minister or a secretary is a politician that hold significant public office in a national or regional government .
+T-6	minister U secretary := politician ^ E hold . ( significant public office in national government U significant public office in national government regional government ) .
+H-6	-0.46104365587234497	minister := politician ^ E hold . ( significant office U regional government ) .
+D-6	-0.46104365587234497	minister := politician ^ E hold . ( significant office U regional government ) .
+P-6	-0.0019 -6.2309 -0.0037 -0.0725 -0.0546 -0.0074 -0.0819 -0.0736 -0.0334 -1.1143 -0.0068 -0.3962 -0.0076 -0.0021 -0.0095 -0.0609 -0.0849 -0.0565
+S-12	a pelvic fin is a paired fin located in the abdominal position of the body .
+T-12	pelvic fin := paired fin ^ E located in . ( abdominal position of body ) .
+H-12	-0.34907105565071106	pelvic fin := paired fin located in of body ^ abdominal position of body .
+D-12	-0.34907105565071106	pelvic fin := paired fin located in of body ^ abdominal position of body .
+P-12	-0.0023 -0.0079 -0.0133 -0.0040 -0.0787 -0.0053 -0.0243 -0.0567 -0.0174 -0.1056 -0.2568 -3.7879 -2.6867 -0.0286 -0.0073 -0.0078 -0.0056 -0.0650 -0.0309 -0.0801 -0.0583
+S-10	a migratory neural crest cell is a cell derived from the specialized ectoderm .
+T-10	migratory neural crest cell := cell ^ E derived from . ( specialized ectoderm ) .
+H-10	-0.21465571224689484	migratory neural crest cell := cell derim ^ specialized from ectoderm .
+D-10	-0.21465571224689484	migratory neural crest cell := cell derim ^ specialized from ectoderm .
+P-10	-0.0044 -0.0046 -0.0204 -0.0033 -0.0041 -0.6805 -0.0743 -0.0034 -0.0108 -0.0348 -1.1642 -1.6835 -0.0047 -0.0089 -0.0204 -0.0069 -0.0796 -0.0551
+S-4	the mesodermal cell is a cell of the middle germ layer of the embryo .
+T-4	mesodermal cell := cell of middle germ layer of embryo .
+H-4	-0.2819403111934662	mesodermal cell := cell of the germ layer of the embryo .
+D-4	-0.2819403111934662	mesodermal cell := cell of the germ layer of the embryo .
+P-4	-0.0043 -0.0241 -0.0029 -0.0030 -0.0769 -0.0028 -0.0562 -0.5729 -0.0937 -0.0474 -0.0071 -0.0876 -2.5737 -0.0450 -0.8559 -0.0575
+S-5	a sensor is any entity that can observe some property of a feature of interest .
+T-5	sensor := any entity ^ >= <<unk>> observe . ( property of feature of interest ) .
+H-5	-0.05300658941268921	sensor := entity ^ E can . ( some property of feature ) .
+D-5	-0.05300658941268921	sensor := entity ^ E can . ( some property of feature ) .
+P-5	-0.0022 -0.0720 -0.0028 -0.0081 -0.0833 -0.0585 -0.0748 -0.0133 -0.0845 -0.0780 -0.1476 -0.0022 -0.0572 -0.0080 -0.0772 -0.0790 -0.0526
+S-17	a zero-dimensional region is a spatial region that have NUM dimension .
+T-17	zero-dimensional region := spatial region = NUM have dimension . ( <<unk>> ) .
+H-17	-0.04009384289383888	zero-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+D-17	-0.04009384289383888	zero-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+P-17	-0.0112 -0.0046 -0.0049 -0.0020 -0.0920 -0.0172 -0.0305 -0.0262 -0.0209 -0.0040 -0.0779 -0.0279 -0.0370 -0.0269 -0.0237 -0.0840 -0.0752 -0.0109 -0.0821 -0.1266 -0.0563
+S-9	the odontoblast is a skeletogenic cell that develop from a preodontoblast cell .
+T-9	odontoblast := skeletogenic cell ^ E develop from . ( preodontoblast cell ) .
+H-9	-0.036762647330760956	odontoblast := skeletogenic cell ^ E develop . ( from preodontoblast cell ) .
+D-9	-0.036762647330760956	odontoblast := skeletogenic cell ^ E develop . ( from preodontoblast cell ) .
+P-9	-0.0041 -0.0645 -0.0090 -0.0178 -0.0030 -0.0033 -0.0847 -0.0602 -0.0053 -0.0204 -0.0851 -0.0721 -0.0057 -0.0383 -0.0041 -0.0051 -0.0668 -0.0888 -0.0601
+S-16	a one-dimensional region is a spatial region that have NUM dimension .
+T-16	one-dimensional region := spatial region = NUM have dimension . ( <<unk>> ) .
+H-16	-0.038513243198394775	one-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+D-16	-0.038513243198394775	one-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+P-16	-0.0043 -0.0034 -0.0022 -0.0855 -0.0191 -0.0287 -0.0257 -0.0215 -0.0038 -0.0769 -0.0303 -0.0374 -0.0322 -0.0213 -0.0833 -0.0763 -0.0064 -0.0655 -0.0892 -0.0574
+S-66	every engine is a complex energy production system that is part of the motorcycle .
+T-66	engine := complex energy production system ^ E part of . ( motorcycle ) .
+H-66	-0.21676233410835266	engine := complex energy system ^ part of the motorcycle .
+D-66	-0.21676233410835266	engine := complex energy system ^ part of the motorcycle .
+P-66	-0.0129 -0.0235 -0.0739 -0.0013 -0.0050 -0.0389 -0.3640 -0.0105 -0.0218 -0.0697 -2.2723 -0.0044 -0.0796 -0.0569
+S-68	a cross blade screwdriver is also a screwdriver that have a cross blade .
+T-68	cross blade screwdriver := screwdriver ^ E have cross blade . ( <<unk>> ) .
+H-68	-0.04721729829907417	cross blade screwdriver := screwdriver ^ have cross blade .
+D-68	-0.04721729829907417	cross blade screwdriver := screwdriver ^ have cross blade .
+P-68	-0.0049 -0.0028 -0.0352 -0.0022 -0.0808 -0.0068 -0.0027 -0.1023 -0.2522 -0.0234 -0.0058 -0.0042 -0.0817 -0.0561
+S-74	the rake is a hand tool that is used by gardener .
+T-74	rake := hand tool ^ E used by . ( gardener ) .
+H-74	-0.15876217186450958	rake := hand tool ^ used gardener gardener .
+D-74	-0.15876217186450958	rake := hand tool ^ used gardener gardener .
+P-74	-0.0273 -0.0104 -0.0760 -0.0032 -0.1095 -0.0157 -0.0769 -0.0040 -1.9318 -0.0205 -0.0158 -0.0269 -0.0177 -0.0147 -0.1323 -0.0574
+S-8	a meaty pizza is any pizza that have at least NUM meat topping .
+T-8	meaty pizza := pizza ^ >= NUM have topping . ( meat topping ) .
+H-8	-0.039242636412382126	meaty pizza := pizza ^ >= NUM have . ( meat topping ) .
+D-8	-0.039242636412382126	meaty pizza := pizza ^ >= NUM have . ( meat topping ) .
+P-8	-0.0022 -0.0044 -0.0763 -0.0028 -0.0760 -0.0312 -0.0346 -0.0125 -0.0275 -0.0886 -0.0768 -0.0156 -0.0109 -0.0017 -0.0634 -0.0859 -0.0568
+S-3	the system lifetime is the total useful life of a sensor or system .
+T-3	system lifetime := total useful life of sensor U total useful life of system .
+H-3	-0.04911952465772629	system lifetime := total useful life of sensor U system .
+D-3	-0.04911952465772629	system lifetime := total useful life of sensor U system .
+P-3	-0.0029 -0.0013 -0.0807 -0.0291 -0.0027 -0.0059 -0.0140 -0.0042 -0.0573 -0.0043 -0.3401 -0.0032 -0.0834 -0.0587
+S-71	the knife is a hand tool that can cut meat and bread .
+T-71	knife := hand tool ^ >= NUM cut . ( meat ) ^ >= NUM cut . ( bread ) .
+H-71	-0.048789411783218384	knife := hand tool ^ E can . ( cut meat ) ^ E can . ( bread ) .
+D-71	-0.048789411783218384	knife := hand tool ^ E can . ( cut meat ) ^ E can . ( bread ) .
+P-71	-0.0019 -0.0732 -0.0031 -0.0182 -0.0150 -0.0827 -0.0563 -0.0361 -0.0157 -0.0859 -0.0750 -0.0016 -0.0183 -0.0084 -0.0738 -0.0741 -0.0580 -0.0345 -0.0158 -0.0864 -0.0743 -0.0016 -0.1698 -0.0831 -0.0569
+S-7	an interesting pizza is any pizza that have at least NUM topping .
+T-7	interesting pizza := pizza ^ >= NUM have topping . ( <<unk>> ) .
+H-7	-0.06967434287071228	an interesting pizza := pizza ^ >= NUM have . ( topping ) .
+D-7	-0.06967434287071228	an interesting pizza := pizza ^ >= NUM have . ( topping ) .
+P-7	-0.5295 -0.0070 -0.0156 -0.0050 -0.0734 -0.0030 -0.0758 -0.0272 -0.0372 -0.0147 -0.0246 -0.0872 -0.0735 -0.0027 -0.0667 -0.0845 -0.0567
+S-45	a dolphin is also a acquatic mammal that have a long muzzle .
+T-45	dolphin := acquatic mammal ^ have long muzzle . ( <<unk>> ) .
+H-45	-0.04227961227297783	dolphin := acquatic mammal ^ E have . ( long muzzle ) .
+D-45	-0.04227961227297783	dolphin := acquatic mammal ^ E have . ( long muzzle ) .
+P-45	-0.0015 -0.0748 -0.0272 -0.0044 -0.0015 -0.0795 -0.0653 -0.0195 -0.0250 -0.0865 -0.0738 -0.0028 -0.0026 -0.0748 -0.0824 -0.0549
+S-51	a giraffe is also a herbivor that live in africa .
+T-51	giraffe := herbivor ^ E live in . ( africa ) .
+H-51	-0.046194709837436676	giraffe := herbivor ^ E live . ( africa ) .
+D-51	-0.046194709837436676	giraffe := herbivor ^ E live . ( africa ) .
+P-51	-0.0101 -0.0302 -0.0053 -0.0251 -0.0752 -0.0026 -0.0086 -0.1261 -0.0652 -0.0181 -0.0841 -0.0723 -0.0059 -0.0713 -0.0824 -0.0567
+S-18	a demonstration is a public protest that could disrupt traffic .
+T-18	demonstration := public protest ^ >= <<unk>> disrupt . ( traffic ) .
+H-18	-0.04775438457727432	demonstration := public protest ^ E could . ( disrupt traffic ) .
+D-18	-0.04775438457727432	demonstration := public protest ^ E could . ( disrupt traffic ) .
+P-18	-0.0012 -0.0739 -0.0056 -0.0034 -0.0031 -0.0881 -0.0651 -0.0172 -0.0497 -0.1375 -0.0848 -0.0730 -0.0384 -0.0050 -0.0041 -0.0686 -0.0860 -0.0549
+S-19	a ball game is an event that can disrupt traffic .
+T-19	ball game := event ^ >= <<unk>> disrupt . ( traffic ) .
+H-19	-0.05573613569140434	ball game := an event ^ E can . ( traffic ) .
+D-19	-0.05573613569140434	ball game := an event ^ E can . ( traffic ) .
+P-19	-0.0016 -0.0041 -0.0795 -0.0272 -0.0050 -0.0224 -0.0815 -0.0594 -0.0449 -0.0117 -0.0869 -0.0729 -0.1444 -0.1071 -0.0872 -0.0558
+S-54	all cat are also animal that are chased by a dog .
+T-54	cat := animal ^ E chased by . ( dog ) .
+H-54	-0.05815928056836128	cat := animal ^ chased by dog .
+D-54	-0.05815928056836128	cat := animal ^ chased by dog .
+P-54	-0.0018 -0.0722 -0.0028 -0.0720 -0.0197 -0.0154 -0.0394 -0.2760 -0.0039 -0.0805 -0.0561
+S-56	all mouse are animal that are chased only by a cat .
+T-56	mouse := animal ^ A chased by . ( cat ) .
+H-56	-0.03748217597603798	mouse := animal ^ chased cat .
+D-56	-0.03748217597603798	mouse := animal ^ chased cat .
+P-56	-0.0016 -0.0682 -0.0029 -0.0735 -0.0213 -0.0185 -0.0430 -0.0021 -0.0898 -0.0538
+S-0	a non-vegetarian pizza is any pizza that is not a vegetarian pizza .
+T-0	non-vegetarian pizza := pizza ^ ! vegetarian pizza .
+H-0	-0.033901769667863846	non-vegetarian pizza := pizza ^ vegetarian pizza .
+D-0	-0.033901769667863846	non-vegetarian pizza := pizza ^ vegetarian pizza .
+P-0	-0.0053 -0.0078 -0.0040 -0.0822 -0.0042 -0.0697 -0.0092 -0.0026 -0.0959 -0.0580
+S-22	a show is an entertainment event that can disrupt traffic .
+T-22	show := entertainment event ^ >= <<unk>> disrupt . ( traffic ) .
+H-22	-0.0575760081410408	show := an entertainment event ^ E can . ( traffic ) .
+D-22	-0.0575760081410408	show := an entertainment event ^ E can . ( traffic ) .
+P-22	-0.0019 -0.0711 -0.0236 -0.0065 -0.0065 -0.0186 -0.0714 -0.0609 -0.0390 -0.0134 -0.0860 -0.0728 -0.0910 -0.2184 -0.0841 -0.0560
+S-20	a boxing tournament is an event that can disrupt traffic .
+T-20	boxing tournament := event ^ >= <<unk>> disrupt . ( traffic ) .
+H-20	-0.047990813851356506	boxing tournament := an event ^ E can . ( traffic ) .
+D-20	-0.047990813851356506	boxing tournament := an event ^ E can . ( traffic ) .
+P-20	-0.0034 -0.0031 -0.0740 -0.0372 -0.0043 -0.0219 -0.0760 -0.0594 -0.0413 -0.0113 -0.0863 -0.0736 -0.0389 -0.0945 -0.0860 -0.0567
+S-25	a fallen power cable may obstruct the transport infrastructure .
+T-25	fallen power cable := >= <<unk>> obstruct . ( transport infrastructure ) .
+H-25	-0.04493485391139984	fallen power cable := E may . ( transport infrastructure ) .
+D-25	-0.04493485391139984	fallen power cable := E may . ( transport infrastructure ) .
+P-25	-0.0235 -0.0076 -0.0159 -0.0027 -0.0090 -0.0961 -0.0587 -0.0673 -0.0265 -0.0859 -0.0779 -0.0113 -0.0039 -0.0752 -0.0909 -0.0665
+S-1	the battery lifetime is the total useful life of a battery .
+T-1	battery lifetime := total useful life of battery .
+H-1	-0.1959628313779831	battery lifetime := total useful life of battery .
+D-1	-0.1959628313779831	battery lifetime := total useful life of battery .
+P-1	-0.0033 -0.0016 -0.0894 -0.0297 -0.0027 -0.0069 -0.0139 -0.0048 -0.0572 -0.0042 -2.0850 -0.0528
+S-44	all dolphin are also acquatic mammal that live in the sea .
+T-44	dolphin := acquatic mammal ^ E live in . ( sea ) .
+H-44	-0.05389592424035072	dolphin := acquatic mammal ^ E live . ( sea ) .
+D-44	-0.05389592424035072	dolphin := acquatic mammal ^ E live . ( sea ) .
+P-44	-0.0017 -0.0773 -0.0240 -0.0046 -0.0031 -0.0871 -0.0591 -0.0119 -0.0858 -0.0713 -0.1204 -0.0683 -0.0833 -0.0565
+S-49	all male lion have more than NUM female mate .
+T-49	male lion := >= NUM have female mate . ( <<unk>> ) .
+H-49	-0.04072067514061928	male lion := > NUM have . ( female mate ) .
+D-49	-0.04072067514061928	male lion := > NUM have . ( female mate ) .
+P-49	-0.0040 -0.0306 -0.0089 -0.0750 -0.0360 -0.0377 -0.0493 -0.0200 -0.0880 -0.0729 -0.0052 -0.0051 -0.0063 -0.0743 -0.0834 -0.0546
+S-48	a lion is a mammal that have long hair .
+T-48	lion := mammal ^ have long hair . ( <<unk>> ) .
+H-48	-0.051109977066516876	lion := mammal ^ E have . ( long hair ) .
+D-48	-0.051109977066516876	lion := mammal ^ E have . ( long hair ) .
+P-48	-0.0291 -0.0095 -0.0785 -0.0026 -0.0765 -0.0634 -0.0157 -0.0312 -0.0843 -0.0751 -0.0028 -0.0151 -0.0092 -0.1866 -0.0838 -0.0542
+S-21	a cricket match is something that can disrupt traffic .
+T-21	cricket match := >= <<unk>> disrupt . ( traffic ) .
+H-21	-0.048840004950761795	cricket match := E can . ( traffic ) .
+D-21	-0.048840004950761795	cricket match := E can . ( traffic ) .
+P-21	-0.0043 -0.0052 -0.0137 -0.0793 -0.0607 -0.0690 -0.0136 -0.0844 -0.0728 -0.0074 -0.0802 -0.0854 -0.0588
+S-52	all elephant are mammal that have a big trunk .
+T-52	elephant := mammal ^ have big trunk . ( <<unk>> ) .
+H-52	-0.04629993066191673	elephant := mammal ^ E have . ( big trunk ) .
+D-52	-0.04629993066191673	elephant := mammal ^ E have . ( big trunk ) .
+P-52	-0.0028 -0.0748 -0.0028 -0.0773 -0.0663 -0.0324 -0.0283 -0.0870 -0.0756 -0.0150 -0.0176 -0.0023 -0.0702 -0.0866 -0.0555
+S-47	every lion is a carnivor that hunt gazelle .
+T-47	lion := carnivor ^ E hunt . ( gazelle ) .
+H-47	-0.044833265244960785	lion := carnivor ^ E hunt . ( gazelle ) .
+D-47	-0.044833265244960785	lion := carnivor ^ E hunt . ( gazelle ) .
+P-47	-0.0281 -0.0103 -0.0773 -0.0027 -0.0778 -0.0656 -0.0055 -0.0272 -0.0838 -0.0766 -0.0066 -0.0067 -0.0662 -0.0830 -0.0550
+S-70	clamp are also tool that can secure object .
+T-70	clamp := tool ^ >= NUM secure . ( object ) .
+H-70	-0.050784219056367874	clamp := tool ^ E can . ( object ) .
+D-70	-0.050784219056367874	clamp := tool ^ E can . ( object ) .
+P-70	-0.0021 -0.0692 -0.0169 -0.0196 -0.0828 -0.0574 -0.0450 -0.0143 -0.0855 -0.0766 -0.0334 -0.0705 -0.0806 -0.0570
+S-61	every bycicle is a vehicle that have NUM weel .
+T-61	bycicle := vehicle ^ = NUM have weel . ( <<unk>> ) .
+H-61	-0.047375913709402084	bycicle := vehicle ^ = NUM have . ( weel ) .
+D-61	-0.047375913709402084	bycicle := vehicle ^ = NUM have . ( weel ) .
+P-61	-0.0053 -0.0736 -0.0022 -0.0766 -0.0320 -0.0374 -0.0260 -0.0298 -0.0870 -0.0752 -0.0032 -0.0751 -0.0824 -0.0575
+S-42	all mammal are also animal that brestfeed puppy .
+T-42	mammal := animal ^ E brestfeed . ( puppy ) .
+H-42	-0.04557717591524124	mammal := animal ^ E brestfeed . ( puppy ) .
+D-42	-0.04557717591524124	mammal := animal ^ E brestfeed . ( puppy ) .
+P-42	-0.0009 -0.0737 -0.0032 -0.0659 -0.0594 -0.0126 -0.0257 -0.0336 -0.0832 -0.0768 -0.0038 -0.0639 -0.0799 -0.0555
+S-35	the ununseptium atom is a type of atom .
+T-35	ununseptium atom := atom .
+H-35	-0.10651078075170517	ununseptium atom := type of atom .
+D-35	-0.10651078075170517	ununseptium atom := type of atom .
+P-35	-0.0062 -0.0075 -0.0763 -0.0157 -0.0386 -0.0679 -0.0672 -0.0042 -0.7245 -0.0571
+S-34	the chlorine atom is a type of atom .
+T-34	chlorine atom := atom .
+H-34	-0.11534759402275085	chlorine atom := type of atom .
+D-34	-0.11534759402275085	chlorine atom := type of atom .
+P-34	-0.0035 -0.0063 -0.0780 -0.0136 -0.0382 -0.0775 -0.0712 -0.0039 -0.8042 -0.0571
+S-57	every bee is a insect that produce honey .
+T-57	bee := insect ^ E produce . ( honey ) .
+H-57	-0.047283269464969635	bee := insect ^ E produce . ( honey ) .
+D-57	-0.047283269464969635	bee := insect ^ E produce . ( honey ) .
+P-57	-0.0031 -0.0707 -0.0023 -0.0760 -0.0596 -0.0049 -0.0863 -0.0764 -0.0055 -0.0228 -0.0634 -0.0878 -0.0560
+S-31	quark are subatomic particle .
+T-31	quark := subatomic particle .
+H-31	-0.03230709955096245	quark := subatomic particle .
+D-31	-0.03230709955096245	quark := subatomic particle .
+P-31	-0.0069 -0.0088 -0.0746 -0.0130 -0.0131 -0.0088 -0.0117 -0.0117 -0.0171 -0.1274 -0.0623
+S-55	a cat is also a mammal that chase mouse .
+T-55	cat := mammal ^ E chase . ( mouse ) .
+H-55	-0.08581669628620148	cat := cat mammal ^ E chase . ( mouse ) .
+D-55	-0.08581669628620148	cat := cat mammal ^ E chase . ( mouse ) .
+P-55	-0.0022 -0.0702 -0.5189 -0.0052 -0.0805 -0.0657 -0.0118 -0.0833 -0.0776 -0.0030 -0.0644 -0.0783 -0.0545
+S-29	boson are part of complex particle .
+T-29	boson := E part of . ( complex particle ) .
+H-29	-0.03444381058216095	boson := part of complex particle .
+D-29	-0.03444381058216095	boson := part of complex particle .
+P-29	-0.0053 -0.0669 -0.0085 -0.0220 -0.0553 -0.0017 -0.0082 -0.0152 -0.0219 -0.1137 -0.0602
+S-59	all bee are insect that have NUM leg .
+T-59	bee := insect ^ = NUM have leg . ( <<unk>> ) .
+H-59	-0.04645290970802307	bee := insect ^ = NUM have . ( leg ) .
+D-59	-0.04645290970802307	bee := insect ^ = NUM have . ( leg ) .
+P-59	-0.0025 -0.0741 -0.0025 -0.0723 -0.0257 -0.0383 -0.0352 -0.0289 -0.0869 -0.0754 -0.0031 -0.0669 -0.0821 -0.0564
+S-24	a damaged gallery may cause traffic disruption .
+T-24	damaged gallery := >= <<unk>> cause . ( traffic disruption ) .
+H-24	-0.04767359048128128	damaged gallery := E may . ( cause disruption ) .
+D-24	-0.04767359048128128	damaged gallery := E may . ( cause disruption ) .
+P-24	-0.0042 -0.0319 -0.0020 -0.0885 -0.0553 -0.0356 -0.0348 -0.0900 -0.0748 -0.0093 -0.0102 -0.0710 -0.0929 -0.0668
+S-41	carnivor are animal that eat only animal .
+T-41	carnivor := animal ^ A eat . ( animal ) .
+H-41	-0.04652189090847969	carnivor := animal ^ A eat . ( animal ) .
+D-41	-0.04652189090847969	carnivor := animal ^ A eat . ( animal ) .
+P-41	-0.0058 -0.0635 -0.0028 -0.0748 -0.0604 -0.0258 -0.0099 -0.0859 -0.0741 -0.0028 -0.0661 -0.0809 -0.0520
+S-32	fermion are subatomic particle .
+T-32	fermion := subatomic particle .
+H-32	-0.03841789811849594	fermion := subatomic particle .
+D-32	-0.03841789811849594	fermion := subatomic particle .
+P-32	-0.0011 -0.0650 -0.0144 -0.0120 -0.0121 -0.0129 -0.0141 -0.0180 -0.1753 -0.0595
+S-72	the blade is part of the knife .
+T-72	blade := E part of . ( knife ) .
+H-72	-0.12475636601448059	blade := part of the knife .
+D-72	-0.12475636601448059	blade := part of the knife .
+P-72	-0.0021 -0.0669 -0.0125 -0.0239 -0.0601 -0.7713 -0.0016 -0.1285 -0.0559
+S-39	all strontium atom have NUM proton .
+T-39	strontium atom = NUM have proton . ( <<unk>> ) .
+H-39	-0.045761141926050186	strontium atom := = NUM have . ( proton ) .
+D-39	-0.045761141926050186	strontium atom := = NUM have . ( proton ) .
+P-39	-0.0068 -0.0106 -0.0751 -0.0284 -0.0393 -0.0270 -0.0197 -0.0901 -0.0712 -0.0057 -0.0751 -0.0856 -0.0603
+S-36	the mercury atom have NUM proton .
+T-36	mercury atom = NUM have proton . ( <<unk>> ) .
+H-36	-0.044104818254709244	mercury atom := = NUM have . ( proton ) .
+D-36	-0.044104818254709244	mercury atom := = NUM have . ( proton ) .
+P-36	-0.0029 -0.0116 -0.0708 -0.0282 -0.0381 -0.0168 -0.0209 -0.0899 -0.0710 -0.0049 -0.0748 -0.0846 -0.0590
+S-62	saddle are part of the bycicle .
+T-62	saddle := E part of . ( bycicle ) .
+H-62	-0.142389714717865	saddle := part of the bycicle .
+D-62	-0.142389714717865	saddle := part of the bycicle .
+P-62	-0.0022 -0.0676 -0.0099 -0.0214 -0.0579 -0.9281 -0.0099 -0.1278 -0.0567
+S-58	bee are insect that live in hive .
+T-58	bee := insect ^ E live in . ( hive ) .
+H-58	-0.0489194318652153	bee := insect ^ E live . ( hive ) .
+D-58	-0.0489194318652153	bee := insect ^ E live . ( hive ) .
+P-58	-0.0031 -0.0646 -0.0023 -0.0635 -0.0597 -0.0217 -0.0832 -0.0720 -0.0094 -0.0702 -0.0824 -0.0549
+S-28	electron are beta particle .
+T-28	electron := beta particle .
+H-28	-0.0415860153734684	electron := beta particle .
+D-28	-0.0415860153734684	electron := beta particle .
+P-28	-0.0056 -0.0684 -0.0075 -0.0112 -0.0149 -0.0192 -0.0186 -0.1668 -0.0620
+S-38	all ununseptium atom have NUM proton .
+T-38	ununseptium atom = NUM have proton . ( <<unk>> ) .
+H-38	-0.045970696955919266	ununseptium atom := = NUM have . ( proton ) .
+D-38	-0.045970696955919266	ununseptium atom := = NUM have . ( proton ) .
+P-38	-0.0061 -0.0119 -0.0755 -0.0308 -0.0389 -0.0225 -0.0200 -0.0899 -0.0712 -0.0056 -0.0754 -0.0857 -0.0642
+S-46	cow are herbivor that produce milk .
+T-46	cow := herbivor ^ E produce . ( milk ) .
+H-46	-0.045433372259140015	cow := herbivor ^ E produce . ( milk ) .
+D-46	-0.045433372259140015	cow := herbivor ^ E produce . ( milk ) .
+P-46	-0.0027 -0.0650 -0.0038 -0.0109 -0.0693 -0.0613 -0.0027 -0.0853 -0.0764 -0.0072 -0.0701 -0.0798 -0.0561
+S-23	landslipes may obstruct transport infrastructure .
+T-23	landslipes := >= <<unk>> obstruct . ( transport infrastructure ) .
+H-23	-0.05866898223757744	landslipes may := E obstruct . ( transport infrastructure ) .
+D-23	-0.05866898223757744	landslipes may := E obstruct . ( transport infrastructure ) .
+P-23	-0.0029 -0.2343 -0.0273 -0.0804 -0.0583 -0.0144 -0.0068 -0.0923 -0.0767 -0.0082 -0.0044 -0.0697 -0.0840 -0.0617
+S-50	tiger are carnivor that live in asia .
+T-50	tiger := carnivor ^ E live in . ( asia ) .
+H-50	-0.050787851214408875	tiger := carnivor ^ E live . ( asia ) .
+D-50	-0.050787851214408875	tiger := carnivor ^ E live . ( asia ) .
+P-50	-0.0041 -0.0623 -0.0049 -0.0675 -0.0569 -0.0265 -0.0853 -0.0731 -0.0165 -0.0736 -0.0834 -0.0556
+S-60	a bee have black stripe .
+T-60	bee := E have black stripe . ( <<unk>> ) .
+H-60	-0.0424249991774559	bee := E have . ( black stripe ) .
+D-60	-0.0424249991774559	bee := E have . ( black stripe ) .
+P-60	-0.0028 -0.0607 -0.0554 -0.0154 -0.0194 -0.0917 -0.0748 -0.0029 -0.0023 -0.0048 -0.0806 -0.0836 -0.0570
+S-37	a polonium atom have NUM proton .
+T-37	polonium atom = NUM have proton . ( <<unk>> ) .
+H-37	-0.04447503387928009	polonium atom := = NUM have . ( proton ) .
+D-37	-0.04447503387928009	polonium atom := = NUM have . ( proton ) .
+P-37	-0.0027 -0.0107 -0.0746 -0.0246 -0.0386 -0.0196 -0.0209 -0.0901 -0.0712 -0.0048 -0.0740 -0.0862 -0.0602
+S-69	all scissor are also tool .
+T-69	scissor := tool .
+H-69	-0.252309113740921	scissor := tool .
+D-69	-0.252309113740921	scissor := tool .
+P-69	-0.0033 -0.0825 -0.0181 -0.0140 -1.1422 -0.2537
+S-53	all cat are also small feline .
+T-53	cat := small feline .
+H-53	-0.06467465311288834	cat := small feline .
+D-53	-0.06467465311288834	cat := small feline .
+P-53	-0.0021 -0.0763 -0.0032 -0.0010 -0.2492 -0.0563
+S-65	trunk are part of car .
+T-65	trunk := E part of . ( car ) .
+H-65	-0.04990970715880394	trunk := part of car .
+D-65	-0.04990970715880394	trunk := part of car .
+P-65	-0.0022 -0.0749 -0.0101 -0.0212 -0.0591 -0.0037 -0.1656 -0.0625
+S-40	gold atom have NUM proton .
+T-40	gold atom = NUM have proton . ( <<unk>> ) .
+H-40	-0.04483063891530037	gold atom := = NUM have . ( proton ) .
+D-40	-0.04483063891530037	gold atom := = NUM have . ( proton ) .
+P-40	-0.0066 -0.0111 -0.0717 -0.0200 -0.0377 -0.0314 -0.0203 -0.0914 -0.0716 -0.0047 -0.0738 -0.0848 -0.0576
+S-43	acquatic mammal are mammal .
+T-43	acquatic mammal := mammal .
+H-43	-0.2451755255460739	acquatic mammal := mammal ^ acquatic .
+D-43	-0.2451755255460739	acquatic mammal := mammal ^ acquatic .
+P-43	-0.0325 -0.0064 -0.0012 -0.0869 -0.0014 -2.0435 -0.1068 -0.0067 -0.1074 -0.0590
+S-33	helium atom are a atom .
+T-33	helium atom := atom .
+H-33	-0.11561498790979385	helium atom := atom atom ^ atom .
+D-33	-0.11561498790979385	helium atom := atom atom ^ atom .
+P-33	-0.0054 -0.0109 -0.0714 -0.0050 -0.0506 -0.6139 -0.1357 -0.0905 -0.0572
+S-67	screwdriver are tool .
+T-67	screwdriver := tool .
+H-67	-0.4143538773059845	screwdriver := tool .
+D-67	-0.4143538773059845	screwdriver := tool .
+P-67	-0.0165 -0.0034 -0.0703 -0.0171 -0.0125 -2.6540 -0.1267
+S-73	knife have a handle .
+T-73	knife := E have handle . ( <<unk>> ) .
+H-73	-0.12892115116119385	knife have handle := E have . ( handle ) .
+D-73	-0.12892115116119385	knife have handle := E have . ( handle ) .
+P-73	-0.0025 -1.1799 -0.0271 -0.0058 -0.0933 -0.0621 -0.0193 -0.0337 -0.0878 -0.0730 -0.0065 -0.0736 -0.0835 -0.0571
+S-30	quark are fermion .
+T-30	quark := fermion .
+H-30	-0.1996486783027649	quark := fermion fermion .
+D-30	-0.1996486783027649	quark := fermion fermion .
+P-30	-0.0092 -0.0087 -0.0757 -0.0013 -0.0127 -1.2159 -0.0740

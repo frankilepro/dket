@@ -1,0 +1,75 @@
+non-vegetarian pizza := pizza ^ ! vegetarian pizza .
+battery lifetime := total useful life of battery .
+orthodentine := odontoid tissue ^ E contain . ( tubule ) ^ acellular .
+system lifetime := total useful life of sensor U total useful life of system .
+mesodermal cell := cell of middle germ layer of embryo .
+sensor := any entity ^ >= 0 observe . ( property of feature of interest ) .
+minister U secretary := politician ^ E hold . ( significant public office in national government U significant public office in national government regional government ) .
+interesting pizza := pizza ^ >= NUM have topping . ( T ) .
+meaty pizza := pizza ^ >= NUM have topping . ( meat topping ) .
+odontoblast := skeletogenic cell ^ E develop from . ( preodontoblast cell ) .
+migratory neural crest cell := cell ^ E derived from . ( specialized ectoderm ) .
+craniofacial skeleton := cranial skeleton ^ E derived from . ( neural crest cell ) .
+pelvic fin := paired fin ^ E located in . ( abdominal position of body ) .
+pelvic fin skeleton := paired fin skeleton ^ E located in . ( abdominal position ) ^ E consists of . ( supporting endochondral radial ^ ( dermal fin ray U dermal fin lepidotrichia ) ) .
+odontoid tissue := skeletal tissue ^ E part of . ( exoskeleton ) ^ E derived from . ( odontogenic papilla ) .
+appendicular skeleton := skeletal subdivision ^ E consisting of . ( skeletal element in pectoral appendage complex U skeletal element in pelvic appendage complex ) .
+one-dimensional region := spatial region = NUM have dimension . ( T ) .
+zero-dimensional region := spatial region = NUM have dimension . ( T ) .
+demonstration := public protest ^ >= 0 disrupt . ( traffic ) .
+ball game := event ^ >= 0 disrupt . ( traffic ) .
+boxing tournament := event ^ >= 0 disrupt . ( traffic ) .
+cricket match := >= 0 disrupt . ( traffic ) .
+show := entertainment event ^ >= 0 disrupt . ( traffic ) .
+landslipes := >= 0 obstruct . ( transport infrastructure ) .
+damaged gallery := >= 0 cause . ( traffic disruption ) .
+fallen power cable := >= 0 obstruct . ( transport infrastructure ) .
+datum collection by sampling := datum collection process ^ E result in . ( collection of datum ^ E generated from . ( sampling process ) ) .
+datum collection from observation := datum collection process ^ E result in . ( collection of datum ^ E generated from . ( observation ) ) .
+electron := beta particle .
+boson := E part of . ( complex particle ) .
+quark := fermion .
+quark := subatomic particle .
+fermion := subatomic particle .
+helium atom := atom .
+chlorine atom := atom .
+ununseptium atom := atom .
+mercury atom = NUM have proton . ( T ) .
+polonium atom = NUM have proton . ( T ) .
+ununseptium atom = NUM have proton . ( T ) .
+strontium atom = NUM have proton . ( T ) .
+gold atom = NUM have proton . ( T ) .
+carnivor := animal ^ A eat . ( animal ) .
+mammal := animal ^ E brestfeed . ( puppy ) .
+acquatic mammal := mammal .
+dolphin := acquatic mammal ^ E live in . ( sea ) .
+dolphin := acquatic mammal ^ have long muzzle . ( T ) .
+cow := herbivor ^ E produce . ( milk ) .
+lion := carnivor ^ E hunt . ( gazelle ) .
+lion := mammal ^ have long hair . ( T ) .
+male lion := >= NUM have female mate . ( T ) .
+tiger := carnivor ^ E live in . ( asia ) .
+giraffe := herbivor ^ E live in . ( africa ) .
+elephant := mammal ^ have big trunk . ( T ) .
+cat := small feline .
+cat := animal ^ E chased by . ( dog ) .
+cat := mammal ^ E chase . ( mouse ) .
+mouse := animal ^ A chased by . ( cat ) .
+bee := insect ^ E produce . ( honey ) .
+bee := insect ^ E live in . ( hive ) .
+bee := insect ^ = NUM have leg . ( T ) .
+bee := E have black stripe . ( T ) .
+bycicle := vehicle ^ = NUM have weel . ( T ) .
+saddle := E part of . ( bycicle ) .
+car := mean of transportation ^ E powered by . ( fuel U electric energy ) .
+weel := E part of . ( car ) .
+trunk := E part of . ( car ) .
+engine := complex energy production system ^ E part of . ( motorcycle ) .
+screwdriver := tool .
+cross blade screwdriver := screwdriver ^ E have cross blade . ( T ) .
+scissor := tool .
+clamp := tool ^ >= NUM secure . ( object ) .
+knife := hand tool ^ >= NUM cut . ( meat ) ^ >= NUM cut . ( bread ) .
+blade := E part of . ( knife ) .
+knife := E have handle . ( T ) .
+rake := hand tool ^ E used by . ( gardener ) .

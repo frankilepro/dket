@@ -15,8 +15,8 @@ def create_formula_as_array(definitions, sentence):
 
 
 if __name__ == "__main__":
-    path = r"C:\Users\frank\GitHub\dket\resources\reference_set.test.tsv"
-    prefix = "test"
+    path = r"C:\Users\frank\GitHub\dket\datasets\20k-closed\train.tsv"
+    prefix = "train"
     with open(path) as file, open(f"{prefix}.def", "w") as def_file, open(f"{prefix}.form", "w") as form_file:
         for line in file:
             try:
@@ -28,4 +28,3 @@ if __name__ == "__main__":
                 form_file.write(" ".join(formulas) + "\n")
             except Exception as e:
                 print(f"{e} {definition} {formula}")
-            # print("lol")
