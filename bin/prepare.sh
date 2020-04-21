@@ -15,7 +15,7 @@ CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=5000
 
-URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/def-form.tgz"
+URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/def-form-closed.tgz"
 GZ=def-form.tgz
 
 if [ ! -d "$SCRIPTS" ]; then
