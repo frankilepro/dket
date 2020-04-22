@@ -45,7 +45,6 @@ else
 fi
 
 tar zxvf "$DOWNLOAD_NAME.tgz"
-mkdir $NAME
 mv $DOWNLOAD_NAME $NAME
 cd ..
 
