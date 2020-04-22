@@ -37,7 +37,7 @@ echo "Downloading data from ${URL}..."
 cd $orig
 wget "$URL"
 
-if [ -f $DOWNLOAD_NAME ]; then
+if [ -f "$DOWNLOAD_NAME.tgz" ]; then
     echo "Data successfully downloaded."
 else
     echo "Data not successfully downloaded."
