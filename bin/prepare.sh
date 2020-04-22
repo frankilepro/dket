@@ -15,8 +15,8 @@ CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=5000
 
-DOWNLOAD_NAME=def-form-closed.tgz
-URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/$DOWNLOAD_NAME"
+DOWNLOAD_NAME=def-form-closed
+URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/$DOWNLOAD_NAME.tgz"
 NAME=def-form
 
 if [ ! -d "$SCRIPTS" ]; then
@@ -44,7 +44,7 @@ else
     exit
 fi
 
-tar zxvf $DOWNLOAD_NAME
+tar zxvf "$DOWNLOAD_NAME.tgz"
 mkdir $NAME
 mv $DOWNLOAD_NAME $NAME
 cd ..
