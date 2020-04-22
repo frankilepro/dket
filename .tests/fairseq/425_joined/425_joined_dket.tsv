@@ -1,0 +1,421 @@
+the lanthanum atom is a atom .	lanthanum atom := atom .	lanthanum atom := atom atom .
+each employee is part of a team .	employee := E part of . ( team ) .	each employee := part of team .
+side project are a type of project .	side project := project .	side project := type of project .
+lion are a type of carnivor .	lion := carnivor .	lion := type of carnivor .
+carnivor are also animal that eat only animal .	carnivor := animal ^ A eat . ( animal ) .	carnivor := animal ^ A eat . ( animal ) .
+a device is a system in a box .	device := system in box .	device := system in ^ box .
+a team follow more than NUM side project .	team := >= NUM more . ( project . ) .	team := > NUM follow . ( side project ) .
+an adaptor is a user that produce an adaptation .	adaptor := user ^ E produce . ( adaptation ) .	an adaptor := user ^ E produce . ( adaptation ) .
+bee are also insect that live in the hive .	bee := insect ^ E live in . ( hive ) .	bee := insect ^ E live . ( hive ) .
+carbon atom are a type of atom .	carbon atom := atom .	carbon atom := type of atom atom .
+a grind is part of the blade .	grind := E part of . ( blade ) .	grind := part of blade .
+lepton are subatomic particle .	lepton := subatomic particle .	lepton := subatomic particle ) .
+the handle is part of the knife .	handle := E part of . ( knife ) .	handle := part of knife .
+every team develop at most NUM project .	team := <= NUM develop . ( project ) .	team := <= NUM develop . ( project project ) .
+tree are a type of plant .	tree := plant .	tree := type of plant ) .
+boson are subatomic particle .	boson := subatomic particle .	boson := subatomic particle ) .
+all cat are also mammal that chase mouse .	cat := mammal ^ E chase . ( mouse ) .	cat := mammal ^ E chase . ( mouse ) .
+giraffe are also herbivor .	giraffe := herbivor .	giraffe := herbivor herbivor .
+all engine are also energy production system .	engine := energy production system .	engine := energy production ^ system system .
+all hand tool are also tool .	hand tool := tool .	hand tool := tool tool .
+an action is the exercise of a right .	action := exercise of right .	action := exercise of right .
+every dolphin is also a acquatic mammal .	dolphin := acquatic mammal .	dolphin := acquatic mammal ) .
+thoot are part of the rake .	thoot := E part of . ( rake ) .	thoot := part of rake thoot .
+rhinoceros are a type of pachyderm .	rhinoceros := pachyderm .	rhinoceros := type of pachyderm ) .
+every employee report to at least NUM manager .	employee := >= NUM report to . ( manager ) .	employee := >= NUM report . ( manager manager ) .
+dog are a type of animal .	dog := animal .	dog := type of animal .
+rhinoceros are also pachyderm that live in africa .	rhinoceros := pachyderm ^ E live in . ( africa ) .	rhinoceros := pachyderm ^ E live . ( africa ) .
+the neon atom have NUM proton .	neon atom = NUM have proton . ( <<unk>> ) .	neon atom := = NUM have . ( proton proton ) .
+bee are insect that live in the hive .	bee := insect ^ E live in . ( hive ) .	bee := E live . ( hive ) .
+all antimony atom have NUM proton .	antimony atom = NUM have proton . ( <<unk>> ) .	antimony atom := = NUM have . ( proton proton ) .
+gear are part of engine .	gear := E part of . ( engine ) .	gear := part of engine .
+steering weel are part of car .	steering weel := E part of . ( car ) .	steering weel := part of car .
+rake are used in farming activity .	rake := E used in . ( farming activity ) .	rake := used farin activity ^ rake activity .
+the xenon atom have NUM proton .	xenon atom = NUM have proton . ( <<unk>> ) .	xenon atom := = NUM have . ( proton proton ) .
+cat are also mammal that chase the mouse .	cat := mammal ^ E chase . ( mouse ) .	cat := mammal ^ E chase . ( mouse ) .
+mud slide may obstruct transport infrastructure .	mud := >= <<unk>> obstruct . ( transport infrastructure ) .	mud slide := E may . ( transport infrastructure ) .
+all tiger are carnivor that live in asia .	tiger := carnivor ^ E live in . ( asia ) .	tiger := carnivor ^ E live . ( asia asia ) .
+bee are also insect that live in hive .	bee := insect ^ E live in . ( hive ) .	bee := insect ^ E live . ( hive ) .
+handle bar are part of the bycicle .	handle bar := E part of . ( bycicle ) .	handle := part of bycicle .
+cow are also herbivor that produce milk .	cow := herbivor ^ E produce . ( milk ) .	cow := herbivor ^ E produce . ( milk ) .
+each project have exactly NUM deadline .	project := = NUM have deadline . ( <<unk>> ) .	each project := = NUM have . ( deadline deadline ) .
+all rhinoceros are pachyderm that live in africa .	rhinoceros := pachyderm ^ E live in . ( africa ) .	rhinoceros := pachyderm ^ E live . ( africa ) .
+carnivor are a type of animal .	carnivor := animal .	carnivor := type of animal .
+a arsenic atom have NUM proton .	arsenic atom = NUM have proton . ( <<unk>> ) .	arsenic atom := = NUM have . ( proton proton ) .
+all thallium atom have NUM proton .	thallium atom = NUM have proton . ( <<unk>> ) .	thallium atom := = NUM have . ( proton proton ) .
+all oxygen atom have NUM proton .	oxygen atom = NUM have proton . ( <<unk>> ) .	oxygen atom := = NUM have . ( proton proton ) .
+a manganese atom have NUM proton .	manganese atom = NUM have proton . ( <<unk>> ) .	manganese atom := = NUM have . ( proton proton ) .
+handle bar are part of bycicle .	handle bar := E part of . ( bycicle ) .	handle bar := part of bycicle .
+all cat are mammal that chase mouse .	cat := mammal ^ E chase . ( mouse ) .	cat := mammal ^ E chase . ( mouse ) .
+each project have a leader .	project := E have leader . ( <<unk>> ) .	each project := E have . ( leader ) .
+weel are part of the motorcycle .	weel := E part of . ( motorcycle ) .	weel := part of motorcycle .
+a rhodium atom have NUM proton .	rhodium atom = NUM have proton . ( <<unk>> ) .	rhodium atom := = NUM have . ( proton proton ) .
+frame are part of the bycicle .	frame := E part of . ( bycicle ) .	frame := part of bycicle .
+rockfalls may obstruct transport infrastructure .	rockfalls := >= <<unk>> obstruct . ( transport infrastructure ) .	rockfalls := E may . ( transport infrastructure ) .
+the nickel atom have NUM proton .	nickel atom = NUM have proton . ( <<unk>> ) .	nickel atom := = NUM have . ( proton proton ) .
+a chlorine atom have NUM proton .	chlorine atom = NUM have proton . ( <<unk>> ) .	chlorine atom := = NUM have . ( proton proton ) .
+all germanium atom have NUM proton .	germanium atom = NUM have proton . ( <<unk>> ) .	germanium atom := = NUM have . ( proton proton ) .
+the silicon atom have NUM proton .	silicon atom = NUM have proton . ( <<unk>> ) .	silicon atom := = NUM have . ( proton proton ) .
+the carbon atom have NUM proton .	carbon atom = NUM have proton . ( <<unk>> ) .	carbon atom := = NUM have . ( proton ) .
+all scandium atom have NUM proton .	scandium atom = NUM have proton . ( <<unk>> ) .	scandium atom := = NUM have . ( proton proton ) .
+all chromium atom have NUM proton .	chromium atom = NUM have proton . ( <<unk>> ) .	chromium atom := = NUM have . ( proton proton ) .
+a bee have black stripe .	bee := E have black stripe . ( <<unk>> ) .	bee := E have . ( black stripe ) .
+window are part of a room .	window := E part of . ( room ) .	window := part of room .
+task are part of a project .	task := E part of . ( project ) .	task := part of project ) .
+saddle are part of the motorcycle .	saddle := E part of . ( motorcycle ) .	saddle := part of motorcycle .
+vehicle are mean of transportation .	vehicle := mean of transportation .	vehicle := mean of transportation .
+a team is a group of employee .	team := group of employee .	team := group of employee .
+a carbon atom is also a atom .	carbon atom := atom .	carbon atom := atom := atom .
+every hammer is also a tool .	hammer := tool .	hammer := tool ^ hammer .
+the thallium atom is also a atom .	thallium atom := atom .	thallium atom := atom atom .
+all rake are also tool .	rake := tool .	rake := tool tool .
+all power tool are tool .	power tool := tool .	power tool := tool tool .
+all gardern fork are tool .	gardern fork := tool .	gardern fork := tool tool .
+engine are also energy production system .	engine := energy production system .	engine := energy production := energy ) .
+room are part of the building .	room := E part of . ( building ) .	room := part of building .
+desk are piece of funriture .	desk := piece of funriture .	desk := piece of funriture .
+chainsaw are used only by expert operator .	chainsaw := A used by . ( expert operator ) .	chainsaw := used expert operator := A used . ( expert operator ) .
+positron are beta particle .	positron := beta particle .	positron := beta particle ) .
+activity are part of a process .	activity := E part of . ( process )	activity := part of process ) .
+the door are part of room .	door := E part of . ( room ) .	door := part of room .
+shower are light rain or intermittent rain .	shower := light rain U intermittent rain .	shower := light rain U intermittent rain .
+weel are part of the bycicle .	weel := E part of . ( bycicle ) .	weel := part of bycicle .
+a team pursue an goal .	team := E pursue . ( goal ) .	team := E pursue . ( goan goal ) .
+the berkelium atom are also atom .	berkelium atom := atom .	berkelium atom := atom atom .
+the barium atom is a atom .	barium atom := atom .	barium atom := atom atom .
+the ununpentium atom is a atom .	ununpentium atom := atom .	ununpentium atom := atom atom .
+all mouse are also small animal .	mouse := small animal .	mouse := small animal ) .
+the manganese atom is a atom .	manganese atom := atom .	manganese atom := atom atom .
+the gadolinium atom is a atom .	gadolinium atom := atom .	gadolinium atom := atom atom .
+all insect are also small animal .	insect := small animal .	insect := small animal .
+all pachyderm are also large animal .	pachyderm := large animal .	pachyderm := large animal ) .
+the neodymium atom is a atom .	neodymium atom := atom .	neodymium atom := atom atom .
+the unununium atom is a atom .	unununium atom := atom .	unununium atom := atom atom .
+the rhenium atom is a atom .	rhenium atom := atom .	rhenium atom := atom atom .
+every saw is a tool .	saw := tool .	saw := tool .
+radium atom have NUM proton .	radium atom = NUM have proton . ( <<unk>> ) .	radium atom := = NUM have . ( proton proton ) .
+the ununhexium atom is a atom .	ununhexium atom := atom .	ununhexium atom := atom atom .
+every tiger is also a mammal .	tiger := mammal .	tiger := mammal ^ tiger .
+frame are part of motorcycle .	frame := E part of . ( motorcycle ) .	frame := part of motorcycle ) .
+branch are part of tree .	branch := E part of . ( tree ) .	branch := part of tree .
+gallium atom have NUM proton .	gallium atom = NUM have proton . ( <<unk>> ) .	gallium atom := = NUM have . ( proton proton ) .
+iodine atom have NUM proton .	iodine atom = NUM have proton . ( <<unk>> ) .	iodine atom := = NUM have . ( proton proton ) .
+molybdenum atom have NUM proton .	molybdenum atom = NUM have proton . ( <<unk>> ) .	molybdenum atom := = NUM have . ( proton proton ) .
+phosphorus atom have NUM proton .	phosphorus atom = NUM have proton . ( <<unk>> ) .	phosphorus atom := = NUM have . ( proton proton ) .
+the selenium atom is a atom .	selenium atom := atom .	selenium atom := atom atom .
+all drill are power tool .	drill := power tool .	drill := power tool .
+the magnesium atom is a atom .	magnesium atom := atom .	magnesium atom := atom atom .
+leaf are part of branch .	leaf := E part of . ( branch ) .	leaf := part of branch .
+the zirconium atom is a atom .	zirconium atom := atom .	zirconium atom := atom atom .
+gazelle are also herbivor .	gazelle := herbivor .	gazelle := herbivor herbivor .
+the strontium atom is a atom .	strontium atom := atom .	strontium atom := atom atom .
+every mammal is also a animal .	mammal := animal .	mammal := animal .
+cow are also herbivor .	cow := herbivor .	cow := herbivor herbivor .
+nickel atom is a atom .	nickel atom := atom .	nickel atom := atom atom .
+all lion are mammal .	lion := mammal .	lion := mammal mammal .
+every bycicle is a vehicle .	bycicle := vehicle .	bycicle := vehicle .
+clamp are also tool .	clamp := tool .	clamp := tool tool .
+every employee use a desk .	employee := E use . ( desk ) .	employee use := E use . ( desk ) .
+saw can cut wood .	saw := >= <<unk>> cut . ( wood ) .	saw can := E cut . ( wood wood ) .
+knife have a blade .	knife := E have blade . ( <<unk>> ) .	knife := E have . ( blade ) .
+rubidium atom are also atom .	rubidium atom := atom .	rubidium atom := atom := atom .
+all elephant are pachyderm .	elephant := pachyderm .	elephant := pachyderm := pachyderm .
+herbivor are animal .	herbivor := animal .	herbivor := animal := animal .
+tiger are carnivor .	tiger := carnivor .	tiger := carnivor carnivor .
+motorcycle are vehicle .	motorcycle := vehicle .	motorcycle := vehicle .
+car are vehicle .	car := vehicle .	car := vehicle .
+cow are mammal .	cow := mammal .	cow := mammal := mammal .
+lepton are fermion .	lepton := fermion .	lepton := fermion fermion .
+engine are also complex system that are part of the car .	engine := complex system ^ E part of . ( car ) .	engine := complex system ^ part car .
+every lion is also a carnivor that hunt the gazelle .	lion := carnivor ^ E hunt . ( gazelle ) .	lion := carnivor carnivor ^ E hunt . ( gazelle ) .
+a kindergarten is the location that is used for pre-school education .	kindergarten := location ^ E used for . ( pre-school education ) .	kindergarten := location ^ E ( used U pre-school ) . ( fschool education ) .
+a tennis tournament is an event that can disrupt traffic .	tennis tournament := event ^ >= <<unk>> disrupt . ( traffic ) .	tennis tournament := evan event ^ E can . ( disrupt traffic ) .
+a bicycle race is something that can disrupt traffic .	bicycle race := >= <<unk>> disrupt . ( traffic ) .	bicycle race := E can . ( disrupt traffic ) .
+a concert is an event that can disrupt traffic .	concert := event ^ >= <<unk>> disrupt . ( traffic ) .	concert := an event ^ E can . ( disrupt traffic ) .
+a bull fight is an event that can disrupt traffic .	bull fight := event ^ >= <<unk>> disrupt . ( traffic ) .	bull fight := evan event ^ E can . ( disrupt traffic ) .
+an athletics meeting is an event that can disrupt traffic .	athletics meeting := event ^ >= <<unk>> disrupt . ( traffic ) .	an athletics := evan event ^ E can . ( disrupt traffic ) .
+all engine are complex system that are part of the car .	engine := complex system ^ E part of . ( car ) .	engine := complex system ^ part car car .
+a elephant is also a mammal that have a big trunk .	elephant := mammal ^ have big trunk . ( <<unk>> ) .	elephant := mammal ^ E have . ( big trunk ) .
+a motor show is an event that can disrupt traffic .	motor show := event ^ >= <<unk>> disrupt . ( traffic ) .	motor show := evan event ^ E can . ( disrupt traffic ) .
+a cat is also a animal that is chased by dog .	cat := animal ^ E chased by . ( dog ) .	cat := animal ^ chased by by dog .
+tasty plant are eaten both by herbivore and carnivore .	tasty plant := plant ^ E eaten by . ( herbivore ) ^ E eaten by . ( carnivore ) .	tasty plant := eaten boby herbivore ^ carnivore .
+a mouse is a animal that is chased only by cat .	mouse := animal ^ A chased by . ( cat ) .	mouse := animal ^ A chased . ( by cat ) .
+rhinoceros are a type of mammal that have NUM horn .	rhinoceros := mammal ^ = NUM have horn . ( <<unk>> ) .	rhinoceros := type of mammal ^ = NUM have . ( horn horn ) .
+bycicle are a type of vehicle that have NUM weel .	bycicle := vehicle ^ = NUM have weel . ( <<unk>> ) .	bycicle := type of vehicle ^ = NUM have . ( weel weel ) .
+a boat show is something which can disrupt traffic .	boat show := >= <<unk>> disrupt . ( traffic ) .	boat show := E which . ( can disrupt traffic ) .
+every lion is a mammal that have a long hair .	lion := mammal ^ have long hair . ( <<unk>> ) .	lion := mammal ^ E have . ( long hair ) .
+a university or a college is an institution of higher education .	university U college := institution of higher education .	university := college U college of higher education .
+an osteoblast is a skeletogenic cell that secretes osteoid .	osteoblast := skeletogenic cell ^ E secretes . ( osteoid ) .	an := skeletogenic cell ^ E secretes . ( osteoid .
+the odontoblast is a skeletogenic cell that secretes dentine matrix .	odontoblast := skeletogenic cell ^ E secretes . ( dentine matrix ) .	odontoblast := skeletogenic cell ^ E secretes . ( dentine matrix ) .
+a tetraploid is cell or organism having NUM set of chromosome .	tetraploid := ( cell U organism ) ^ = NUM having chromosome . ( set ) .	tetraploid := cell U organism set of chromosome .
+trimestral activity are activity that take exactly NUM month .	trimestral activity := activity ^ = NUM take . ( month ) .	trimestral activity := activity ^ = NUM take . ( month ) .
+piece of furniture are artifact that furnish a room .	piece of furniture := artifact ^ E furnish . ( room ) .	piece of furniture := artifact ^ E furnish . ( room room ) .
+every tiger is also a large feline that have black stripe .	tiger := large feline ^ E have black stripe . ( <<unk>> ) .	tiger := large feline ^ E have . ( black black black stripe ) .
+a rake is a tool that collect dead leaf .	rake := tool ^ E collect . ( dead leaf ) .	rake := tool ^ E collect . ( dead leaf ) .
+gazelle are mammal that are chased by the lion .	gazelle := mammal ^ E chased by . ( lion ) .	gazelle := mammal ^ chased .
+a baseball game is an event that can disrupt traffic .	baseball game := event ^ >= <<unk>> disrupt . ( traffic ) .	baseball game := evan event ^ E can . ( disrupt traffic ) .
+the male lion have at least NUM female mate .	male lion := >= NUM have female mate . ( <<unk>> ) .	themale lion := >= NUM have . ( female mate mate ) .
+every gazelle is also a fast herbivor that live in africa .	gazelle := fast herbivor ^ E live in . ( africa ) .	gazelle := fast herbivor ^ E live . ( africa africa ) .
+a saw is a tool that have a sharp blade .	saw := tool ^ E have sharp blade . ( <<unk>> ) .	saw := tool ^ E have . ( sharp blade ) .
+the male lion have not less than NUM female mate .	male lion := >= NUM have female mate . ( <<unk>> ) .	male lion := >= NUM have . ( female mate ) .
+the odontocyte is a skeletogenic cell that secretes dentine matrix .	odontocyte := skeletogenic cell ^ E secretes . ( dentine matrix ) .	odontocyte := skeletogenic cell ^ E secretes . ( dentine matrix ) .
+all gazelle are mammal that are chased by lion .	gazelle := mammal ^ E chased by . ( lion ) .	gazelle := mammal ^ chased lion .
+a male lion have not less than NUM female mate .	male lion := >= NUM have female mate . ( <<unk>> ) .	male lion := >= NUM have . ( female mate ) .
+a basketball game is an event that can disrupt traffic .	basketball game := event ^ >= <<unk>> disrupt . ( traffic ) .	basketball game := evan event ^ E can . ( disrupt traffic ) .
+cat are also animal that are chased by a dog .	cat := animal ^ E chased by . ( dog ) .	cat := animal ^ chased dog .
+every rhinoceros is also a mammal that have exactly NUM horn .	rhinoceros := mammal ^ = NUM have horn . ( <<unk>> ) .	rhinoceros := mammal ^ = NUM have . ( horn ) .
+mouse are also animal that are chased only by cat .	mouse := animal ^ A chased by . ( cat ) .	mouse := animal ^ A chased . ( by cat ) .
+a team is a group of employee that report to a manager .	team := group of employee ^ E report to . ( manager ) .	team := group of employee ^ E report . ( manager manager ) .
+all lion are also carnivor that hunt the gazelle .	lion := carnivor ^ E hunt . ( gazelle ) .	lion := carnivor carnivor ^ E hunt . ( gazelle ) .
+every clamp is a tool that can secure object .	clamp := tool ^ >= <<unk>> secure . ( object ) .	clamp := tool ^ E can . ( secure object ) .
+a cat is a animal that is chased by dog .	cat := animal ^ E chased by . ( dog ) .	cat := animal ^ chased by by dog .
+every herbivor is also a animal that eat only plant .	herbivor := animal ^ A eat . ( plant ) .	herbivor := animal ^ A eat . ( plant plant ) .
+a top manager is a manager that lead more than NUM team .	top manager := manager ^ >= NUM lead . ( team ) .	top manager := manager ^ > NUM lead . ( team ) .
+a ski resort is a down hill or cross-country ski facility .	ski resort := down hill ski facility U cross-country ski facility .	ski resort := down hill U cross-country ski .
+a product is everything that is produced by an event .	product := E produced by . ( event ) .	product := E produced . ( produced event event ) .
+an employee is a person that work for a company .	employee := person ^ E work for . ( company ) .	an := person ^ E ( work U company ) . ( company ) .
+the pectoral appendage is the anterior paired appendage .	pectoral appendage := anterior paired appendage .	pectoral appendage := anterior paired paired paired paired appendage .
+all dolphin are acquatic mammal that have a long muzzle .	dolphin := acquatic mammal ^ have long muzzle . ( <<unk>> ) .	dolphin := acquatic mammal ^ E have . ( long muzzle ) .
+spicy topping is any topping that have a hot spiciness .	spicy topping := topping ^ E have spiciness . ( hot spiciness ) .	spicy topping := topping ^ E have . ( hot spiciness ) .
+every project report to at least NUM and at most NUM stakeholder .	project := ( >= NUM && <= NUM ) report to . ( stakeholder ) .	project report := ( >= NUM && <= NUM ) are . ( stakeholder stakeholder ) .
+caprina pizza have a very high-calorie content .	caprina pizza := E have content . ( very high-calorie content ) .	caprina := E have . ( very high-calorie content ) .
+all giraffe are herbivor that live in africa .	giraffe := herbivor ^ E live in . ( africa ) .	giraffe := herbivor ^ E live . ( africa africa ) .
+the male lion have more than NUM female mate .	male lion := >= NUM have female mate . ( <<unk>> ) .	male lion := > NUM have . ( female mate ) .
+male lion have not less than NUM female mate .	male lion := >= NUM have female mate . ( <<unk>> ) .	male lion := >= NUM have . ( female mate ) .
+engine are complex system that are part of a car .	engine := complex system ^ E part of . ( car ) .	engine := complex system ^ part of car car .
+all gazelle are also fast herbivor that live in africa .	gazelle := fast herbivor ^ E live in . ( africa ) .	gazelle := fast herbivor ^ E live . ( africa africa ) .
+every elephant is also a pachyderm that have NUM large ear .	elephant := pachyderm ^ = NUM have large ear . ( <<unk>> ) .	elephant := pachyderm ^ = NUM have . ( large ear ) .
+engine are complex system that are part of the car .	engine := complex system ^ E part of . ( car ) .	engine := complex system ^ part car .
+all elephant are also pachyderm that have exactly NUM large ear .	elephant := pachyderm ^ = NUM have large ear . ( <<unk>> ) .	elephant := pachyderm ^ = NUM have . ( large ear ) .
+all lion are also mammal that have long hair .	lion := mammal ^ have long hair . ( <<unk>> ) .	lion := mammal ^ E have . ( long hair ) .
+the caudal fin is the most posterior median fin .	caudal fin := most posterior median fin .	caudal := posterior median median fin fin .
+cat are a type of mammal that chase a mouse .	cat := mammal ^ E chase . ( mouse ) .	cat := type of mammal ^ E chase . ( mouse mouse ) .
+the pelvic appendage is a posterior paired appendage .	pelvic appendage := posterior paired appendage .	pelvic appendage := posterior paired paired paired paired paired appendage .
+a ski lift station is the start point of a ski lift .	ski lift station := start point of ski lift .	ski station := start point of ski lift lift .
+a observation value is the value of the result of a observation .	observation value := value of result of observation .	observation value := value of result observation .
+cat are a type of mammal that chase the mouse .	cat := mammal ^ E chase . ( mouse ) .	cat := type of mammal ^ E chase . ( mouse ) .
+every mammal is also a animal that brestfeed puppy .	mammal := animal ^ E brestfeed . ( puppy ) .	mammal := animal ^ E brestfeed . ( puppy puppy ) .
+hail are falling ice pellet or frozen rain .	hail := falling ice pellet or frozen rain .	hail := falling ice pellet U frozen rain .
+heavy frost is a thick coating of frost .	heavy frost := thick coating of frost .	heavy frost := thick coating coating of frost .
+frutti d<unk> mare typically lack cheese .	frutti d<<unk>> mare := E lack . ( cheese ) .	frutti dispute mare := E tall . ( rally lack cheese ) .
+every rhinoceros is a mammal that have exactly NUM horn .	rhinoceros := mammal ^ = NUM have horn . ( <<unk>> ) .	rhinoceros := mammal ^ = NUM have . ( horn ) .
+a race meeting is something that can disrupt traffic .	race meeting := >= <<unk>> disrupt . ( traffic ) .	race meeting := E can . ( disrupt traffic ) .
+a manager is an employee that lead at least NUM team .	manager := employee ^ >= NUM lead . ( team ) .	manager := employee ^ >= NUM lead . ( team ) .
+carnivore are exactly those animal that eat also animal .	carnivore := animal ^ E eat . ( animal ) .	carnivore := those animal ^ E eat . ( animal ) .
+the embryonic cell is a cell of the embryo .	embryonic cell := cell of the embryo .	embryonic cell := cell of embryo .
+a herbivor is a animal that eat only plant .	herbivor := animal ^ A eat . ( plant ) .	herbivor := animal ^ A eat . ( plant plant ) .
+a rhinoceros is a mammal that have exactly NUM horn .	rhinoceros := mammal ^ = NUM have horn . ( <<unk>> ) .	rhinoceros := mammal ^ = NUM have . ( horn ) .
+a screwdriver is also a tool that handle screw .	screwdriver := tool ^ E handle . ( screw ) .	screwdriver := tool ^ E handle . ( handle screw ) .
+a elephant is a pachyderm that live in africa or asia .	elephant := pachyderm ^ E live in . ( africa U asia ) .	elephant := pachyderm ^ E live . ( africa U asia ) .
+every cow is a mammal that have NUM long horn .	cow := mammal ^ = NUM have long horn . ( <<unk>> ) .	cow := mammal ^ = NUM have . ( long horn ) .
+rake are tool that collect dead leaf .	rake := tool ^ E collect . ( dead leaf ) .	rake := tool ^ E collect . ( dead leaf ) .
+lion are mammal that have a long hair .	lion := mammal ^ have long hair . ( <<unk>> ) .	lion := mammal ^ E have . ( long hair ) .
+a damaged flyover may cause traffic disruption .	damaged flyover := >= <<unk>> cause . ( traffic disruption ) .	damaged flyover := E may . ( cause traffic ) .
+every elephant is a pachyderm that live in africa or asia .	elephant := pachyderm ^ E live in . ( africa U asia ) .	elephant := pachyderm ^ E live . ( africa U asia ) .
+herd of animal on the infrastructure may disrupt traffic .	herd of animal on infrastructure := >= <<unk>> disrupt . ( traffic ) .	herd of animal infrastructure := E may . ( disrupt traffic ) .
+elephant are also mammal that have a big trunk .	elephant := mammal ^ have big trunk . ( <<unk>> ) .	elephant := mammal ^ E have . ( big trunk ) .
+all cat are animal that are chased by dog .	cat := animal ^ E chased by . ( dog ) .	cat := animal ^ chased by by dog .
+a damaged crash barrier may cause traffic disruption .	damaged crash := >= <<unk>> cause . ( traffic disruption ) .	damaged crash barrier := E may . ( cause traffic ) .
+every team develop at least NUM leading project .	team := >= NUM develop . ( leading project ) .	team := >= NUM develop . ( leading project ) .
+every lion is a carnivor that live in africa .	lion := carnivor ^ E live in . ( africa ) .	lion := carnivor ^ E live . ( africa ) .
+a damaged road surface may cause traffic disruption .	damaged road := >= <<unk>> cause . ( traffic disruption ) .	damaged road surface := E may . ( cause traffic ) .
+a engine is a complex system that produce energy .	engine := complex system ^ E produce . ( energy ) .	engine := complex system ^ E produce . ( energy ) .
+lion are also carnivor that hunt gazelle .	lion := carnivor ^ E hunt . ( gazelle ) .	lion := carnivor ^ E hunt . ( gazelle ) .
+the pole is part of the rake .	pole := E part of . ( rake ) .	pole := part of rake .
+a bee is also a insect that produce honey .	bee := insect ^ E produce . ( honey ) .	bee := insect ^ E produce . ( honey ) .
+every stakeholder is involved in more than NUM project .	stakeholder := > NUM involved in . ( project ) .	stakeholder := involved := > NUM involin . ( project ) .
+vehicle are non-living means of transportation .	vehicle := non-living means of transportation .	vehicle := non-living means of transportation .
+a feature is a abstraction of real world phenomenon .	feature := abstraction of real world phenomenon .	feature := abstraction of real world phenomenon .
+all bee are also insect that have NUM leg .	bee := insect ^ = NUM have leg . ( <<unk>> ) .	bee := insect ^ = NUM have . ( leg ) .
+the argon atom are a type of atom .	argon atom := atom .	argon atom := type of atom atom .
+cow are also mammal that have NUM long horn .	cow := mammal ^ = NUM have long horn . ( <<unk>> ) .	cow := mammal ^ = NUM have . ( long horn ) .
+carnivorous plant are plant that eat animal .	carnivorous plant := plant ^ E eat . ( animal ) .	carnivorous plant := plant plant ^ E eat . ( animal ) .
+scissor are manual tool that cut paper or cardboard .	scissor := manual tool ^ E cut . ( paper U cardboard ) .	scissor := manual tool ^ E cut . ( paper U cardboard ) .
+elephant are pachyderm that have exactly NUM large ear .	elephant := pachyderm ^ = NUM have large ear . ( <<unk>> ) .	elephant := pachyderm ^ = NUM have . ( large ear ) .
+datum are fact that result from measurement or observation .	datum := fact ^ E result from . ( measurement U observation ) .	datum := fact result ^ E from . ( measurement observation U observation ) .
+large animal on the infrastructure may disrupt traffic .	large animal on infrastructure := >= <<unk>> disrupt . ( traffic ) .	large infrastructure := E may . ( disrupt traffic ) .
+all elephant are pachyderm that have NUM large ear .	elephant := pachyderm ^ = NUM have large ear . ( <<unk>> ) .	elephant := pachyderm ^ = NUM have . ( large ear ) .
+the fin is a surface structure involved in locomotion .	fin := surface structure ^ E involved in . ( locomotion ) .	fin := surface structure .
+female tiger have at most NUM male mate .	female tiger := <= NUM have male mate . ( <<unk>> ) .	female tiger := <= NUM have . ( male mate mate ) .
+female tiger have at most NUM male mate .	female tiger := <= NUM have male mate . ( <<unk>> ) .	female tiger := <= NUM have . ( male mate mate ) .
+dolphin are acquatic mammal that live in the sea .	dolphin := acquatic mammal ^ E live in . ( sea ) .	dolphin := acquatic mammal ^ E live . ( sea ) .
+a device is a physical piece of technology .	device := physical piece of technology .	device := physical piece of technology .
+engine are also complex system that produce energy .	engine := complex system ^ E produce . ( energy ) .	engine := complex system ^ E produce . ( energy ) .
+a damaged gantry may cause traffic disruption .	damaged gantry := >= <<unk>> cause . ( traffic disruption ) .	damaged gantry := E may . ( cause traffic ) .
+screwdriver are also tool that handle screw .	screwdriver := tool ^ E handle . ( screw ) .	screwdriver := tool handle ^ E handle . ( screw screw ) .
+a damaged viaduct may cause traffic disruption .	damaged viaduct := >= <<unk>> cause . ( traffic disruption ) .	damaged viaduct := E may . ( cause disruption ) .
+animal on the infrastructure may disrupt traffic .	animal on infrastructure := >= <<unk>> disrupt . ( traffic ) .	animal infrastructure := E may . ( disrupt traffic ) .
+a damaged tunnel may cause traffic disruption .	damaged tunnel := >= <<unk>> cause . ( traffic disruption ) .	damaged tunnel := E may . ( cause traffic ) .
+lion are animal that eat only herbivore .	lion := animal ^ A eat . ( herbivore ) .	lion := animal ^ A eat . ( herbivore ) .
+all mammal are animal that brestfeed puppy .	mammal := animal ^ E brestfeed . ( puppy ) .	mammal := animal ^ E brestfeed . ( puppy ) .
+lion are also carnivor that live in africa .	lion := carnivor ^ E live in . ( africa ) .	lion := carnivor ^ E live . ( africa ) .
+a team implement trimestral activity .	team := E implement . ( trimestral activity ) .	team := E implement . ( trimestral activity ) .
+fermion are part of complex particle .	fermion := E part of . ( complex particle ) .	fermion := part of complex particle .
+elephant are mammal that have big trunk .	elephant := mammal ^ have big trunk . ( <<unk>> ) .	elephant := mammal ^ E have . ( big trunk ) .
+a damaged bridge may cause traffic disruption .	damaged bridge := >= <<unk>> cause . ( traffic disruption ) .	damaged bridge := E may . ( cause traffic ) .
+the anal fin lepidotrichium is a lepidotrichium that is part of the anal fin skeleton .	anal fin lepidotrichium := lepidotrichium ^ E part of . ( anal fin skeleton ) .	anal lepidotrichium := lepidotrichium ^ part of anal fin .
+vasodentine is the dentine tissue that lack dentine tubule and that is penetrated by blood capillary .	vasodentine := dentine tissue ^ E lack . ( dentine tubule ) ^ E penetrated by . ( blood capillary ) .	vasodentine := tissue ^ peneack ebule capillary .
+an osteoblast is a skeletogenic cell that is located adjacent to or <unk> in osteoid tissue .	osteoblast := skeletogenic cell ^ E ( located adjacent to ^ located <<unk>> in ) . ( osteoid tissue ) .	an := skeletogenic cell ^ located adjacent phojacent tissue .
+a ossified ligament is a sesamoid that develop <unk> in a ligament , distal to an articulation or joint .	ossified ligament := sesamoid ^ E develop <<unk>> in . ( ligament ) ^ E distal to . ( articulation U joint ) .	ossified ligament := sesamoid ^ E develop . ( ligament ligament U distal photo U joint ) .
+<unk> sing is a process that result in the estimation , or calculation , of the value of a phenomenon .	<<unk>> sing := process ^ E result in . ( estimation of value of phenomenon U calculation of value of phenomenon ) .	dispute := process ^ E result . ( estimation U calculation of value phenomenon ) .
+a juvenile is a young fish or animal that have not re<unk> sexual maturity .	juvenile := ( young fish U young animal ) ^ ! E have re<<unk>> . ( sexual maturity ) .	juvenile := young fish U ! E ( have ^ animal ) . ( redamaged sexual maturity ) .
+a ligamentous replacement element is a replacement element that form <unk> a replacement of a ligament .	ligamentous replacement element := replacement element ^ E form <<unk>> . ( replacement of ligament ) .	ligamentous replacement element := replacement element ^ E form . ( replacement replacement of ligament ) .
+bycicle are a type of mean of transportation that are powered only by human power .	bycicle := mean of transportation ^ A powered by . ( human power ) .	bycicle := type of mean transpored ^ powered power .
+the perichondral bone is the bone element that is located on the surface of a cartilage element .	perichondral bone := bone element ^ E located on . ( surface of cartilage element ) .	perichondral bone := bone element ^ located surface of cartilage element .
+organism subdivision is a anatomical structure that is a primary subdivision of whole organism .	organism subdivision := anatomical structure ^ primary subdivision of whole organism .	organism subdivision := anatomical structure ^ primary subdivision of whole organism .
+the anal fin skeleton is a median fin skeleton that is located posterior to the anus .	anal fin skeleton := median fin skeleton ^ E located posterior to . ( anus ) .	anal skeleton := median fin skeleton ^ located posterior anus .
+anal fin lepidotrichium is a lepidotrichium that is part of the anal fin skeleton .	anal fin lepidotrichium := lepidotrichium ^ E part of . ( anal fin skeleton ) .	anal lepidotrichium := lepidotrichium ^ part of anal fin .
+a male organism is a gonochoristic organism that can produce male gamete .	male organism := gonochoristic organism ^ >= <<unk>> produce . ( male gamete ) .	male organism := gonochoristic organism ^ E can . ( produce gamete gamete ) .
+the articular system is an anatomical system that consists of all the joint of the body .	articular system := anatomical system ^ E consists of . ( joint of body ) .	articular system := anatomical system ^ E consists . ( joint joint joint of body ) .
+the caudal fin lepidotrichium is a lepidotrichium that is part of the caudal fin skeleton .	caudal fin lepidotrichium := lepidotrichium ^ E part of . ( caudal fin skeleton ) .	caudal lepidotrichium := lepidotrichium ^ part of caudal skeleton .
+flat blade screwdriver are a type of screwdriver that have a flat blade .	flat blade screwdriver := screwdriver ^ E have flat blade . ( <<unk>> ) .	flat blade screwdriver := type of screwdriver screwdriver ^ E have . ( flat blade ) .
+a island or isle is any piece of land that is completely surrounded by water .	island U isle := piece of land ^ A surrounded by . ( water ) .	island U isle := piece of land ^ complely tearby water .
+a survival property is a identifiable characteristic that represent the extent of the sensor useful life .	survival property := identifiable characteristic ^ E represent . ( extent of sensor useful life ) .	survival property := identifiable characteristic ^ E represent . ( extent of sensor useful life ) .
+a winter sport meeting or event is an event that could disrupt traffic .	winter sport meeting U winter sport event := event ^ >= <<unk>> disrupt . ( traffic ) .	winter sport meeting := event event ^ E ( could U event ) . ( disrupt traffic ) .
+a migratory neural crest cell is a cell that is derived from the specialized ectoderm .	migratory neural crest cell := cell ^ E derived from . ( specialized ectoderm ) .	migratory neural crest := cell cell ^ derived from ectoderm .
+the dorsal fin skeleton is a median fin skeleton located on the dorsal surface of the organism .	dorsal fin skeleton := median fin skeleton ^ E located on . ( dorsal surface of organism ) .	dorsal skeleton := median fin skeleton := located skeleton located surface of organism .
+a craniofacial skeleton is a cranial skeleton derived from neural crest cell .	craniofacial skeleton := cranial skeleton ^ E derived from . ( neural crest cell ) .	craniofacial skeleton := cranial skeleton derived from nem ^ neural crest cell .
+the dorsal fin lepidotrichium is a lepidotrichium that is part of the dorsal fin skeleton .	dorsal fin lepidotrichium := lepidotrichium ^ E part of . ( dorsal fin skeleton ) .	dorsal lepidotrichium := lepidotrichium ^ part of dorsal skeleton .
+ossified ligament are sesamoid that develop <unk> in a ligament , distal to an articulation or joint .	ossified ligament := sesamoid ^ E develop <<unk>> in . ( ligament ) ^ E distal to . ( articulation U joint ) .	ossified ligament := sesamoid ^ E develop . ( ligament ligament U distal photo U joint ) .
+a parade is a formal display or organized procession which can disrupt traffic .	parade := ( formal display U organized procession ) ^ >= <<unk>> disrupt . ( traffic ) .	parade := formal display U organized can disrupt traffic .
+the anal fin is a median fin that is located posterior to the anus .	anal fin := median fin ^ E located posterior to . ( anus ) .	anal fin := median fin ^ located posterior photo .
+a cell space is a anatomical space that is part of a cell .	cell space := anatomical space ^ E part of . ( cell ) .	cell space := anatomical space ^ part of cell .
+an air show or other areonautical event is something that can disrupt traffic .	air show U areonautical event := >= <<unk>> disrupt . ( traffic ) .	an show := E ( show U other ) . ( areonautical event ) .
+a direct ossification is a ossification that do not require the replacement of pre-existing tissue .	direct ossification := ossification ^ ! E require . ( replacement of pre-existing tissue ) .	direct ossification := ossification ^ ! E require . ( replacement of pre-existing tissue ) .
+a public event is an organized event which can disrupt traffic .	public event := organized event ^ >= <<unk>> disrupt . ( traffic ) .	public event := organized event which can ^ disrupt traffic .
+a power screwdriver is also a screwdriver that is powered by the electric energy .	power screwdriver := screwdriver ^ E powered by . ( electric energy ) .	power screwdriver := screwdriver screwdriver ^ powered electric energy .
+the odontoblast is a skeletogenic cell that is derived from the odontogenic papilla .	odontoblast := skeletogenic cell ^ E derived from . ( odontogenic papilla ) .	odontoblast := skeletogenic cell ^ derived from papilla .
+a commercial event is an event which could disrupt traffic .	commercial event := event ^ >= <<unk>> disrupt . ( traffic ) .	commercial event event := event which coich cod cod ^ comrupt disrupt traffic .
+a measurement unit label is a datum item label that denotes a unit of measure .	measurement unit label := datum item label ^ E denotes . ( unit of measure ) .	measurement unit := datum item ^ E denotes . ( unit of measure ) .
+the vertebral column is the anatomical cluster that consists of vertebra of the body .	vertebral column := anatomical cluster ^ E consists of . ( vertebra of body ) .	vertebral column := anatomical cluster ^ E consists . ( of vertebra ) .
+integumentary skeleton is a skeletal subdivision that is part of the extra-oral dermal skeletal system .	integumentary skeleton := skeletal subdivision ^ E part of . ( extra-oral dermal skeletal system ) .	integumentary skeleton := skeletal subdivision ^ part of extra-oral dermal skeletal .
+car are mean of transportation that are powered by fuel or electric energy .	car := mean of transportation ^ E powered by . ( fuel U electric energy ) .	car := mean of transportation fuel fuel fuel ^ electric energy .
+craniofacial skeleton is a cranial skeleton derived from neural crest cell .	craniofacial skeleton := cranial skeleton ^ E derived from . ( neural crest cell ) .	craniofacial skeleton := cranial skeleton derived from ^ neural crest cell .
+caudal fin lepidotrichium is a lepidotrichium that is part of the caudal fin skeleton .	caudal fin lepidotrichium := lepidotrichium ^ E part of . ( caudal fin skeleton ) .	caudal lepidotrichium := lepidotrichium ^ part of caudal skeleton .
+a currency is a unit of exchange , facilitating the transfer of goods and service .	currency := unit of exchange ^ E facilitating . ( transfer of goods ) ^ E facilitating . ( transfer of service ) .	currency := unit of exchange ^ faciliating transfer of goods ^ service of goods .
+a rock dassie is a animal that eat grass and broad-leafed plant .	rock dassie := animal ^ E eat . ( grass ) ^ E eat . ( broad-leafed plant ) .	rock dassie := animal ^ E ( eat ^ broad-leafed ) . ( leafed plant ) .
+a bycicle is a mean of transportation that is powered only by the human power .	bycicle := mean of transportation ^ A powered by . ( human power ) .	bycicle := mean of transportation ^ powed human human power .
+the odontocyte is a skeletogenic cell that is derived from odontogenic papilla .	odontocyte := skeletogenic cell ^ E derived from . ( odontogenic papilla ) .	odontocyte := skeletogenic cell ^ derived frogenic papilla .
+all bycicle are mean of transportation that are powered only by the human power .	bycicle := mean of transportation ^ A powered by . ( human power ) .	bycicle := mean of transportation ^ powed human human power .
+the dorsal fin is a median fin located on the dorsal surface of the organism .	dorsal fin := median fin ^ E located on . ( dorsal surface of organism ) .	dorsal := median fin located located surface := dorsal surface of organism .
+a power screwdriver is also a screwdriver that is powered by electric energy .	power screwdriver := screwdriver ^ E powered by . ( electric energy ) .	power screwdriver := screwdriver screwdriver ^ powered electric energy .
+the oropharyngeal papilla is an odontogenic papilla located along the jaw or pharyngeal skeleton .	oropharyngeal papilla := odontogenic papilla ^ E located along . ( jaw U pharyngeal skeleton ) .	oropharyngeal papilla := odontogenic papilla located alalong jaw jaw U pharyngeal skeleton .
+an exhibition is a major display or trade show that can disrupt traffic .	exhibition := ( major display U major trade show ) ^ >= disrupt . ( traffic ) .	exhibition := major display U trade .
+a american pizza is a pizza that have topping of pepperoni , mozzarella and tomato .	american pizza := pizza ^ E have topping . ( pepperoni ) ^ E have topping . ( mozzarella ) ^ E have topping . ( tomato ) .	american pizza := pizza ^ E have . ( topping of pepperoni ^ mozzarella ) .
+all power screwdriver are also screwdriver that are powered by the electric energy .	power screwdriver := screwdriver ^ E powered by . ( electric energy ) .	power screwdriver := screwdriver ^ powered by electric energy .
+the limb skeleton is the skeletal subdivision that is part of the paired limb .	limb skeleton := skeletal subdivision ^ E part of . ( paired limb ) .	limb skeleton := skeletal subdivision ^ part of paired paired limb .
+an integumentary papilla is an odontogenic papilla that is located in the integument .	integumentary papilla := odontogenic papilla ^ E located in . ( integument ) .	integumentary papilla := an odontogenic papilla ^ located integument .
+the free limb skeleton is a skeletal subdivision that is part of the limb .	free limb skeleton := skeletal subdivision ^ E part of . ( limb ) .	free skeleton := skeletal subdivision ^ part of limb .
+every engine is also a complex energy production system that is part of a motorcycle .	engine := complex energy production system ^ E part of . ( motorcycle ) .	engine := complex energy system ^ part of motorcycle .
+giraffe are a type of mammal that have a long neck .	giraffe := mammal ^ have long neck . ( <<unk>> ) .	giraffe := type of mammal ^ E have . ( long neck ) .
+a stimulus is a event in the real world that trigger the sensor .	stimulus := event in real world ^ E trigger . ( sensor ) .	stimulus := event in in real world ^ E trigger . ( sensor ) .
+chainsaw are a type of saw that are powered by electric energy .	chainsaw := saw ^ E powered by . ( electric energy ) .	chainsaw := type of saw ^ powered electric energy .
+cross blade screwdriver are a type of screwdriver that have cross blade .	cross blade screwdriver := screwdriver ^ E have cross blade . ( <<unk>> ) .	cross blade := type of screwdriver screwdriver ^ E have . ( cross blade ) .
+every power screwdriver is a screwdriver that is powered by electric energy .	power screwdriver := screwdriver ^ E powered by . ( electric energy ) .	power screwdriver := screwdriver ^ powered electric energy .
+a flat blade screwdriver is a screwdriver that have a flat blade .	flat blade screwdriver := screwdriver ^ E have flat blade . ( <<unk>> ) .	flat blade screwdriver := screwdriver screwdriver ^ E have . ( flat blade ) .
+the hypertrophic chondrocyte is a chondrocyte that produce type X collagen .	hypertrophic chondrocyte := chondrocyte ^ E produce . ( type X collagen ) .	hypertrophic chondrocyte := chondrocyte chondrocyte ^ E produce . ( type X collagen ) .
+a two-dimensional region is a spatial region that have NUM dimension .	two-dimensional region := spatial region = NUM have dimension . ( <<unk>> ) .	two-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+a three-dimensional region is a spatial region that have NUM dimension .	three-dimensional region := spatial region = NUM have dimension . ( <<unk>> ) .	three-dimensional region := spatial region ^ = NUM have . ( dimension ) .
+a named pizza is a pizza that can be found on a pizza menu .	named pizza := pizza ^ E found on . ( pizza menu ) .	named pizza := pizza ^ E can . ( found found pizza menu ) .
+herbivore are exactly those animal that eat only plant or part of plant .	herbivore := animal ^ A eat . ( plant U E part of . ( plant ) ) .	herbivore := those animal ^ A eat . ( plant of plant U plant of plant ) .
+a crowd is a major gathering of people that can disrupt traffic .	crowd := major gathering of people ^ >= <<unk>> disrupt . ( traffic ) .	crowd := major gathering of people ^ E can . ( disrupt traffic ) .
+the bone element is a skeletal element that is composed of bone tissue .	bone element := skeletal element ^ E composed of . ( bone tissue ) .	bone element := skeletal element ^ composed of bone tissue .
+integument is the surface structure that is the outer protective covering of the body .	integument := surface structure ^ outer protective covering of body .	integument := surface structure ^ ouctive covering of body .
+a meaty pizza is any pizza that have at least NUM topping of meat .	meaty pizza := pizza ^ >= NUM have topping . ( meat ) .	meaty pizza := pizza ^ >= NUM have . ( topping of meat ) .
+all engine are also complex energy production system that are part of a motorcycle .	engine := complex energy production system ^ E part of . ( motorcycle ) .	engine := complex energy system ^ part of motorcycle .
+the girdle skeleton is a skeletal subdivision that is part of the appendage girdle region .	girdle skeleton := skeletal subdivision ^ E part of . ( appendage girdle region ) .	girdle skeleton := skeletal subdivision ^ part girdle girdle .
+the perichordal bone is the bone element that is adjacent to the notochord .	perichordal bone := bone element ^ E adjacent to . ( notochord ) .	perichordal bone := bone element ^ adjacent photo notochord .
+biosphere is the portion of earth and its atmosphere that can support life .	biosphere := portion of earth ^ portion of its atmosphere ^ >= <<unk>> support . ( life ) .	biosphere := portion of earth atmosphere ^ E itan . ( support life ^ cport life ) .
+a engine is a complex energy production system that is part of a motorcycle .	engine := complex energy production system ^ E part of . ( motorcycle ) .	engine := complex energy system ^ part of motorcycle motorcycle .
+a motor sport race meeting is an event that can disrupt traffic .	motor sport race meeting := event ^ >= <<unk>> disrupt . ( traffic ) .	motor sport meeting := an event ^ E can . ( disrupt traffic ) .
+every cross blade screwdriver is also a screwdriver that have a cross blade .	cross blade screwdriver := screwdriver ^ E have cross blade . ( <<unk>> ) .	cross blade := screwdriver screwdriver ^ E have . ( cross blade ) .
+the hypertrophic chondrocyte is a chondrocyte that is terminally differentiated .	hypertrophic chondrocyte := chondrocyte ^ E terminally differentiated . ( <<unk>> ) .	hypertrophic chondrocyte := chondrocyte chondrocyte ^ terally differentiated .
+the caudal fin skeleton is a median fin skeleton supporting the caudal fin .	caudal fin skeleton := median fin skeleton ^ E supporting . ( caudal fin ) .	caudal skeleton := median fin skeleton supporting ^ caudal fin .
+bycicle are mean of transportation that are powered only by human power .	bycicle := mean of transportation ^ A powered by . ( human power ) .	bycicle := mean of transportation ^ powed human human power .
+flat blade screwdriver are also screwdriver that have a flat blade .	flat blade screwdriver := screwdriver ^ E have flat blade . ( <<unk>> ) .	flat blade := screwdriver screwdriver ^ E have . ( flat blade ) .
+tiger are a type of large feline that have black stripe .	tiger := large feline ^ E have black stripe . ( <<unk>> ) .	tiger := type of large feline ^ E have . ( black black black stripe ) .
+a football match is an event that can disrupt traffic . .	football match := event ^ >= <<unk>> disrupt . ( traffic ) .	football match := an event ^ E can . ( disrupt traffic ) .
+the fin skeleton is the skeletal subdivision that is part of the paired fin .	fin skeleton := skeletal subdivision ^ E part of . ( paired fin ) .	fin skeleton := skeletal subdivision ^ part of paired fin .
+a ossified tendon is a sesamoid that develop <unk> in a tendon .	ossified tendon := sesamoid ^ E develop <<unk>> in . ( tendon ) .	ossified tendon := sesamoid ^ E develop . ( sexin tendon ) .
+an endochondral bone is a replacement bone that form <unk> in the cartilage .	endochondral bone := replacement bone ^ E form <<unk>> in . cartilage .	endochondral bone := replacement bone ^ E form . ( hand cartilage ) .
+a procession or an organized procession is something that can disrupt traffic .	procession U organized procession := >= <<unk>> disrupt . ( traffic ) .	procession := E ( <UNK> U organian ) . ( organized disrupt traffic ) .
+every mouse is also a animal that is chased only by the cat .	mouse := animal ^ A chased by . ( cat ) .	mouse := animal ^ A chased . ( by cat ) .
+a non-mineralized hyaline cartilage tissue is a hyaline cartilage tissue that is not mineralized .	non-mineralized hyaline cartilage tissue := hyaline cartilage tissue ^ ! mineralized .	non-mineralized hyaline cartilage := hyaline cartilage ^ mineralized .
+all flat blade screwdriver are screwdriver that have flat blade .	flat blade screwdriver := screwdriver ^ E have flat blade . ( <<unk>> ) .	flat blade := screwdriver screwdriver ^ E have . ( flat blade ) .
+every giraffe is also a mammal that have a long neck .	giraffe := mammal ^ have long neck . ( <<unk>> ) .	giraffe := mammal mammal ^ E have . ( long neck neck ) .
+a boat race or regatta is something that can disrupt traffic .	boat race := >= <<unk>> disrupt . ( traffic ) .	boat := E ( race U regattan ) . ( disrupt traffic traffic ) .
+a sensor is any entity that can follow a <unk> sing method .	sensor := any entity ^ >= <<unk>> follow . ( <<unk>> sing method ) .	sensor := entity ^ E can . ( follow method sing method ) .
+a school is a building or location that is used for instructional class .	school := ( building U location ) ^ E used for . ( instructional class ) .	school := building U used fand .
+any pizza that have at least NUM meat topping is a meaty pizza .	meaty pizza := pizza ^ >= a have topping . ( meat topping ) .	pizza := >= NUM have . ( meat topping ^ meaty pizza ) .
+a vegetarian pizza is any pizza that only have vegetarian topping or no topping .	vegetarian pizza := pizza ^ E have topping . ( vegetarian topping ) U ! E have topping . ( <<unk>> ) .	vegetarian pizza := pizza ^ A have . ( vegetarian vegetarian vegetarian topping U topping ) .
+the perichordal tissue is derived from cell surrounding the notochord .	perichordal tissue := derived from ( cell ^ E surrounding . ( notochord ) ) .	perichordal tissue := derived from cell surrounding notochord surrounding notochord .
+a dichotomous variable specification is a variable that have NUM category .	dichotomous variable specification := variable ^ = NUM have category . ( <<unk>> ) .	dichotomous variable specification := variable ^ = NUM have . ( category ) .
+a water sport meeting is an event that can disrupt traffic .	water sport meeting := event ^ >= <<unk>> disrupt . ( traffic ) .	water sport meeting := an event ^ E can . ( disrupt traffic ) .
+every gazelle is also a mammal that is chased by lion .	gazelle := mammal ^ E chased by . ( lion ) .	gazelle := mammal mammal ^ chased by lion .
+an agricultural show or event is something that can disrupt traffic .	agricultural show U agricultural event := >= <<unk>> disrupt . ( traffic ) .	an agricultural show := E ( can U event ) . ( disrupt traffic traffic ) .
+axial ossicle is a ossicle that is part of the axial skeleton .	axial ossicle := ossicle ^ E part of . ( axial skeleton ) .	axial ossicle := ossicle ^ part of are skeleton .
+a cultural event is an event that can disrupt traffic .	cultural event := event ^ >= <<unk>> disrupt . ( traffic ) .	cultural event := an event ^ E can . ( disrupt traffic ) .
+a mineralized bone tissue is a bone tissue that is mineralized with hydroxyapatite .	mineralized bone tissue := bone tissue ^ E mineralized with . ( hydroxyapatite ) .	mineralized bone tissue := bone tissue ^ mineralized with hydroxyapatite .
+giraffe are herbivore , and they eat only leaf .	giraffe := herbivore ^ A eat . ( leaf ) .	giraffe := herbivore ^ they eat .
+the vertebral centrum is a skeletal element that surround the notochord .	vertebral centrum := skeletal element ^ E surround . ( notochord ) .	vertebral centrum := skeletal element ^ E surround . ( notochord notochord ) .
+gazelle are also mammal that are chased by the lion .	gazelle := mammal ^ E chased by . ( lion ) .	gazelle := mammal ^ chased .
+any pizza that have at least NUM topping is an interesting pizza .	interesting pizza := pizza ^ >= NUM have topping . ( <<unk>> ) .	pizza := >= NUM have . ( topping topping ^ interesting pizza ) .
+a interesting pizza is a pizza that have at least NUM topping .	interesting pizza := pizza ^ >= NUM have topping . ( topping ) .	interesting pizza := pizza ^ >= NUM have . ( topping ) .
+a engine is a complex system that is part of a car .	engine := complex system ^ E part of . ( car ) .	engine := complex system ^ part of car .
+a broken down vehicle ( s ) may cause traffic disruption .	broken down vehicle := >= <<unk>> cause . ( traffic disruption ) .	broken down vehicle := E mawn . ( bray cause may cause ) .
+a engine is also a complex system that is part of car .	engine := complex system ^ E part of . ( car ) .	engine := complex system ^ part of car .
+a output is any information that is reported from a process .	output := information ^ E reported from . ( process ) .	output := information ^ reported from process .
+every mouse is also a animal that is chased only by cat .	mouse := animal ^ A chased by . ( cat ) .	mouse := animal ^ A chased . ( by cat ) .
+a cheesey pizza is any pizza that have at least NUM cheese topping .	cheesey pizza := pizza ^ >= NUM have topping . ( cheese topping ) .	cheesey pizza := pizza ^ >= NUM have . ( cheese topping ) .
+all mouse are also animal that are chased only by the cat .	mouse := animal ^ A chased by . ( cat ) .	mouse := animal ^ A chased . ( by cat ) .
+a property is a observable quality of a event or object .	property := observable quality of event U observable quality of object .	property := observable quality of event U object .
+ray rake are tool that are used only by expert farmer .	ray rake := tool ^ A used by . ( expert farmer ) .	ray rake := tool ^ A used . ( by expert farmer ) .
+tasty plant are plant eaten both by herbivore and carnivore .	tasty plant := plant ^ E eaten by . ( herbivore ) ^ E eaten by . ( carnivore ) .	tasty plant := plant eaten both herbivore ^ carnivore .
+all cross blade screwdriver are also screwdriver that have cross blade .	cross blade screwdriver := screwdriver ^ E have cross blade . ( <<unk>> ) .	cross blade := screwdriver screwdriver ^ E have . ( cross blade ) .
+a vector is a organism that carry or transmit a pathogen .	vector := organism ^ E ( carry U transmit ) . ( pathogen ) .	vector := organism ^ E ( carry U transmit ) . ( pathogen pathogen ) .
+a <unk> sing device is a device that implement <unk> sing .	<<unk>> sing device := device ^ E implement . ( <<unk>> sing ) .	sing sing device := device ^ E implement . ( sing sing ) .
+any pizza that have at least NUM cheese topping is an cheesey pizza .	cheesey pizza := pizza ^ >= NUM have topping . ( cheese topping ) .	pizza := >= NUM have . ( cheese topping ) .
+a spicy pizza is any pizza that have a topping that is spicy .	spicy pizza := any pizza ^ E have topping . ( spicy topping ) .	spicy pizza := pizza ^ spicy .
+engine are complex energy production system that are part of a motorcycle .	engine := complex energy production system ^ E part of . ( motorcycle ) .	engine := complex energy system ^ part of motorcycle .
+engine are also complex energy production system that are part of motorcycle .	engine := complex energy production system ^ E part of . ( motorcycle ) .	engine := complex energy system ^ part of motorcycle .
+a rugby match is an event that can disrupt traffic .	rugby match := event ^ >= <<unk>> disrupt . ( traffic ) .	rugby match := an event ^ E can . ( disrupt traffic ) .
+the sensor datum sheet is a object that record property of a sensor .	sensor datum sheet := object ^ E record . ( property of sensor ) .	sensor sheet := object ^ E record . ( property of sensor ) .
+a cat is also a animal that is chased by the dog .	cat := animal ^ E chased by . ( dog ) .	cat := animal ^ chased dog .
+an osteoblast is a skeletogenic cell that secretes osteoid , is capable of producing mineralized matrix , is located adjacent to or <unk> in osteoid tissue , and arises from the transformation of a preosteoblast cell .	osteoblast := skeletogenic cell ^ E secretes . ( osteoid ) ^ E producing . ( mineralized matrix ) ^ E ( located adjacent to ^ located <<unk>> in ) . ( osteoid tissue ) ^ E arises from . ( transformation of preosteoblast cell ) .	osteoblast := skeletogenic cell ^ E secretes . ( osteoable of produing matrix ^ capable matrix of located arises ) .
+the pectoral fin skeleton is a paired fin skeleton that is located in the thoracic region of the body and articulate with the scapula and the coracoid .	pectoral fin skeleton := paired fin skeleton ^ E located in . ( thoracic region of body ) ^ E articulate with . ( scapula ) ^ E articulate with . ( coracoid ) .	pectoral fin skeleton := paired fin skeleton ^ located acic region of body ^ wirath scapula .
+the pelvic fin skeleton is a paired fin skeleton located in the abdominal position that consists of supporting endochondral radial and dermal fin ray or lepidotrichia .	pelvic fin skeleton := paired fin skeleton ^ E located in . ( abdominal position ) ^ E consists of . ( supporting endochondral radial ^ ( dermal fin ray U dermal fin lepidotrichia ) ) .	pelvic fin skeleton := paired fin located skeleton ^ E consists . ( abdominal of supporting ^ abdominal of dermal radial ) .
+the pectoral fin skeleton is a paired fin skeleton that consists of the supporting endochondral proximal and distal radial and the dermal fin ray or lepidotrichia .	pectoral fin skeleton := paired fin skeleton ^ E consists of . ( supporting endochondral proximal U distal radial U dermal fin ray U dermal fin lepidotrichia ) .	pecoral fin skeleton := paired fin skeleton ^ E consists . ( porting endochondral proximal proximal ) ^ E consists . ( distal lepidotrichia ) .
+a pectoral fin skeleton is a paired fin skeleton that consists of the supporting endochondral proximal and distal radial and the dermal fin ray or lepidotrichia .	pectoral fin skeleton := paired fin skeleton ^ E consists of . ( supporting endochondral radial ^ distal radial ^ ( dermal fin ray U dermal fin lepidotrichia ) ) .	pectoral fin skeleton := paired fin skeleton ^ E consists . ( supporting proximal proximal ) ^ E consists . ( distal ) .
+the pectoral fin skeleton is located in the thoracic region of the body and articulates with the scapula and coracoid .	pectoral fin skeleton := E located in . ( thoracic region of body ) ^ E articulates with . ( scapula ^ coracoid ) .	pecoral fin skeleton := located thoracic region of body ^ articulates with scapula .
+the odontoblast is a skeletogenic cell that secretes dentine matrix , is derived from the odontogenic papilla , and develop from a preodontoblast cell .	odontoblast := skeletogenic cell ^ E secretes . ( dentine matrix ) ^ E derived from . ( odontogenic papilla ) ^ E develop from . ( preodontoblast cell ) .	odontoblast := skeletogenic cell ^ E secretes . ( dentine matrix ) ^ E secretes . ( derived from papilla ) ^ E secretes . ( develop preodontoblast ) .
+a non-terminally differentiated odontoblast is an odontoblast that is located in the odontogenic papilla and dentine tissue , and transform from a odontoblast cell .	non-terminally differentiated odontoblast := odontoblast ^ E located in . ( odontogenic papilla U dentine tissue ) ^ E transform from . ( odontoblast cell ) .	non-terally differentiated odontoblast := located odontoblast ^ E located . ( odontogenic papilla papilla ) ^ E located . ( tissue dentine ) ^ E located . ( transform odontoblast ) .
+the acropodial skeleton is a endochondral terminal bone that is located at the distalmost end of the autopodium , consisting of the phalanx .	acropodial skeleton := endochondral terminal bone ^ E located at . ( distalmost end of autopodium ) ^ E consisting of . ( phalanx ) .	acropodial skeleton := endochondral terminal bone ^ located alend of autopodium .
+a median fin skeleton is a postcranial axial skeleton that is unpaired and located on the sagittal plane of the organism .	median fin skeleton := postcranial axial skeleton ^ E unpaired . ( <<unk>> ) ^ E located on . ( sagittal plane of the organism ) .	median skeleton := postcranial axial skeleton ^ located sagittal plane of organism .
+the postcranial axial skeleton is a skeletal subdivision of the central body axis that includes vertebra , notochord , rib , and sternum .	postcranial axial skeleton := skeletal subdivision of central body axis ^ E includes . ( vertebra U notochord U rib U sternum ) .	postcranial axial skeleton := skeletal subdivision of central body ^ E inclulas . ( des body ) ^ E inclural . ( vertebra notochord ) ^ E inclural . ( sternum ) .
+a american hot pizza is a type of american pizza that have jalapeno pepper on it .	american hot pizza := american pizza ^ E have on . ( jalapeno pepper ) .	american hot pizza := type of american pizza ^ E have . ( jalapeno pepper ) .
+axial skeleton is a skeletal subdivision of the central body axis including the cranium , vertebra , notochord , rib , and sternum .	axial skeleton := skeletal subdivision of central body axis ^ E including . ( cranium ) ^ E including . ( vertebra ) ^ E including . ( notochord ) ^ E including . ( rib ) ^ E including . ( sternum ) .	axial skeleton := skeletal subdivision of central body axis axis axis axis ^ vertebra notochord ^ sternum .
+intramembranous ossification is a direct ossification that occur <unk> in mesenchyme or a accumulation of relatively unspecialized cell .	intramembranous ossification := direct ossification ^ E occur <<unk>> in . ( mesenchyme U accumulation of relatively unspecialized cell ) .	intramembranous ossification := direct ossification ^ E occur . ( mesenchyme mesenchyme of relavely mesenchyme U mesenchyme of relavely cell ) .
+a datum collection from experiment is a datum collection process that result in a collection of datum generated from an experiment .	datum collection from experiment := datum collection ^ E result in . ( collection of . datum ^ E generated from . ( experiment ) ) .	datum collection experiment experiment := datum collection process ^ E result . ( collection collection of datum ) .
+the autopodial skeleton is the distal section of the limb skeleton , consisting of the anterior autopodium or posterior autopodium .	autopodial skeleton := E distal section of . ( limb skeleton ) ^ E consisting of . ( anterior autopodium U posterior autopodium ) .	autopodial skeleton := distal section of limb skeleton U consisting autopodium of anterior autopodium .
+a solid compound organ is a compound organ that do not contain macroscopic anatomical space .	solid compound organ := compound organ ^ ! E contain . ( macroscopic anatomical space ) .	solid compound organ := compound organ ^ ! E contain . ( macroscopic spatomical space ) .
+a datum collection from survey is a datum collection that result in a collection of datum generated from a survey .	datum collection from survey := datum collection ^ E result in . ( collection of . datum ^ E generated from . ( survey ) ) .	datum collection := survey survey ^ E result . ( collection collection of datum ) .
+the vertebral element is a skeletal element that form around the notochord and is part of the vertebral column .	vertebral element := skeletal element ^ E form around . ( notochord ) ^ E part of . ( vertebral column ) .	vertebral element := skeletal element ^ E form . ( und notochord notochord ) ^ E form . ( part of vertebral column ) .
+the pectoral fin lepidotrichium is a lepidotrichium that is part of the pectoral fin skeleton .	pectoral fin lepidotrichium := lepidotrichium ^ E part of . ( pectoral fin skeleton ) .	pectoral fin lepidotrichium := lepidotrichium ^ part of pectoral fin .
+a paired fin skeleton is a skeletal system that consists of the paired fin ( pectoral or pelvic fin ) .	paired fin skeleton := skeletal system ^ E consists of . ( paired fin ) .	paired skeleton := skeletal system ^ E consists . ( paired chaos pectoral U pelvic fin ) .
+a paired fin skeleton is a skeletal system that consists of the paired fin ( pectoral or pelvic fin ) .	paired fin skeleton := skeletal system ^ E consists of . ( paired fin ) .	paired skeleton := skeletal system ^ E consists . ( paired chaos pectoral U pelvic fin ) .
+a real italian pizza is a type of pizza that must only have thin and crispy basis .	real italian pizza := pizza ^ A have . ( thin basis ^ crispy basis ) .	real italian pizza := type of pizza ^ A must . ( have thin ) ^ A must . ( crispy basis ) .
+a cellular bone tissue is a mineralized bone tissue that always include non-terminally differentiated osteoblast and osteocyte .	cellular bone tissue := mineralized bone tissue ^ E include . ( non-terminally differentiated osteoblast U osteocyte ) .	cellular bone tissue := mineralized bone tissue ^ E alates . ( non-ternal non-minated osteoblast ^ osteocyte ) .
+a datum collection by censoring is a datum collection that result in a collection of datum generated from an censoring .	datum collection by censoring := datum collection ^ E result in . ( collection of . datum ^ E generated from . ( censoring ) ) .	datum collection censoring := datum collection ^ E result . ( collection collection of datum ) .
+a datum collection from literature is a datum collection process that result in a collection of datum from the literature .	datum collection from literature := datum collection process ^ E result in . ( collection of datum from literature ) .	datum collection literature literature := datum collection process ^ E result . ( collection collection of datum ) .
+the median fin is an unpaired fin that is located in the sagittal plane of the organism .	median fin := unpaired fin ^ E located in . ( sagittal plane of organism ) .	median fin := unpaired fin fin ^ located sagittal plane of organism .
+the pelvic fin lepidotrichium is a lepidotrichium that is part of the pelvic fin skeleton .	pelvic fin lepidotrichium := lepidotrichium ^ E part of . ( pelvic fin skeleton ) .	pelvic fin lepidotrichium := lepidotrichium ^ part of pelvic fin .
+a replacement element is a skeletal element that form <unk> a replacement or substitution of another element or tissue .	replacement element := skeletal replacement element ^ E form <<unk>> . ( replacement of element U substitution of element U replacement of tissue U substitution of tissue ) .	replacement element := skeletal element ^ E form . ( replacement replacement U substitution of tissue ) .
+the zeugopodial skeleton is the section of the forelimb skeleton located between the stylopodium and the autopodium .	zeugopodial skeleton := E section of . ( forelimb skeleton ) ^ E located between . ( stylopodium ^ autopodium ) .	zeupodial skeleton := section of forelimb skeleton ^ beated weten stylopodium .
+a ossified tendon is a sesamoid that develop <unk> in a tendon and is distal to an articulation or joint .	ossified tendon := sesamoid ^ E develop <<unk>> in . ( tendon ) ^ E distal to . ( articulation U joint ) .	ossified tendon := sesamoid ^ E ( develop ^ distal ) . ( unto tendon ) ^ E ( develop ^ distal ) . ( joint ) .
+the periarticular chondrocyte is a chondrocyte that is located on a joint surface and that is part of articular cartilage .	periarticular chondrocyte := chondrocyte ^ E located on . ( joint surface ) ^ E part of . ( articular cartilage ) .	periarticular chondrocyte := chondrocyte ^ parated joint of articular cartilage .
+pectoral fin is a paired fin that is located in the thoracic region of the body .	pectoral fin := paired fin ^ E located in . ( thoracic region of body ) .	pectoral fin := paired fin ^ located thoracic region of body .
+the odontocyte is a skeletogenic cell that secretes dentine matrix and is derived from odontogenic papilla .	odontocyte := skeletogenic cell ^ E secretes . ( dentine matrix ) ^ E derived from . ( odontogenic papilla ) .	odontocyte := skeletogenic cell ^ derived from .
+an authority operation is an operation or activity initiated by the authority that can disrupt traffic .	authority operation := ( operation U activity ) ^ E initiated by . ( authority ) ^ >= <<unk>> disrupt . ( traffic ) .	an operation := an operation U activity initiated disrupt traffic .
+the acellular bone tissue is a mineralized bone tissue that have terminally differentiated osteoblast but lack osteocyte .	acellular bone tissue := mineralized bone tissue ^ E have terminally differentiated osteoblast . ( <<unk>> ) ^ E lack . ( osteocyte ) .	acellular bone tissue := mineralized bone tissue ^ E have . ( minated minated osteoblast ) ^ E have . ( lack osteocyte ) .
+a gonochoristic organism is a multi-cellular organism that have male and female sex .	gonochoristic organism := multi-cellular organism ^ E have sex . ( male sex ) ^ E have sex . ( female sex ) .	gonochoristic organism := multi-cellular organism organism ^ E have . ( male sex ^ female sex ) .
+an interclavicle is a dermal bone of pectoral girdle that is median and ventral in position .	interclavicle := dermal bone of pectoral girdle ^ E median in . ( position ) ^ E ventral in . ( position ) .	an interclavicle := dermal bone of pectoral girdle ^ median position .

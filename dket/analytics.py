@@ -40,7 +40,6 @@ def decode_sentence(idxs, vocabulary):
     return words
 
 
-
 def decode_formula(idxs, shortlist, sentence):
     """Decode a list of formula term indexes into a formula."""
     formula = []
@@ -98,6 +97,7 @@ TOKENS_OK = 'tokens_OK'
 def parse(tsv_line):
     """Parses a TSV dump line into 3 list of int indexes."""
     sentence, target, prediction = tuple(tsv_line.split(TAB))
+    print(sentence)
     sentence = [int(item) for item in sentence.split(BLANK)]
     target = [int(item) for item in target.split(BLANK)]
     prediction = [int(item) for item in prediction.split(BLANK)]
@@ -322,13 +322,13 @@ def _key_fn(datum):
 
 def alignment(datum, data):
     """Try to align a dump datum to another from a list."""
-    _sim = lambda x,y: sentence_similarity(x, y)
+    def _sim(x, y): return sentence_similarity(x, y)
     key = _key_fn(datum)
     hyps = [x for x in data if key == _key_fn(x)]
     if len(hyps) > 1:
         hyps = sorted(hyps, key=lambda x: _sim(datum, x), reverse=True)
         print('WARNING: {} items found for datum {}, resolved to: {}'
-            .format(len(hyps), datum[ID_KEY], hyps[0][EXAMPLE][SENTENCE]))
+              .format(len(hyps), datum[ID_KEY], hyps[0][EXAMPLE][SENTENCE]))
     if not hyps:
         print('WARNING: 0 items found for datum {}: {}'.format(datum[ID_KEY], datum[EXAMPLE][SENTENCE]))
         return None

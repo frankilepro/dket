@@ -61,6 +61,31 @@ def pad_with_zeros(arr):
         arr.append(0)
 
 
+def source_to_vocab(source, vocabulary_indexes):
+    transformations = [
+        lambda x: x,
+        lambda x: x[:-1] if x.endswith("s") else x,
+        lambda x: x.replace("ing", ""),
+        lambda x: x.replace("en", ""),
+        lambda x: x.replace("er", ""),
+        lambda x: "have" if x == "having" else x,
+        lambda x: x.replace("ed", "e"),
+        lambda x: x.replace("ed", ""),
+        lambda x: x.replace("ing", "e"),
+        lambda x: x.replace("ly", ""),
+        lambda x: x.replace("ing", "e"),
+        lambda x: '<UNK>' if "unk" in x else x,
+    ]
+
+    for transformation in transformations:
+        if transformation(source) in vocabulary_indexes:
+            return vocabulary_indexes[transformation(source)]
+
+    if source == "s":
+        return vocabulary_indexes['<UNK>']
+    raise Exception(source)
+
+
 def coonvert_dket_to_embeddings(vocabulary_fp, shortlist_fp, dket_path, dket_emb_path):
     vocabulary_indexes = convert_to_indexes(vocabulary_fp)
     shortlist_indexes = convert_to_indexes(shortlist_fp)
@@ -72,13 +97,18 @@ def coonvert_dket_to_embeddings(vocabulary_fp, shortlist_fp, dket_path, dket_emb
             prediction = prediction.split()
 
             source_indexes = convert_source_to_indexes(source)
-            source = [vocabulary_indexes[x] for x in source]
-            target = [shortlist_indexes[x] if x in shortlist_indexes
-                      else (source_indexes[x] + len(shortlist_indexes) if x in source_indexes
+            print(source)
+            source = [source_to_vocab(x, vocabulary_indexes) for x in source]
+            target = [shortlist_indexes[x]
+                      if x in shortlist_indexes
+                      else (source_indexes[x] + len(shortlist_indexes)
+                            if x in source_indexes
                             else 0)
                       for x in target]
-            prediction = [shortlist_indexes[x] if x in shortlist_indexes
-                          else (source_indexes[x] + len(shortlist_indexes) if x in source_indexes
+            prediction = [shortlist_indexes[x]
+                          if x in shortlist_indexes
+                          else (source_indexes[x] + len(shortlist_indexes)
+                                if x in source_indexes
                                 else 0)
                           for x in prediction]
 
@@ -124,9 +154,9 @@ def convert_fairseq_to_dket(fairseq_path, dket_path):
 
 
 if __name__ == "__main__":
-    fairseq_results = r"C:\Users\frank\GitHub\dket\.tests\fairseq\joined_75\results_75_joined.tsv"
-    dket_results = r"C:\Users\frank\GitHub\dket\.tests\fairseq\joined_75\results_75_joined_dket.tsv"
-    dket_emb_results = r"C:\Users\frank\GitHub\dket\.tests\fairseq\joined_75\results_75_joined_dket_emb.tsv"
+    fairseq_results = r"C:\Users\frank\GitHub\dket\.tests\fairseq\425_joined\425_joined.tsv"
+    dket_results = r"C:\Users\frank\GitHub\dket\.tests\fairseq\425_joined\425_joined_dket.tsv"
+    dket_emb_results = r"C:\Users\frank\GitHub\dket\.tests\fairseq\425_joined\425_joined_emb.tsv"
     vocabulary_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\vocabulary.idx"
     shortlist_fp = r"C:\Users\frank\GitHub\dket\datasets\2k-open-x-ref\shortlist.idx"
     convert_fairseq_to_dket(fairseq_results, dket_results)
@@ -134,5 +164,5 @@ if __name__ == "__main__":
 
     # dump_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\eval\dump\dump-20001.tsv"
     # report_fp = r"C:\Users\frank\GitHub\dket\.tests\2k-open-x-ref--lr04\2k-open-x-ref--lr04.report.v2.txt"
-    report_fp = r"C:\Users\frank\GitHub\dket\.tests\fairseq\joined_75\report.txt"
+    report_fp = r"C:\Users\frank\GitHub\dket\.tests\fairseq\425_joined\report.txt"
     analytics.create_report(dket_emb_results, vocabulary_fp, shortlist_fp, report_fp, True)
