@@ -15,9 +15,8 @@ CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=5000
 
-NAME=def-form-closed
-URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/$NAME.tgz"
-GZ=$NAME.tgz
+URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/def-form-closed.tgz"
+GZ=def-form.tgz
 
 if [ ! -d "$SCRIPTS" ]; then
     echo "Please set SCRIPTS variable correctly to point to Moses scripts."
@@ -35,7 +34,7 @@ mkdir -p $orig $tmp $prep
 
 echo "Downloading data from ${URL}..."
 cd $orig
-wget "$URL"
+wget -O $GZ "$URL"
 
 if [ -f $GZ ]; then
     echo "Data successfully downloaded."
