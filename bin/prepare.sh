@@ -16,7 +16,8 @@ BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=5000
 
 URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/def-form-closed.tgz"
-GZ=def-form.tgz
+NAME=def-form
+GZ=$NAME.tgz
 
 if [ ! -d "$SCRIPTS" ]; then
     echo "Please set SCRIPTS variable correctly to point to Moses scripts."
@@ -25,8 +26,8 @@ fi
 
 src=def
 tgt=form
-lang=def-form
-prep=dket.tokenized.def-form
+lang=$NAME
+prep=dket.tokenized.$NAME
 tmp=$prep/tmp
 orig=orig
 
@@ -43,7 +44,7 @@ else
     exit
 fi
 
-tar zxvf $GZ
+tar zxvf $GZ -C $GZ
 cd ..
 
 # echo "pre-processing train data..."
