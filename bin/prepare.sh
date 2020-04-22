@@ -44,7 +44,7 @@ else
     exit
 fi
 
-tar zxvf DOWNLOAD_NAME
+tar zxvf $DOWNLOAD_NAME
 mv $DOWNLOAD_NAME $NAME
 cd ..
 
