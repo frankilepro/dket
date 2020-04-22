@@ -45,6 +45,7 @@ else
 fi
 
 tar zxvf $DOWNLOAD_NAME
+mkdir $NAME
 mv $DOWNLOAD_NAME $NAME
 cd ..
 
