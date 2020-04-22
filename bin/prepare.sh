@@ -44,7 +44,7 @@ else
     exit
 fi
 
-tar zxvf $GZ -C $GZ
+tar zxvf $GZ -C $NAME
 cd ..
 
 # echo "pre-processing train data..."
