@@ -15,7 +15,8 @@ CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=5000
 
-URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/def-form-closed.tgz"
+DOWNLOAD_NAME=def-form-closed
+URL="https://raw.githubusercontent.com/frankilepro/dket/master/datasets/$DOWNLOAD_NAME.tgz"
 NAME=def-form
 GZ=$NAME.tgz
 
@@ -35,7 +36,7 @@ mkdir -p $orig $tmp $prep
 
 echo "Downloading data from ${URL}..."
 cd $orig
-wget -O $GZ "$URL"
+wget "$URL"
 
 if [ -f $GZ ]; then
     echo "Data successfully downloaded."
@@ -44,7 +45,8 @@ else
     exit
 fi
 
-tar zxvf $GZ -C $NAME
+tar zxvf $GZ
+mv $DOWNLOAD_NAME $NAME
 cd ..
 
 # echo "pre-processing train data..."
